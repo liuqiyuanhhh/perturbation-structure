@@ -64,11 +64,11 @@ condition whose gene is outside its perturbation graph.
 `../run.sh` submits all of it. By hand, from the repository root:
 
 ```bash
-DATASET=VCC sbatch 4_prediction/slurm/gears_prep.sbatch          # prepare_data.py --dataset
-PARENT=Huang-HCT116 sbatch 4_prediction/slurm/gears_fold_subset.sbatch  # prepare_data.py --parent --fold
-BUILD=VCC sbatch 4_prediction/slurm/train_gears.sbatch
-BUILD=VCC sbatch 4_prediction/slurm/train_scgpt.sbatch
-BUILD='Huang-HCT116-third-f{fold}' sbatch 4_prediction/slurm/train_gears.sbatch
+DATASET=VCC sbatch 4_prediction_benchmark/slurm/gears_prep.sbatch          # prepare_data.py --dataset
+PARENT=Huang-HCT116 sbatch 4_prediction_benchmark/slurm/gears_fold_subset.sbatch  # prepare_data.py --parent --fold
+BUILD=VCC sbatch 4_prediction_benchmark/slurm/train_gears.sbatch
+BUILD=VCC sbatch 4_prediction_benchmark/slurm/train_scgpt.sbatch
+BUILD='Huang-HCT116-third-f{fold}' sbatch 4_prediction_benchmark/slurm/train_gears.sbatch
 ```
 
 Build the fold subsets after their parent. Memory per build: `../run.sh`.

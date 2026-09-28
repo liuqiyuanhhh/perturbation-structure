@@ -2,7 +2,7 @@
 # QC, primary outcomes, L1 perturbation strength, strong perturbations,
 # prediction QC tables and the effect dict.
 #
-# Usage: bash 1_preprocessing/run.sh [--dry-run]
+# Usage: bash 1_preprocessing/run.sh
 #
 # Not included (PLACEHOLDER folders; their outputs are inputs in data/):
 #   crispyx_pseudobulk_de    moments and Wilcoxon DE (data/pseudobulk, data/de, data/sc)

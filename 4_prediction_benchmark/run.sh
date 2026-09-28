@@ -4,7 +4,7 @@
 # (slurm/*.sbatch) chained with afterok dependencies, in the order of
 # README.md "Running".
 #
-# Usage: bash 4_prediction/run.sh [--dry-run]
+# Usage: bash 4_prediction_benchmark/run.sh
 #
 # TARGETS="VCC Feng-gw" limits the run to those targets and the GEARS builds
 # they need (default: the 12 targets of targets.py).  Memory and time per job
@@ -13,8 +13,7 @@
 # set, is used for the GEARS and scGPT-ft jobs instead.  Conda environments:
 # GEARS_ENV, SCGPT_ENV, PRESAGE_ENV (default perturbation-structure-gears,
 # -scgpt, -presage); JOB_SETUP, if set, holds shell lines each job runs before
-# conda activate.  Logs go to results/logs/slurm.  --dry-run prints the sbatch
-# commands.
+# conda activate.  Logs go to results/logs/slurm.
 
 set -euo pipefail
 source "$(dirname "${BASH_SOURCE[0]}")/../utils/run.sh" "$@"
@@ -28,7 +27,7 @@ SCGPT_ENV=${SCGPT_ENV:-perturbation-structure-scgpt}
 PRESAGE_ENV=${PRESAGE_ENV:-perturbation-structure-presage}
 export JOB_SETUP GEARS_ENV SCGPT_ENV PRESAGE_ENV
 LOGS=$RESULTS/logs/slurm
-((DRY_RUN)) || mkdir -p "$LOGS"
+mkdir -p "$LOGS"
 
 # Memory and time of the paper runs (README.md "Compute"; ranges at their upper
 # end).  Other jobs use the defaults in their template.
@@ -66,7 +65,7 @@ after() {
 }
 
 # submit NAME TEMPLATE DEPENDENCY VAR=VALUE [SBATCH_OPTION...]: submit one
-# template and print its job ID (a placeholder with --dry-run)
+# template and print its job ID
 submit() {
   local name=$1 template=$2 dependency=$3 variable=$4 log id
   shift 4
@@ -77,10 +76,6 @@ submit() {
   [[ -n $dependency ]] && cmd+=(--dependency="$dependency")
   cmd+=("$@" "$HERE/slurm/$template")
   echo "+ ${cmd[*]}" >&2
-  if ((DRY_RUN)); then
-    echo "DRYRUN-${template%.sbatch}-$name"
-    return 0
-  fi
   id=$("${cmd[@]}")
   echo "  job ${id%%;*}" >&2
   echo "${id%%;*}"

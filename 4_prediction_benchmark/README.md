@@ -1,4 +1,4 @@
-# 4_prediction
+# 4_prediction_benchmark
 
 Perturbation-response prediction benchmark: three published models (GEARS,
 scGPT-ft, PRESAGE), Weighted, two linear models and the training mean, scored under 5-fold cross-validation on 12 batch-corrected
@@ -39,15 +39,10 @@ activate them by the names in `GEARS_ENV`, `SCGPT_ENV` and `PRESAGE_ENV`
 
 External resources:
 
-- **PRESAGE** (Genentech Non-Commercial Software License v1.0, not included):
-  clone [genentech/PRESAGE](https://github.com/genentech/PRESAGE) at commit
-  `2c7b231`, unpack its knowledge-source cache as its README says
-  (`cache.tar.gz` from [Zenodo 15587986](https://zenodo.org/records/15587986),
-  then its `src/prep_dataset_utils/unpack_cache.sh`), and put the checkout at
-  `data/external/PRESAGE`. It is used unmodified and patched at run time; one
-  patch needs `presage_pipeline/patched_read_and_embed.py`, which is not
-  included and must be written first (`presage_pipeline/README.md`,
-  "Required change to PRESAGE").
+- **PRESAGE**: clone https://github.com/genentech/PRESAGE into
+  `data/external/PRESAGE` and unpack its knowledge-source cache as its README
+  describes. Step 03 also needs `presage_pipeline/patched_read_and_embed.py`,
+  which is not included (`presage_pipeline/README.md`).
 - **scGPT**: the whole-human checkpoint `scGPT_human` (`args.json`,
   `best_model.pt`, `vocab.json`) from the
   [scGPT repository](https://github.com/bowang-lab/scGPT), in
@@ -67,8 +62,8 @@ is written to `results/prediction`.
 ## Running
 
 ```bash
-bash 4_prediction/run.sh [--dry-run]
-TARGETS="VCC Feng-gw" bash 4_prediction/run.sh     # some targets only
+bash 4_prediction_benchmark/run.sh
+TARGETS="VCC Feng-gw" bash 4_prediction_benchmark/run.sh     # some targets only
 ```
 
 `run.sh` submits the jobs below with `sbatch`, chained by `afterok`, for the
@@ -76,7 +71,7 @@ TARGETS="VCC Feng-gw" bash 4_prediction/run.sh     # some targets only
 `SBATCH_ACCOUNT` and `SBATCH_PARTITION`; `GPU_PARTITION` sends the GEARS and
 scGPT-ft jobs elsewhere; `JOB_SETUP` holds shell lines each job runs before
 `conda activate`. Logs go to `results/logs/slurm`. By hand, set the variable
-a template names: `DATASET=VCC sbatch 4_prediction/slurm/gears_prep.sbatch`.
+a template names: `DATASET=VCC sbatch 4_prediction_benchmark/slurm/gears_prep.sbatch`.
 
 | Step | Template (variable) | Script | Per | Writes (in `results/prediction`) |
 |---|---|---|---|---|

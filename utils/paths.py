@@ -45,7 +45,7 @@ PAN_ESSENTIALITY = RESULTS / "03_global_trend" / "pan_essentiality_score.csv"
 SIMILARITY_TOTAL_AUDIT = RESULTS / "02_data_similarity" / "se_corrected_total_effect_cosine" / "norm_audit"
 SIMILARITY_RESIDUAL_AUDIT = RESULTS / "02_data_similarity" / "se_corrected_residual_cosine" / "norm_audit"
 
-# 4_prediction
+# 4_prediction_benchmark
 PREDICTION_WORK_DIR = RESULTS / "prediction"  # GEARS builds and predictions
 PREDICTION_EVALUATION = RESULTS / "prediction" / "evaluation"  # <target>/summary_metrics.csv
 

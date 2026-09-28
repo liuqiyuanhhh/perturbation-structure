@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Leading factor sigma1 u1 v1' (uncentered rank-one SVD) of each dataset, fitted on all
+"""Leading factor sigma1 u1 v1' of each dataset, fitted on all
 QC-passing and on the L1-selected perturbations x primary genes.  Reads MOMENTS_DIR,
 QC_GENE_PANELS and L1_SELECTION; writes loadings and a summary to FIRST_FACTOR.
 Fig 1b right, S1d; via the residuals, Fig 2a, 2e, 2f, S3a, S3b, S4, S5c, S5d."""

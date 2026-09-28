@@ -32,7 +32,7 @@ from torchtext.vocab import Vocab
 from torchtext._torchtext import Vocab as VocabPybind
 from torch_geometric.loader import DataLoader
 
-from prepare_data import get_pert_data  # first: puts 4_prediction/ on sys.path
+from prepare_data import get_pert_data  # first: puts 4_prediction_benchmark/ on sys.path
 import paths
 from gears.utils import create_cell_graph_dataset_for_prediction
 

@@ -18,7 +18,7 @@ pipeline:
    in as they are; ``read_and_embed`` runs the PCA.
 
 3. ``read_and_embed`` IS PATCHED so that each knowledge source gets its own zero
-   matrix (``patched_read_and_embed.py``, not distributed; see README.md).
+   matrix (``patched_read_and_embed.py``, not included; see README.md).
    Upstream reuses one matrix across the source loop, so a source that covers
    few genes -- as a Perturb-seq screen does -- would inherit the previous
    sources' rows.

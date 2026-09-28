@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Residual magnitudes of the SCENIC+ cell-line-active targets of TF perturbations.
 #
-# Usage: bash 8_TF_targets/run.sh [--dry-run]
+# Usage: bash 8_TF_targets/run.sh
 #
 # Needs the all-QC factor of 2_global_trend and 5_response_hierarchy.  Figure notebook:
 # TF_figures.ipynb (Fig 2f, S5d).

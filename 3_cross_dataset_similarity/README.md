@@ -10,7 +10,7 @@ the leading factor itself.
 | # | Script | What it does | Reads | Writes (`utils/paths.py`) |
 |---|---|---|---|---|
 | 1 | `compute_noise_corrected_cosine.py --effect-mode total` | Per analysis panel A-D, dataset pair and shared perturbation, over the outcomes with a finite effect and SE in both (direct target excluded): Q = sum(E^2) - sum(SE^2) and Q / sum(E^2) on both sides, the raw cosine and the unclipped noise-corrected cosine sum(E E') / sqrt(Q Q') | `data/pseudobulk`, `QC_GENE_PANELS`, `L1_SELECTION` | `SIMILARITY_TOTAL_AUDIT` |
-| 2 | `compute_noise_corrected_cosine.py --effect-mode first_svd_residual` | The same after removing each dataset's first uncentered SVD factor (`svds`, tol 1e-7); the total-effect SE is reused | as step 1 | `SIMILARITY_RESIDUAL_AUDIT` |
+| 2 | `compute_noise_corrected_cosine.py --effect-mode first_svd_residual` | The same after removing each dataset's first SVD factor (`svds`, tol 1e-7); the total-effect SE is reused | as step 1 | `SIMILARITY_RESIDUAL_AUDIT` |
 
 `similarity_figures.ipynb` computes the plotted values and draws them into
 `figures/` (PDF) and `data/` (plotted values):
@@ -29,7 +29,7 @@ the leading factor itself.
 It reads `results_reference/`; with `USE_REFERENCE=0` it reads `results/`.
 
 ```bash
-bash 3_cross_dataset_similarity/run.sh [--dry-run]
+bash 3_cross_dataset_similarity/run.sh
 ```
 
 ## Notes

@@ -28,7 +28,7 @@ writing each panel to `figures/` (PDF) and its plotted values to `data/`
 ## How to run
 
 ```bash
-bash 7_complex_enrichment/run.sh [--dry-run]
+bash 7_complex_enrichment/run.sh
 ```
 
 `run.sh` runs both scripts in `$CORUM_ENV` (default

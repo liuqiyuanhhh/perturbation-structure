@@ -24,6 +24,6 @@ Pan-GW-hESC, VCC, Feng-ts, Feng-gwsf, Feng-gwsnf, Nourreddine-GW-ipsc):
 - `data/pseudobulk/<component>_moments.h5ad`: `X` (effect), `layers/effect_se`,
   `layers/perturbation_profile`, `uns/control_profile`;
 - `data/de/<component>_wilcoxon_batch_corrected.h5ad`: `layers/pvalue`, and
-  the `.pkl` companion with the `scores` frame read by `4_prediction`;
+  the `.pkl` companion with the `scores` frame read by `4_prediction_benchmark`;
 - `data/sc/<screen>.h5ad`: QC'd, batch-corrected single cells for GEARS and
   scGPT.

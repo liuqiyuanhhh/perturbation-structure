@@ -7,12 +7,8 @@
 # Activate the analysis environment first.  Set
 # PYTHON to use another interpreter for the analysis scripts.  py_corum runs a
 # script in the conda environment $CORUM_ENV (7_complex_enrichment).
-#
-# Options:
-#   --dry-run      print the commands without running them
 
 REPO=$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd -P)
-COMMON="$REPO/utils/run.sh"
 STAGE_SCRIPT=${BASH_SOURCE[1]}
 HERE=$(cd "$(dirname "$STAGE_SCRIPT")" && pwd -P)
 STAGE=$(basename "$HERE")
@@ -27,16 +23,10 @@ export PYTHONUNBUFFERED=1
 # set by the paper jobs of 2_global_trend, 3_cross_dataset_similarity and 6_magnitude_structure
 export HDF5_USE_FILE_LOCKING=FALSE
 
-usage() {
-  sed -n '2,/^$/s/^# \{0,1\}//p' "$STAGE_SCRIPT"
-  echo
-  sed -n '/^# Options:/,/^$/s/^# \{0,1\}//p' "$COMMON"
-}
+usage() { sed -n '2,/^$/s/^# \{0,1\}//p' "$STAGE_SCRIPT"; }
 
-DRY_RUN=0
 while (($#)); do
   case $1 in
-    --dry-run) DRY_RUN=1; shift ;;
     -h|--help) usage; exit 0 ;;
     *) echo "$STAGE/run.sh: unknown argument: $1" >&2; usage >&2; exit 2 ;;
   esac
@@ -49,9 +39,6 @@ run() {
   printf '+'
   printf ' %q' "$@"
   printf '\n'
-  if ((DRY_RUN)); then
-    return 0
-  fi
   "$@"
 }
 
@@ -63,9 +50,6 @@ py_corum() {
   printf '+ [conda activate %s]' "$CORUM_ENV"
   printf ' %q' python "$@"
   printf '\n'
-  if ((DRY_RUN)); then
-    return 0
-  fi
   (
     eval "$(conda shell.bash hook)"
     set +u

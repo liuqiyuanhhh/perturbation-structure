@@ -8,10 +8,10 @@
 # PRESAGE steps 00-02 for one target: link the GEARS build, write folds and
 # DEGs, build the Perturb-seq knowledge sources, write the source list.
 #
-#   PP_DATASET=VCC sbatch 4_prediction/slurm/presage_prep.sbatch
+#   PP_DATASET=VCC sbatch 4_prediction_benchmark/slurm/presage_prep.sbatch
 set -euo pipefail
 : "${PP_DATASET:?set PP_DATASET, e.g. PP_DATASET=VCC}"
-source "${REPO_ROOT:-${SLURM_SUBMIT_DIR:-.}}/4_prediction/slurm/_env.sh"
+source "${REPO_ROOT:-${SLURM_SUBMIT_DIR:-.}}/4_prediction_benchmark/slurm/_env.sh"
 activate presage
 
 cd "${PRED}/presage_pipeline"

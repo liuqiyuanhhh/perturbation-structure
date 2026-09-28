@@ -2,7 +2,7 @@
 # Per-perturbation noise-corrected cosine audits of total and residual effects
 # between datasets.
 #
-# Usage: bash 3_cross_dataset_similarity/run.sh [--dry-run]
+# Usage: bash 3_cross_dataset_similarity/run.sh
 #
 # Needs 1_preprocessing only: the residual mode refits the leading factor
 # itself.  Figure notebook: similarity_figures.ipynb (Fig 1a, 1c, S1a-S1c),

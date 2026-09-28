@@ -20,7 +20,7 @@ import numpy as np
 import pandas as pd
 from tqdm import tqdm
 
-from prepare_data import get_pert_data  # first: puts 4_prediction/ on sys.path
+from prepare_data import get_pert_data  # first: puts 4_prediction_benchmark/ on sys.path
 import paths
 from gears import GEARS
 

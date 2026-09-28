@@ -14,7 +14,7 @@ pool (targets.source_pool), so these see the screens PRESAGE's priors come from.
 cv5 split of targets.split_build; those that no source screen measured are not
 scored.  Genes are the target's full panel.  Every metric first sets the
 perturbed gene's own entry to 0 in truth and prediction.  In residual space,
-truth and each prediction have their own rank-1 SVD factor removed.
+truth and each prediction have their own leading SVD factor removed.
 
 Reads (paths.py): EFFECT_DICT (ground truth), DE_DIR (Wilcoxon DE scores: the
 top-N genes and the weighted-MSE weights), GEARS_PRED_DIR (GEARS / scGPT-ft
@@ -280,8 +280,8 @@ def mean_score(scores):
 
 
 def remove_first_factor(df, random_state=0, zero_tol=None):
-    """(residual frame, info) after subtracting the rank-1 SVD factor of the raw
-    (not column-centred) perturbation x gene matrix.
+    """(residual frame, info) after subtracting the leading SVD factor of the
+    perturbation x gene matrix.
 
     A matrix that is exactly rank 1, such as the train-mean prediction, leaves
     only float32 rounding residue, and that residue is nearly the same vector

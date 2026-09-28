@@ -1,6 +1,6 @@
 # 2_global_trend
 
-The leading global trend: the first uncentered SVD factor of each dataset's
+The leading global trend: the first SVD factor of each dataset's
 perturbation-effect matrix, fitted on all QC-passing and on the L1-selected
 perturbations. The stage measures the noise-corrected signal energy it
 carries, its perturbation loading against the target's DepMap
@@ -10,7 +10,7 @@ also the trend removed in `5_response_hierarchy` and `8_TF_targets`;
 
 | # | Script | What it does | Reads | Writes (`utils/paths.py`) |
 |---|---|---|---|---|
-| 1 | `fit_first_factor.py` | Rank-1 SVD (ARPACK `svds`, tol 1e-7) of the perturbations x primary outcomes matrix, direct targets zeroed, for all QC-passing and for the L1-selected perturbations: u1/v1 loadings; sigma1 of the all-QC fits | `data/pseudobulk`, `QC_GENE_PANELS`, `L1_SELECTION` | `FIRST_FACTOR` |
+| 1 | `fit_first_factor.py` | Leading SVD factor (ARPACK `svds`, tol 1e-7) of the perturbations x primary outcomes matrix, direct targets zeroed, for all QC-passing and for the L1-selected perturbations: u1/v1 loadings; sigma1 of the all-QC fits | `data/pseudobulk`, `QC_GENE_PANELS`, `L1_SELECTION` | `FIRST_FACTOR` |
 | 2 | `compute_noise_corrected_signal_energy.py` | 100 lambda_max(K) / tr(K), K = YY^T - diag(rowSums(SE^2)), over the L1-selected perturbations with complete SE (dense `eigvalsh`) | `data/pseudobulk`, `QC_GENE_PANELS`, `L1_SELECTION` | `FIRST_FACTOR` |
 | 3 | `compute_pan_essentiality_score.py` | Per gene, the 10th percentile, over the DepMap lines that scored it, of its within-line essentiality rank (scaled to [0, 1], 1 = most essential) | `data/essential/CRISPRGeneEffect.csv` | `PAN_ESSENTIALITY` |
 
@@ -31,7 +31,7 @@ It reads `results_reference/` and the paper score
 `USE_REFERENCE=0` it reads `results/`.
 
 ```bash
-bash 2_global_trend/run.sh [--dry-run]
+bash 2_global_trend/run.sh
 ```
 
 ## Inputs not included

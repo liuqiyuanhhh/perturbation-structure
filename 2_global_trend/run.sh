@@ -2,7 +2,7 @@
 # Leading global trend: leading-factor fits, noise-corrected signal energy and
 # the pan-essentiality score.
 #
-# Usage: bash 2_global_trend/run.sh [--dry-run]
+# Usage: bash 2_global_trend/run.sh
 #
 # Needs 1_preprocessing and the DepMap gene effect
 # (data/essential/CRISPRGeneEffect.csv).

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Discovery matrices, nestedness, response breadth.
 #
-# Usage: bash 5_response_hierarchy/run.sh [--dry-run]
+# Usage: bash 5_response_hierarchy/run.sh
 #
 # Needs 1_preprocessing and the all-QC factor of 2_global_trend.  Figure
 # notebooks: nestedness_figures.ipynb (Fig 2a, S3a, S3b) and DES_figures.ipynb
@@ -31,7 +31,7 @@ section "DES scorer (placeholder; external inputs)"
 skip "the DES scorer is a placeholder"
 
 section "response breadth (prediction pickles)"
-# Reads the saved prediction pickles (data/prediction_result; 4_prediction);
+# Reads the saved prediction pickles (data/prediction_result; 4_prediction_benchmark);
 # DES_figures.ipynb pools its per-dataset tables (S4).
 threads 2
 for i in $(seq 0 10); do

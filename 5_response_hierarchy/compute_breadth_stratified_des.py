@@ -1,6 +1,6 @@
 """DES(p) = |top_k(p) & D_p| / k, k = |D_p|, of each method's held-out predictions for total and
 residual discoveries D_p, plus the median |E| and |R| over each perturbation's discoveries.
-Reads the 4_prediction pickles, discovery matrices and moments; writes RESPONSE_BREADTH. Panels: S4a-c.
+Reads the 4_prediction_benchmark pickles, discovery matrices and moments; writes RESPONSE_BREADTH. Panels: S4a-c.
 """
 
 import argparse

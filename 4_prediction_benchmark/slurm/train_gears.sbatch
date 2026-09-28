@@ -9,13 +9,13 @@
 #
 # GEARS under 5-fold CV (array index = fold, not a random seed).
 #
-#   BUILD=VCC sbatch 4_prediction/slurm/train_gears.sbatch
-#   BUILD='Huang-HCT116-third-f{fold}' sbatch 4_prediction/slurm/train_gears.sbatch
+#   BUILD=VCC sbatch 4_prediction_benchmark/slurm/train_gears.sbatch
+#   BUILD='Huang-HCT116-third-f{fold}' sbatch 4_prediction_benchmark/slurm/train_gears.sbatch
 #
 # "{fold}" in BUILD is replaced by the array index (per-fold builds).
 set -euo pipefail
 : "${BUILD:?set BUILD, e.g. BUILD=VCC}"
-source "${REPO_ROOT:-${SLURM_SUBMIT_DIR:-.}}/4_prediction/slurm/_env.sh"
+source "${REPO_ROOT:-${SLURM_SUBMIT_DIR:-.}}/4_prediction_benchmark/slurm/_env.sh"
 activate gears
 
 FOLD="${SLURM_ARRAY_TASK_ID}"

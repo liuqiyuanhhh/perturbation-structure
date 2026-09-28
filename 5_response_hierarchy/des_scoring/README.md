@@ -5,7 +5,7 @@ Missing: the per-perturbation DES scorer, its residual-effect threshold sweep
 They serve Fig 2b, 2d, S3c and S5b; `../DES_figures.ipynb` summarizes their two tables.
 
 What the step does, for each screen, CV fold (seed 1-5), method and held-out
-perturbation, on the saved predictions of `4_prediction`
+perturbation, on the saved predictions of `4_prediction_benchmark`
 (`data/prediction_result/{screen}_predictions_by_seed.pkl`, `_splits_by_seed.pkl`):
 
 - DES is the overlap between the k true DE genes and the method's top k genes
@@ -20,7 +20,7 @@ perturbation, on the saved predictions of `4_prediction`
   is fitted with the direct-target entries zeroed; `train_mean` is not scored
   here.
 - Only perturbations present in at least one source screen of the target are
-  scored (the source pool of `4_prediction/targets.py`).
+  scored (the source pool of `4_prediction_benchmark/targets.py`).
 - The threshold sweep repeats `after_detrend`, restricting the truth to the
   discoveries with detrended |effect| above each cutoff (0, 0.01, 0.05,
   0.10, ..., 0.50).

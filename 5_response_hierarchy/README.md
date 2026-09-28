@@ -39,14 +39,14 @@ by default; `USE_REFERENCE=0` reads `results/`.
 ## How to run
 
 ```bash
-bash 5_response_hierarchy/run.sh [--dry-run]
+bash 5_response_hierarchy/run.sh
 ```
 
 `run.sh` runs the scripts in order with the paper parameters (the script
 defaults), after `1_preprocessing` and `2_global_trend`. It skips the
 placeholder `des_scoring/`; `DES_figures.ipynb` reads its paper tables from
 `data/external/des/`. `compute_breadth_stratified_des.py` reads the prediction
-pickles in `data/prediction_result`, the paper copies of the `4_prediction`
+pickles in `data/prediction_result`, the paper copies of the `4_prediction_benchmark`
 outputs.
 
 ## Notes

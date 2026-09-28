@@ -33,7 +33,7 @@ values to `data/` (CSV). It reads `results_reference/` by default;
 ## How to run
 
 ```bash
-bash 6_magnitude_structure/run.sh [--dry-run]
+bash 6_magnitude_structure/run.sh
 ```
 
 `run.sh` runs `analyze_cross_split_dataset.py` for the 10 panel datasets, after

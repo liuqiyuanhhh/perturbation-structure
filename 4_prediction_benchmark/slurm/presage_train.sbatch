@@ -11,12 +11,12 @@
 # Fold 1 writes the dense <target>_processed.h5ad and the knowledge-tensor cache
 # that the other folds reuse, so run it alone first:
 #
-#   PP_DATASET=VCC sbatch --array=1   4_prediction/slurm/presage_train.sbatch
-#   PP_DATASET=VCC sbatch --array=2-5 4_prediction/slurm/presage_train.sbatch
-#   PP_DATASET=VCC sbatch 4_prediction/slurm/presage_collect.sbatch
+#   PP_DATASET=VCC sbatch --array=1   4_prediction_benchmark/slurm/presage_train.sbatch
+#   PP_DATASET=VCC sbatch --array=2-5 4_prediction_benchmark/slurm/presage_train.sbatch
+#   PP_DATASET=VCC sbatch 4_prediction_benchmark/slurm/presage_collect.sbatch
 set -euo pipefail
 : "${PP_DATASET:?set PP_DATASET, e.g. PP_DATASET=VCC}"
-source "${REPO_ROOT:-${SLURM_SUBMIT_DIR:-.}}/4_prediction/slurm/_env.sh"
+source "${REPO_ROOT:-${SLURM_SUBMIT_DIR:-.}}/4_prediction_benchmark/slurm/_env.sh"
 activate presage
 
 cd "${PRED}/presage_pipeline"

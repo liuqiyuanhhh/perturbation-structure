@@ -18,7 +18,7 @@ Later stages read the paper copies of the step-3 and step-4 outputs,
 two constants at `PREDICTION_QC_DIR` and `EFFECT_DICT`.
 
 ```bash
-bash 1_preprocessing/run.sh [--dry-run]
+bash 1_preprocessing/run.sh
 ```
 
 ## Inputs not included

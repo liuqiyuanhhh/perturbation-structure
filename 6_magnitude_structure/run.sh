@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Cross-split rank-1 energy of the residual effects.
 #
-# Usage: bash 6_magnitude_structure/run.sh [--dry-run]
+# Usage: bash 6_magnitude_structure/run.sh
 #
 # Needs 1_preprocessing and the split-half moments (data/split).
 # Figure notebook: magnitude_structure_figures.ipynb (Fig 2c, S5a).

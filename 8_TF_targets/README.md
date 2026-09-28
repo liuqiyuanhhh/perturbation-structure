@@ -17,7 +17,7 @@ with the direct target missing; nothing is refitted.
 `USE_REFERENCE=0` it reads `results/`.
 
 ```bash
-bash 8_TF_targets/run.sh [--dry-run]
+bash 8_TF_targets/run.sh
 ```
 
 ## Notes

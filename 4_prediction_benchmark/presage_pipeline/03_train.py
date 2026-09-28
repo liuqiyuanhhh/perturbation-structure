@@ -6,7 +6,7 @@ patches (nothing in the PRESAGE checkout is edited):
 
 1. dataloaders run in-process (num_workers=0);
 2. read_and_embed allocates one zero matrix per knowledge source
-   (patched_read_and_embed.py, not distributed: see README.md);
+   (patched_read_and_embed.py, not included: see README.md);
 3. a var index name that collides with a var column is cleared on read;
 4. obs gets the "gene" column PRESAGE's Evaluator groups by.
 
@@ -71,8 +71,7 @@ except ModuleNotFoundError as error:
         raise
     raise SystemExit(
         "presage_pipeline/patched_read_and_embed.py is missing. It is a modified copy of "
-        "PRESAGE's read_and_embed and is not distributed with this repository (Genentech "
-        "Non-Commercial Software License). Create it as described in "
+        "PRESAGE's read_and_embed and is not included in this repository. Create it as described in "
         "presage_pipeline/README.md, section 'Required change to PRESAGE'."
     ) from None
 

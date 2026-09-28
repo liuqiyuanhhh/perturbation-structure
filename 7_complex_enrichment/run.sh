@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Curated CORUM complexes and complex enrichment (corum environment).
 #
-# Usage: bash 7_complex_enrichment/run.sh [--dry-run]
+# Usage: bash 7_complex_enrichment/run.sh
 #
 # Needs 5_response_hierarchy, the CORUM GMT (data/gene_set_list/corum_human.gmt) and the
 # effect dict (data/effect_dict/bc_bulk_qc_effect.pkl).  Both scripts run in

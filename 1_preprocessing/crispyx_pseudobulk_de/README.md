@@ -19,8 +19,7 @@ What the step does for each screen (Methods, "Datasets and preprocessing",
 
 It must write, for each component (Replogle-E-k562, Replogle-GW-k562,
 Replogle-E-rpe1, Nadig-HEPG2, Nadig-JURKAT, Huang-HCT116, Huang-HEK293T,
-Pan-GW-hESC, VCC, Feng-ts, Feng-gwsf, Feng-gwsnf, Nourreddine-GW-ipsc; the
-prediction QC tables also read Adamson and Tian-crispri):
+Pan-GW-hESC, VCC, Feng-ts, Feng-gwsf, Feng-gwsnf, Nourreddine-GW-ipsc):
 
 - `data/pseudobulk/<component>_moments.h5ad`: `X` (effect), `layers/effect_se`,
   `layers/perturbation_profile`, `uns/control_profile`;

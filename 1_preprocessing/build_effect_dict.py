@@ -13,16 +13,14 @@ import pandas as pd
 
 from utils.effects import axis_names, load_quality_audit
 from utils.paths import (
-    DATASET_COMPONENTS,
+    DATASET_COMPONENTS_WITH_SUBSAMPLED,
     EFFECT_DICT,
     MOMENTS_DIR,
     PAPER_PREDICTION_QC_DIR,
+    SELECTION_REFERENCE_DATASET,
     effect_key,
 )
 from utils.qc import load_primary_outcome_lists
-
-FENG_PARTS = DATASET_COMPONENTS["Feng-GW"]
-FENG = effect_key("Feng-GW")  # Feng-gw, the key of the merged parts
 
 
 def parse_args():
@@ -50,32 +48,30 @@ def read_effects(path, genes, perturbations):
     return frame.sort_index(axis=0).sort_index(axis=1)
 
 
+def merge_parts(frames):
+    """Feng-GW: union of perturbations on the shared genes, a perturbation in both parts averaged."""
+    genes = sorted(set.intersection(*(set(frame.columns) for frame in frames)))
+    merged = pd.concat([frame[genes] for frame in frames])
+    if merged.index.duplicated().any():
+        merged = merged.groupby(level=0).mean()
+    merged = merged.astype("float32")
+    merged.index.name = "perturbation"
+    return merged.sort_index(axis=0).sort_index(axis=1)
+
+
 def main():
     args = parse_args()
     primary = load_primary_outcome_lists(args.qc_dir / "outcome_expression_qc.csv.gz")
     _, passing = load_quality_audit(args.qc_dir / "perturbation_quality_filter.csv.gz")
     qc_names = {name.lower(): name for name in primary}
 
-    effect, feng = {}, []
-    for path in sorted(args.moments_dir.glob("*_moments.h5ad")):
-        name = path.name[: -len("_moments.h5ad")]
-        qc_name = qc_names.get(FENG.lower() if name in FENG_PARTS else name.lower())
-        if qc_name is None:
-            continue
-        frame = read_effects(path, primary[qc_name], passing[qc_name])
-        if name in FENG_PARTS:
-            feng.append(frame)
-        else:
-            effect[name] = frame
-
-    # Feng-gw: union of perturbations on the shared genes, a perturbation in both parts averaged
-    genes = sorted(set.intersection(*(set(frame.columns) for frame in feng)))
-    merged = pd.concat([frame[genes] for frame in feng])
-    if merged.index.duplicated().any():
-        merged = merged.groupby(level=0).mean()
-    merged = merged.astype("float32")
-    merged.index.name = "perturbation"
-    effect[FENG] = merged.sort_index(axis=0).sort_index(axis=1)
+    effect = {}
+    for dataset, components in DATASET_COMPONENTS_WITH_SUBSAMPLED.items():
+        # VCC-subsampled uses the gene panel and perturbation filter of VCC
+        qc = qc_names[SELECTION_REFERENCE_DATASET.get(dataset, dataset).lower()]
+        frames = [read_effects(args.moments_dir / f"{component}_moments.h5ad", primary[qc], passing[qc])
+                  for component in components]
+        effect[effect_key(dataset)] = frames[0] if len(frames) == 1 else merge_parts(frames)
 
     effect = {key: effect[key] for key in sorted(effect)}
     for key, frame in effect.items():

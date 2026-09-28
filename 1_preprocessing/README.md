@@ -9,7 +9,7 @@ and Wilcoxon DE files. No figure notebook: the tables feed every panel.
 |---|---|---|---|---|
 | 1 | `build_qc_primary_features.py` | Perturbation QC (unique target, target control >= 0.08, inactivation efficiency >= 0.10), primary outcome genes (control or mean treated >= 0.08), top 2,000 effect-variance feature genes | `data/pseudobulk` | `QC_GENE_PANELS` |
 | 2 | `compute_perturbation_strength.py` | Per-perturbation BH (alpha 0.05) over the eligible primary genes, target removed: `strength_L1`; then the strong perturbations, positive L1, top 2,000 per dataset (VCC 150) | `data/pseudobulk`, `data/de`, step 1 | `STRENGTH_SCORES`, `L1_SELECTION` |
-| 3 | `python -m utils.qc` | The same QC rules on 15 datasets (the 12, Adamson, Tian-crispri, VCC-subsampled): gene panel and perturbation filter of the prediction benchmark | `data/pseudobulk` | `PREDICTION_QC_DIR` |
+| 3 | `python -m utils.qc` | The same QC rules on the 12 screens (VCC-subsampled uses those of VCC): gene panel and perturbation filter of the prediction benchmark | `data/pseudobulk` | `PREDICTION_QC_DIR` |
 | 4 | `build_effect_dict.py` | `{dataset: perturbation x gene}` batch-corrected effects on the step-3 panel and filter; Feng-gwsf and Feng-gwsnf merged into Feng-GW | `data/pseudobulk`, step 3 (`--qc-dir`) | `EFFECT_DICT` |
 
 Later stages read the paper copies of the step-3 and step-4 outputs,

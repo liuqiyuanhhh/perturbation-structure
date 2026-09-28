@@ -25,12 +25,11 @@ py "$HERE/compute_perturbation_strength.py" --adjusted-p-cutoff 0.05 \
 section "prediction QC tables"
 M="$DATA/pseudobulk"
 PREDICTION_QC="$RESULTS/1_preprocessing/filter_result_bulk"
-# labels and order of the paper tables (data/filter_result_bulk)
-QC_DATASETS=(--dataset Adamson "$M/Adamson_moments.h5ad"
-  --dataset Feng-GW "$M/Feng-gwsf_moments.h5ad" "$M/Feng-gwsnf_moments.h5ad")
+# the 12 screens; VCC-subsampled uses the QC of VCC
+QC_DATASETS=(--dataset Feng-GW "$M/Feng-gwsf_moments.h5ad" "$M/Feng-gwsnf_moments.h5ad")
 for name in Feng-ts Huang-HCT116 Huang-HEK293T Nadig-HEPG2 Nadig-JURKAT \
   Nourreddine-GW-ipsc Pan-GW-hESC Replogle-E-k562 Replogle-E-rpe1 \
-  Replogle-GW-k562 Tian-crispri VCC VCC-subsampled; do
+  Replogle-GW-k562 VCC; do
   QC_DATASETS+=(--dataset "$name" "$M/${name}_moments.h5ad")
 done
 run "$PYTHON" -m utils.qc "${QC_DATASETS[@]}" \

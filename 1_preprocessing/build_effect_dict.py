@@ -13,11 +13,10 @@ import pandas as pd
 
 from utils.effects import axis_names, load_quality_audit
 from utils.paths import (
-    DATASET_COMPONENTS_WITH_SUBSAMPLED,
+    DATASET_COMPONENTS,
     EFFECT_DICT,
     MOMENTS_DIR,
     PAPER_PREDICTION_QC_DIR,
-    SELECTION_REFERENCE_DATASET,
     effect_key,
 )
 from utils.qc import load_primary_outcome_lists
@@ -66,9 +65,8 @@ def main():
     qc_names = {name.lower(): name for name in primary}
 
     effect = {}
-    for dataset, components in DATASET_COMPONENTS_WITH_SUBSAMPLED.items():
-        # VCC-subsampled uses the gene panel and perturbation filter of VCC
-        qc = qc_names[SELECTION_REFERENCE_DATASET.get(dataset, dataset).lower()]
+    for dataset, components in DATASET_COMPONENTS.items():
+        qc = qc_names[dataset.lower()]
         frames = [read_effects(args.moments_dir / f"{component}_moments.h5ad", primary[qc], passing[qc])
                   for component in components]
         effect[effect_key(dataset)] = frames[0] if len(frames) == 1 else merge_parts(frames)

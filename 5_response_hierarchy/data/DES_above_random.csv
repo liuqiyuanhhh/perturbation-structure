@@ -1,0 +1,155 @@
+panel,discoveries,dataset,display_dataset,condition,method,display_method,color,method_order,n_perturbations,mean_des_minus_random,sd_des_minus_random,mean_random_des,display_order
+Fig. 2b,total effect,VCC,VCC-H1,original,rejfreq,DE frequency,#000000,0,257,0.14849465972529832,0.07666928102895047,0.29600671785801796,0
+Fig. 2b,total effect,VCC,VCC-H1,original,presage,PRESAGE,#66B2A3,1,257,0.08972218622496896,0.0704370856570952,0.29600671785801796,0
+Fig. 2b,total effect,VCC,VCC-H1,original,weighted,Weighted,#6F98C9,2,257,0.035987299601964964,0.025226270453651983,0.29600671785801796,0
+Fig. 2b,total effect,VCC,VCC-H1,original,linear_otherds,Linear (cross-dataset),#A6CBE2,3,257,0.1046813037620212,0.0708572942059261,0.29600671785801796,0
+Fig. 2b,total effect,VCC,VCC-H1,original,linear_train,Linear (training),#C69BB7,4,257,0.09604772519811385,0.059972198651538404,0.29600671785801796,0
+Fig. 2b,total effect,VCC,VCC-H1,original,gears,GEARS,#E3A06F,5,257,0.025431590495392373,0.017959128559924008,0.29600671785801796,0
+Fig. 2b,total effect,VCC,VCC-H1,original,scGPT-ft,scGPT-ft,#DEC36D,6,257,0.06387323446707482,0.04691815749159621,0.29600671785801796,0
+Fig. 2b,total effect,Huang-HEK293T,Huang-HEK293T,original,rejfreq,DE frequency,#000000,0,1190,0.22359468089155135,0.14551654048175344,0.03108924724711397,1
+Fig. 2b,total effect,Huang-HEK293T,Huang-HEK293T,original,presage,PRESAGE,#66B2A3,1,1190,0.12147929120389994,0.10377380410863327,0.03108924724711397,1
+Fig. 2b,total effect,Huang-HEK293T,Huang-HEK293T,original,weighted,Weighted,#6F98C9,2,1190,0.12452069281464023,0.1077567748291804,0.03108924724711397,1
+Fig. 2b,total effect,Huang-HEK293T,Huang-HEK293T,original,linear_otherds,Linear (cross-dataset),#A6CBE2,3,1190,0.19528137039692087,0.13970508565970924,0.03108924724711397,1
+Fig. 2b,total effect,Huang-HEK293T,Huang-HEK293T,original,linear_train,Linear (training),#C69BB7,4,1190,0.1268930373951761,0.09716240862749392,0.03108924724711397,1
+Fig. 2b,total effect,Huang-HEK293T,Huang-HEK293T,original,gears,GEARS,#E3A06F,5,1190,0.02342035045782627,0.0332460388201972,0.03108924724711397,1
+Fig. 2b,total effect,Huang-HEK293T,Huang-HEK293T,original,scGPT-ft,scGPT-ft,#DEC36D,6,1190,0.04488401194940279,0.06191965409597107,0.03108924724711397,1
+Fig. 2b,total effect,Replogle-GW-k562,Replogle-GW-K562,original,rejfreq,DE frequency,#000000,0,1965,0.2543711632026715,0.12211784978224305,0.050046313762047635,2
+Fig. 2b,total effect,Replogle-GW-k562,Replogle-GW-K562,original,presage,PRESAGE,#66B2A3,1,1965,0.2274799692810783,0.14924868095752056,0.050046313762047635,2
+Fig. 2b,total effect,Replogle-GW-k562,Replogle-GW-K562,original,weighted,Weighted,#6F98C9,2,1965,0.1529213179178409,0.098640134890028,0.050046313762047635,2
+Fig. 2b,total effect,Replogle-GW-k562,Replogle-GW-K562,original,linear_otherds,Linear (cross-dataset),#A6CBE2,3,1965,0.21675959575374162,0.1385451341056703,0.050046313762047635,2
+Fig. 2b,total effect,Replogle-GW-k562,Replogle-GW-K562,original,linear_train,Linear (training),#C69BB7,4,1965,0.1555554678352039,0.09906710786505703,0.050046313762047635,2
+Fig. 2b,total effect,Replogle-GW-k562,Replogle-GW-K562,original,gears,GEARS,#E3A06F,5,1965,0.03301058418827034,0.030934696001417947,0.050046313762047635,2
+Fig. 2b,total effect,Replogle-GW-k562,Replogle-GW-K562,original,scGPT-ft,scGPT-ft,#DEC36D,6,1965,0.09268344069793984,0.08805090311425727,0.050046313762047635,2
+Fig. 2b,total effect,Nourreddine-GW-ipsc,Nourreddine-iPSC,original,rejfreq,DE frequency,#000000,0,274,0.2210172217613584,0.159067710299494,0.010518975639284075,3
+Fig. 2b,total effect,Nourreddine-GW-ipsc,Nourreddine-iPSC,original,presage,PRESAGE,#66B2A3,1,274,0.09058527249839363,0.07609633138852796,0.010518975639284075,3
+Fig. 2b,total effect,Nourreddine-GW-ipsc,Nourreddine-iPSC,original,weighted,Weighted,#6F98C9,2,274,0.19896231893265526,0.14331722062160698,0.010518975639284075,3
+Fig. 2b,total effect,Nourreddine-GW-ipsc,Nourreddine-iPSC,original,linear_otherds,Linear (cross-dataset),#A6CBE2,3,274,0.16840875442932918,0.14075427714829294,0.010518975639284075,3
+Fig. 2b,total effect,Nourreddine-GW-ipsc,Nourreddine-iPSC,original,linear_train,Linear (training),#C69BB7,4,274,0.10968265434728386,0.09674360580794276,0.010518975639284075,3
+Fig. 2b,total effect,Nourreddine-GW-ipsc,Nourreddine-iPSC,original,gears,GEARS,#E3A06F,5,274,0.04482205113707121,0.05179112884982055,0.010518975639284075,3
+Fig. 2b,total effect,Nourreddine-GW-ipsc,Nourreddine-iPSC,original,scGPT-ft,scGPT-ft,#DEC36D,6,274,0.05984325707102181,0.06364155101346934,0.010518975639284075,3
+Fig. 2b,total effect,Pan-GW-hESC,Pan-GP-H1,original,rejfreq,DE frequency,#000000,0,1130,0.24038562033545977,0.11415041926328941,0.0782046409708864,4
+Fig. 2b,total effect,Pan-GW-hESC,Pan-GP-H1,original,presage,PRESAGE,#66B2A3,1,1130,0.22495171682686343,0.14166023514625128,0.0782046409708864,4
+Fig. 2b,total effect,Pan-GW-hESC,Pan-GP-H1,original,weighted,Weighted,#6F98C9,2,1130,0.13454473926208874,0.0847090095318461,0.0782046409708864,4
+Fig. 2b,total effect,Pan-GW-hESC,Pan-GP-H1,original,linear_otherds,Linear (cross-dataset),#A6CBE2,3,1130,0.2004554979376111,0.11402813133740836,0.0782046409708864,4
+Fig. 2b,total effect,Pan-GW-hESC,Pan-GP-H1,original,linear_train,Linear (training),#C69BB7,4,1130,0.18136190343248093,0.10160805843193381,0.0782046409708864,4
+Fig. 2b,total effect,Pan-GW-hESC,Pan-GP-H1,original,gears,GEARS,#E3A06F,5,1130,0.06353889149846731,0.0431152031645707,0.0782046409708864,4
+Fig. 2b,total effect,Pan-GW-hESC,Pan-GP-H1,original,scGPT-ft,scGPT-ft,#DEC36D,6,1130,0.09660902865059426,0.06640206887271408,0.0782046409708864,4
+Fig. 2b,total effect,Feng-ts,Feng-TS-iPSC,original,rejfreq,DE frequency,#000000,0,244,0.17334949033962394,0.07038829991336237,0.10754656881386634,5
+Fig. 2b,total effect,Feng-ts,Feng-TS-iPSC,original,presage,PRESAGE,#66B2A3,1,244,0.11940479877382876,0.07099803894306433,0.10754656881386634,5
+Fig. 2b,total effect,Feng-ts,Feng-TS-iPSC,original,weighted,Weighted,#6F98C9,2,244,0.16265364237529362,0.0855851772873153,0.10754656881386634,5
+Fig. 2b,total effect,Feng-ts,Feng-TS-iPSC,original,linear_otherds,Linear (cross-dataset),#A6CBE2,3,244,0.14338715253499162,0.079563889915274,0.10754656881386634,5
+Fig. 2b,total effect,Feng-ts,Feng-TS-iPSC,original,linear_train,Linear (training),#C69BB7,4,244,0.11271278265783351,0.055049186817227945,0.10754656881386634,5
+Fig. 2b,total effect,Feng-ts,Feng-TS-iPSC,original,gears,GEARS,#E3A06F,5,244,0.03533900876868111,0.025115225682055622,0.10754656881386634,5
+Fig. 2b,total effect,Feng-ts,Feng-TS-iPSC,original,scGPT-ft,scGPT-ft,#DEC36D,6,244,0.07413711373882491,0.05736091342785677,0.10754656881386634,5
+Fig. 2b,total effect,Nadig-JURKAT,Nadig-Jurkat,original,rejfreq,DE frequency,#000000,0,1300,0.26210847153120453,0.12790904186701513,0.06881724500370434,6
+Fig. 2b,total effect,Nadig-JURKAT,Nadig-Jurkat,original,presage,PRESAGE,#66B2A3,1,1300,0.27256672904253554,0.14452740728658678,0.06881724500370434,6
+Fig. 2b,total effect,Nadig-JURKAT,Nadig-Jurkat,original,weighted,Weighted,#6F98C9,2,1300,0.19260657541795567,0.09591445824771844,0.06881724500370434,6
+Fig. 2b,total effect,Nadig-JURKAT,Nadig-Jurkat,original,linear_otherds,Linear (cross-dataset),#A6CBE2,3,1300,0.240821747190079,0.13988047506250975,0.06881724500370434,6
+Fig. 2b,total effect,Nadig-JURKAT,Nadig-Jurkat,original,linear_train,Linear (training),#C69BB7,4,1300,0.18101119784191053,0.10183863556835449,0.06881724500370434,6
+Fig. 2b,total effect,Nadig-JURKAT,Nadig-Jurkat,original,gears,GEARS,#E3A06F,5,1300,0.15260089362471826,0.08457436169145667,0.06881724500370434,6
+Fig. 2b,total effect,Nadig-JURKAT,Nadig-Jurkat,original,scGPT-ft,scGPT-ft,#DEC36D,6,1300,0.13804789940144743,0.09910819071942881,0.06881724500370434,6
+Fig. 2b,total effect,Huang-HCT116,Huang-HCT116,original,rejfreq,DE frequency,#000000,0,1066,0.18262618529984262,0.11853648451624972,0.040866256617138934,7
+Fig. 2b,total effect,Huang-HCT116,Huang-HCT116,original,presage,PRESAGE,#66B2A3,1,1066,0.18330762370033873,0.15449879125844596,0.040866256617138934,7
+Fig. 2b,total effect,Huang-HCT116,Huang-HCT116,original,weighted,Weighted,#6F98C9,2,1066,0.1859273413509639,0.09995797441859224,0.040866256617138934,7
+Fig. 2b,total effect,Huang-HCT116,Huang-HCT116,original,linear_otherds,Linear (cross-dataset),#A6CBE2,3,1066,0.19410744707621005,0.14976916994379724,0.040866256617138934,7
+Fig. 2b,total effect,Huang-HCT116,Huang-HCT116,original,linear_train,Linear (training),#C69BB7,4,1066,0.14084970903400149,0.12374561278703024,0.040866256617138934,7
+Fig. 2b,total effect,Huang-HCT116,Huang-HCT116,original,gears,GEARS,#E3A06F,5,1066,0.027225221551901383,0.02807741113950279,0.040866256617138934,7
+Fig. 2b,total effect,Huang-HCT116,Huang-HCT116,original,scGPT-ft,scGPT-ft,#DEC36D,6,1066,0.04864471959453404,0.05675192700409135,0.040866256617138934,7
+Fig. 2b,total effect,Replogle-E-rpe1,Replogle-E-RPE1,original,rejfreq,DE frequency,#000000,0,1497,0.3078647456635258,0.15050160450071937,0.130647004848062,8
+Fig. 2b,total effect,Replogle-E-rpe1,Replogle-E-RPE1,original,presage,PRESAGE,#66B2A3,1,1497,0.3228551930122576,0.1502516234903444,0.130647004848062,8
+Fig. 2b,total effect,Replogle-E-rpe1,Replogle-E-RPE1,original,weighted,Weighted,#6F98C9,2,1497,0.17684953432149694,0.0781336900663921,0.130647004848062,8
+Fig. 2b,total effect,Replogle-E-rpe1,Replogle-E-RPE1,original,linear_otherds,Linear (cross-dataset),#A6CBE2,3,1497,0.30431008182344604,0.15592881058094465,0.130647004848062,8
+Fig. 2b,total effect,Replogle-E-rpe1,Replogle-E-RPE1,original,linear_train,Linear (training),#C69BB7,4,1497,0.2837211170718349,0.14975765045436493,0.130647004848062,8
+Fig. 2b,total effect,Replogle-E-rpe1,Replogle-E-RPE1,original,gears,GEARS,#E3A06F,5,1497,0.2551519299920443,0.12210831474851294,0.130647004848062,8
+Fig. 2b,total effect,Replogle-E-rpe1,Replogle-E-RPE1,original,scGPT-ft,scGPT-ft,#DEC36D,6,1497,0.2649771179613011,0.13967591823633324,0.130647004848062,8
+Fig. 2b,total effect,Replogle-E-k562,Replogle-E-K562,original,rejfreq,DE frequency,#000000,0,1157,0.244987261963297,0.10279792455630717,0.12057526696364596,9
+Fig. 2b,total effect,Replogle-E-k562,Replogle-E-K562,original,presage,PRESAGE,#66B2A3,1,1157,0.2789174465373843,0.13380150596533874,0.12057526696364596,9
+Fig. 2b,total effect,Replogle-E-k562,Replogle-E-K562,original,weighted,Weighted,#6F98C9,2,1157,0.17910978738377242,0.0900544755820222,0.12057526696364596,9
+Fig. 2b,total effect,Replogle-E-k562,Replogle-E-K562,original,linear_otherds,Linear (cross-dataset),#A6CBE2,3,1157,0.23578898596311443,0.1281786022726854,0.12057526696364596,9
+Fig. 2b,total effect,Replogle-E-k562,Replogle-E-K562,original,linear_train,Linear (training),#C69BB7,4,1157,0.168065764875625,0.08765752242571503,0.12057526696364596,9
+Fig. 2b,total effect,Replogle-E-k562,Replogle-E-K562,original,gears,GEARS,#E3A06F,5,1157,0.11697102756925991,0.07386902781084917,0.12057526696364596,9
+Fig. 2b,total effect,Replogle-E-k562,Replogle-E-K562,original,scGPT-ft,scGPT-ft,#DEC36D,6,1157,0.1441529874455655,0.09213634422043376,0.12057526696364596,9
+Fig. 2b,total effect,Nadig-HEPG2,Nadig-HepG2,original,rejfreq,DE frequency,#000000,0,1032,0.23892297513875743,0.12638799815817678,0.11868077141859446,10
+Fig. 2b,total effect,Nadig-HEPG2,Nadig-HepG2,original,presage,PRESAGE,#66B2A3,1,1032,0.28297861490907805,0.14492732465387234,0.11868077141859446,10
+Fig. 2b,total effect,Nadig-HEPG2,Nadig-HepG2,original,weighted,Weighted,#6F98C9,2,1032,0.20561614103238224,0.08979695202693537,0.11868077141859446,10
+Fig. 2b,total effect,Nadig-HEPG2,Nadig-HepG2,original,linear_otherds,Linear (cross-dataset),#A6CBE2,3,1032,0.2556934930118474,0.14505392098627382,0.11868077141859446,10
+Fig. 2b,total effect,Nadig-HEPG2,Nadig-HepG2,original,linear_train,Linear (training),#C69BB7,4,1032,0.20821290199339362,0.1266987605870857,0.11868077141859446,10
+Fig. 2b,total effect,Nadig-HEPG2,Nadig-HepG2,original,gears,GEARS,#E3A06F,5,1032,0.1750672410877572,0.10595178396291703,0.11868077141859446,10
+Fig. 2b,total effect,Nadig-HEPG2,Nadig-HepG2,original,scGPT-ft,scGPT-ft,#DEC36D,6,1032,0.18915627345498803,0.11679221276586792,0.11868077141859446,10
+Supplementary Fig. S3c,residual effect,VCC,VCC-H1,conjunction,rejfreq,DE frequency,#000000,0,257,0.15413668525720028,0.07699410313967814,0.23527919016519105,0
+Supplementary Fig. S3c,residual effect,VCC,VCC-H1,conjunction,presage,PRESAGE,#66B2A3,1,257,0.07404538694022997,0.06678447180919213,0.23527919016519105,0
+Supplementary Fig. S3c,residual effect,VCC,VCC-H1,conjunction,weighted,Weighted,#6F98C9,2,257,0.037925779364771435,0.025277889389377733,0.23527919016519105,0
+Supplementary Fig. S3c,residual effect,VCC,VCC-H1,conjunction,linear_otherds,Linear (cross-dataset),#A6CBE2,3,257,0.09534662151465556,0.06382771617665417,0.23527919016519105,0
+Supplementary Fig. S3c,residual effect,VCC,VCC-H1,conjunction,linear_train,Linear (training),#C69BB7,4,257,0.09043209566248976,0.05313622736660771,0.23527919016519105,0
+Supplementary Fig. S3c,residual effect,VCC,VCC-H1,conjunction,gears,GEARS,#E3A06F,5,257,0.019020469265970362,0.015237634330149694,0.23527919016519105,0
+Supplementary Fig. S3c,residual effect,VCC,VCC-H1,conjunction,scGPT-ft,scGPT-ft,#DEC36D,6,257,0.06854130952641775,0.04403484722860441,0.23527919016519105,0
+Supplementary Fig. S3c,residual effect,Replogle-GW-k562,Replogle-GW-K562,conjunction,rejfreq,DE frequency,#000000,0,1952,0.23918125871166399,0.13857864692313732,0.03319787914707623,1
+Supplementary Fig. S3c,residual effect,Replogle-GW-k562,Replogle-GW-K562,conjunction,presage,PRESAGE,#66B2A3,1,1952,0.21115956169184597,0.15063049302015785,0.03319787914707623,1
+Supplementary Fig. S3c,residual effect,Replogle-GW-k562,Replogle-GW-K562,conjunction,weighted,Weighted,#6F98C9,2,1952,0.1491940455225321,0.10535384970782571,0.03319787914707623,1
+Supplementary Fig. S3c,residual effect,Replogle-GW-k562,Replogle-GW-K562,conjunction,linear_otherds,Linear (cross-dataset),#A6CBE2,3,1952,0.19844602388210425,0.13690371031476198,0.03319787914707623,1
+Supplementary Fig. S3c,residual effect,Replogle-GW-k562,Replogle-GW-K562,conjunction,linear_train,Linear (training),#C69BB7,4,1952,0.15755423571836305,0.10552999222890576,0.03319787914707623,1
+Supplementary Fig. S3c,residual effect,Replogle-GW-k562,Replogle-GW-K562,conjunction,gears,GEARS,#E3A06F,5,1952,0.017382997280564128,0.023403228969050904,0.03319787914707623,1
+Supplementary Fig. S3c,residual effect,Replogle-GW-k562,Replogle-GW-K562,conjunction,scGPT-ft,scGPT-ft,#DEC36D,6,1952,0.08670437965848667,0.08616402565444822,0.03319787914707623,1
+Supplementary Fig. S3c,residual effect,Replogle-E-rpe1,Replogle-E-RPE1,conjunction,rejfreq,DE frequency,#000000,0,1490,0.20386342082205086,0.10157372647084736,0.05249502768623286,2
+Supplementary Fig. S3c,residual effect,Replogle-E-rpe1,Replogle-E-RPE1,conjunction,presage,PRESAGE,#66B2A3,1,1490,0.1935079712538822,0.1145538580676981,0.05249502768623286,2
+Supplementary Fig. S3c,residual effect,Replogle-E-rpe1,Replogle-E-RPE1,conjunction,weighted,Weighted,#6F98C9,2,1490,0.14597282671042663,0.09305779128245151,0.05249502768623286,2
+Supplementary Fig. S3c,residual effect,Replogle-E-rpe1,Replogle-E-RPE1,conjunction,linear_otherds,Linear (cross-dataset),#A6CBE2,3,1490,0.16762781964214044,0.10610674013677565,0.05249502768623286,2
+Supplementary Fig. S3c,residual effect,Replogle-E-rpe1,Replogle-E-RPE1,conjunction,linear_train,Linear (training),#C69BB7,4,1490,0.13558343611875529,0.08284275156646598,0.05249502768623286,2
+Supplementary Fig. S3c,residual effect,Replogle-E-rpe1,Replogle-E-RPE1,conjunction,gears,GEARS,#E3A06F,5,1490,0.02930465567406265,0.02956107425682182,0.05249502768623286,2
+Supplementary Fig. S3c,residual effect,Replogle-E-rpe1,Replogle-E-RPE1,conjunction,scGPT-ft,scGPT-ft,#DEC36D,6,1490,0.10991699864022743,0.07522146508598046,0.05249502768623286,2
+Supplementary Fig. S3c,residual effect,Feng-ts,Feng-TS-iPSC,conjunction,rejfreq,DE frequency,#000000,0,244,0.16594242312181529,0.06632006884212531,0.09280944660459778,3
+Supplementary Fig. S3c,residual effect,Feng-ts,Feng-TS-iPSC,conjunction,presage,PRESAGE,#66B2A3,1,244,0.125907105079313,0.10660872351326889,0.09280944660459778,3
+Supplementary Fig. S3c,residual effect,Feng-ts,Feng-TS-iPSC,conjunction,weighted,Weighted,#6F98C9,2,244,0.17347912927384604,0.09254161161329034,0.09280944660459778,3
+Supplementary Fig. S3c,residual effect,Feng-ts,Feng-TS-iPSC,conjunction,linear_otherds,Linear (cross-dataset),#A6CBE2,3,244,0.12095706047017635,0.06991603457068807,0.09280944660459778,3
+Supplementary Fig. S3c,residual effect,Feng-ts,Feng-TS-iPSC,conjunction,linear_train,Linear (training),#C69BB7,4,244,0.09827420661207512,0.054730914550246444,0.09280944660459778,3
+Supplementary Fig. S3c,residual effect,Feng-ts,Feng-TS-iPSC,conjunction,gears,GEARS,#E3A06F,5,244,0.026676447586856417,0.023182041782419133,0.09280944660459778,3
+Supplementary Fig. S3c,residual effect,Feng-ts,Feng-TS-iPSC,conjunction,scGPT-ft,scGPT-ft,#DEC36D,6,244,0.05551830396470456,0.04531576211718567,0.09280944660459778,3
+Supplementary Fig. S3c,residual effect,Nadig-JURKAT,Nadig-Jurkat,conjunction,rejfreq,DE frequency,#000000,0,1298,0.23366668858658637,0.16305761877761513,0.036607656350121864,4
+Supplementary Fig. S3c,residual effect,Nadig-JURKAT,Nadig-Jurkat,conjunction,presage,PRESAGE,#66B2A3,1,1298,0.24429227474461443,0.15742162862546008,0.036607656350121864,4
+Supplementary Fig. S3c,residual effect,Nadig-JURKAT,Nadig-Jurkat,conjunction,weighted,Weighted,#6F98C9,2,1298,0.18395486856339827,0.107511223095914,0.036607656350121864,4
+Supplementary Fig. S3c,residual effect,Nadig-JURKAT,Nadig-Jurkat,conjunction,linear_otherds,Linear (cross-dataset),#A6CBE2,3,1298,0.2214549621388963,0.1557432816254818,0.036607656350121864,4
+Supplementary Fig. S3c,residual effect,Nadig-JURKAT,Nadig-Jurkat,conjunction,linear_train,Linear (training),#C69BB7,4,1298,0.1541562142274107,0.11350299423701937,0.036607656350121864,4
+Supplementary Fig. S3c,residual effect,Nadig-JURKAT,Nadig-Jurkat,conjunction,gears,GEARS,#E3A06F,5,1298,0.0208722683167781,0.030820688331044593,0.036607656350121864,4
+Supplementary Fig. S3c,residual effect,Nadig-JURKAT,Nadig-Jurkat,conjunction,scGPT-ft,scGPT-ft,#DEC36D,6,1298,0.13828450765304942,0.12009277870162854,0.036607656350121864,4
+Supplementary Fig. S3c,residual effect,Pan-GW-hESC,Pan-GP-H1,conjunction,rejfreq,DE frequency,#000000,0,1125,0.17976050996548545,0.10253129015095777,0.04651358194469141,5
+Supplementary Fig. S3c,residual effect,Pan-GW-hESC,Pan-GP-H1,conjunction,presage,PRESAGE,#66B2A3,1,1125,0.1917277407786112,0.16758553835280682,0.04651358194469141,5
+Supplementary Fig. S3c,residual effect,Pan-GW-hESC,Pan-GP-H1,conjunction,weighted,Weighted,#6F98C9,2,1125,0.14901004018277375,0.126460909930572,0.04651358194469141,5
+Supplementary Fig. S3c,residual effect,Pan-GW-hESC,Pan-GP-H1,conjunction,linear_otherds,Linear (cross-dataset),#A6CBE2,3,1125,0.13480280720094,0.11387673378279352,0.04651358194469141,5
+Supplementary Fig. S3c,residual effect,Pan-GW-hESC,Pan-GP-H1,conjunction,linear_train,Linear (training),#C69BB7,4,1125,0.13679147198772582,0.1291961838753135,0.04651358194469141,5
+Supplementary Fig. S3c,residual effect,Pan-GW-hESC,Pan-GP-H1,conjunction,gears,GEARS,#E3A06F,5,1125,0.022018961799847747,0.028603484652938327,0.04651358194469141,5
+Supplementary Fig. S3c,residual effect,Pan-GW-hESC,Pan-GP-H1,conjunction,scGPT-ft,scGPT-ft,#DEC36D,6,1125,0.06637225644277908,0.0670312278604028,0.04651358194469141,5
+Supplementary Fig. S3c,residual effect,Replogle-E-k562,Replogle-E-K562,conjunction,rejfreq,DE frequency,#000000,0,1155,0.23443138912865488,0.12555052314913084,0.07544578678421235,6
+Supplementary Fig. S3c,residual effect,Replogle-E-k562,Replogle-E-K562,conjunction,presage,PRESAGE,#66B2A3,1,1155,0.2514804374045844,0.13498318391487762,0.07544578678421235,6
+Supplementary Fig. S3c,residual effect,Replogle-E-k562,Replogle-E-K562,conjunction,weighted,Weighted,#6F98C9,2,1155,0.18329891358289713,0.10659855437621292,0.07544578678421235,6
+Supplementary Fig. S3c,residual effect,Replogle-E-k562,Replogle-E-K562,conjunction,linear_otherds,Linear (cross-dataset),#A6CBE2,3,1155,0.21782518944382467,0.1322444393999392,0.07544578678421235,6
+Supplementary Fig. S3c,residual effect,Replogle-E-k562,Replogle-E-K562,conjunction,linear_train,Linear (training),#C69BB7,4,1155,0.1372769643340727,0.08137967085937105,0.07544578678421235,6
+Supplementary Fig. S3c,residual effect,Replogle-E-k562,Replogle-E-K562,conjunction,gears,GEARS,#E3A06F,5,1155,0.029447093917376172,0.04251272025692988,0.07544578678421235,6
+Supplementary Fig. S3c,residual effect,Replogle-E-k562,Replogle-E-K562,conjunction,scGPT-ft,scGPT-ft,#DEC36D,6,1155,0.12362601582327665,0.08678388203994679,0.07544578678421235,6
+Supplementary Fig. S3c,residual effect,Huang-HCT116,Huang-HCT116,conjunction,rejfreq,DE frequency,#000000,0,1064,0.1350319561866795,0.09712592998146515,0.023968850834866412,7
+Supplementary Fig. S3c,residual effect,Huang-HCT116,Huang-HCT116,conjunction,presage,PRESAGE,#66B2A3,1,1064,0.11958229954424654,0.11242312109096375,0.023968850834866412,7
+Supplementary Fig. S3c,residual effect,Huang-HCT116,Huang-HCT116,conjunction,weighted,Weighted,#6F98C9,2,1064,0.1541616924978149,0.10818058699897604,0.023968850834866412,7
+Supplementary Fig. S3c,residual effect,Huang-HCT116,Huang-HCT116,conjunction,linear_otherds,Linear (cross-dataset),#A6CBE2,3,1064,0.12831154892737978,0.11209885639383177,0.023968850834866412,7
+Supplementary Fig. S3c,residual effect,Huang-HCT116,Huang-HCT116,conjunction,linear_train,Linear (training),#C69BB7,4,1064,0.07712088410984787,0.06507378673996946,0.023968850834866412,7
+Supplementary Fig. S3c,residual effect,Huang-HCT116,Huang-HCT116,conjunction,gears,GEARS,#E3A06F,5,1064,0.017628138213803286,0.023758345021800846,0.023968850834866412,7
+Supplementary Fig. S3c,residual effect,Huang-HCT116,Huang-HCT116,conjunction,scGPT-ft,scGPT-ft,#DEC36D,6,1064,0.028524782251643812,0.03952616285935375,0.023968850834866412,7
+Supplementary Fig. S3c,residual effect,Nourreddine-GW-ipsc,Nourreddine-iPSC,conjunction,rejfreq,DE frequency,#000000,0,274,0.21239839424414894,0.18752454748086916,0.007507631251114153,8
+Supplementary Fig. S3c,residual effect,Nourreddine-GW-ipsc,Nourreddine-iPSC,conjunction,presage,PRESAGE,#66B2A3,1,274,0.07519630647126486,0.09805211692956585,0.007507631251114153,8
+Supplementary Fig. S3c,residual effect,Nourreddine-GW-ipsc,Nourreddine-iPSC,conjunction,weighted,Weighted,#6F98C9,2,274,0.2321086875122381,0.17476585697606303,0.007507631251114153,8
+Supplementary Fig. S3c,residual effect,Nourreddine-GW-ipsc,Nourreddine-iPSC,conjunction,linear_otherds,Linear (cross-dataset),#A6CBE2,3,274,0.1342327166976513,0.11267933867131108,0.007507631251114153,8
+Supplementary Fig. S3c,residual effect,Nourreddine-GW-ipsc,Nourreddine-iPSC,conjunction,linear_train,Linear (training),#C69BB7,4,274,0.11531864539672716,0.11453432637982683,0.007507631251114153,8
+Supplementary Fig. S3c,residual effect,Nourreddine-GW-ipsc,Nourreddine-iPSC,conjunction,gears,GEARS,#E3A06F,5,274,0.012976287788118608,0.025894943273989963,0.007507631251114153,8
+Supplementary Fig. S3c,residual effect,Nourreddine-GW-ipsc,Nourreddine-iPSC,conjunction,scGPT-ft,scGPT-ft,#DEC36D,6,274,0.05270431379366345,0.059086131025228895,0.007507631251114153,8
+Supplementary Fig. S3c,residual effect,Nadig-HEPG2,Nadig-HepG2,conjunction,rejfreq,DE frequency,#000000,0,1030,0.19318413109922797,0.11472601267746949,0.0579220807737566,9
+Supplementary Fig. S3c,residual effect,Nadig-HEPG2,Nadig-HepG2,conjunction,presage,PRESAGE,#66B2A3,1,1030,0.22053548525651073,0.12713316684349116,0.0579220807737566,9
+Supplementary Fig. S3c,residual effect,Nadig-HEPG2,Nadig-HepG2,conjunction,weighted,Weighted,#6F98C9,2,1030,0.1686790839186369,0.10534053336963393,0.0579220807737566,9
+Supplementary Fig. S3c,residual effect,Nadig-HEPG2,Nadig-HepG2,conjunction,linear_otherds,Linear (cross-dataset),#A6CBE2,3,1030,0.1910456325338361,0.12277372843234444,0.0579220807737566,9
+Supplementary Fig. S3c,residual effect,Nadig-HEPG2,Nadig-HepG2,conjunction,linear_train,Linear (training),#C69BB7,4,1030,0.12468395106900539,0.08387914550919147,0.0579220807737566,9
+Supplementary Fig. S3c,residual effect,Nadig-HEPG2,Nadig-HepG2,conjunction,gears,GEARS,#E3A06F,5,1030,0.03638329825408515,0.0336733980968705,0.0579220807737566,9
+Supplementary Fig. S3c,residual effect,Nadig-HEPG2,Nadig-HepG2,conjunction,scGPT-ft,scGPT-ft,#DEC36D,6,1030,0.11641567796024109,0.08314215797299841,0.0579220807737566,9
+Supplementary Fig. S3c,residual effect,Huang-HEK293T,Huang-HEK293T,conjunction,rejfreq,DE frequency,#000000,0,1085,0.10737336791371907,0.10785365388162188,0.013221946789880088,10
+Supplementary Fig. S3c,residual effect,Huang-HEK293T,Huang-HEK293T,conjunction,presage,PRESAGE,#66B2A3,1,1085,0.028890912974199365,0.05375545625173178,0.013221946789880088,10
+Supplementary Fig. S3c,residual effect,Huang-HEK293T,Huang-HEK293T,conjunction,weighted,Weighted,#6F98C9,2,1085,0.14533971744800103,0.15137103817808953,0.013221946789880088,10
+Supplementary Fig. S3c,residual effect,Huang-HEK293T,Huang-HEK293T,conjunction,linear_otherds,Linear (cross-dataset),#A6CBE2,3,1085,0.08469828261522346,0.10558743190885803,0.013221946789880088,10
+Supplementary Fig. S3c,residual effect,Huang-HEK293T,Huang-HEK293T,conjunction,linear_train,Linear (training),#C69BB7,4,1085,0.044868290394104615,0.06668923010601348,0.013221946789880088,10
+Supplementary Fig. S3c,residual effect,Huang-HEK293T,Huang-HEK293T,conjunction,gears,GEARS,#E3A06F,5,1085,0.009322808678471437,0.02223232368458964,0.013221946789880088,10
+Supplementary Fig. S3c,residual effect,Huang-HEK293T,Huang-HEK293T,conjunction,scGPT-ft,scGPT-ft,#DEC36D,6,1085,0.013162609320473166,0.030576447455812256,0.013221946789880088,10

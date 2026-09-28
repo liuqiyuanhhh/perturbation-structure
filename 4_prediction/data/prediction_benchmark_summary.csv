@@ -1,0 +1,361 @@
+panel,dataset,metric,metric_label,method_key,method,mean,sd,n_folds
+Fig. 1d,VCC-H1,weighted_mse_reduction,Weighted-MSE reduction,weighted,Weighted,0.16565399924977545,0.017779759282456405,5
+Fig. 1d,VCC-H1,weighted_mse_reduction,Weighted-MSE reduction,presage,PRESAGE,0.04683059989541609,0.02062908782053391,5
+Fig. 1d,VCC-H1,weighted_mse_reduction,Weighted-MSE reduction,linear_embedding_from_otherds_10,Linear (cross-dataset),0.057106482730572415,0.02045607084749194,5
+Fig. 1d,VCC-H1,weighted_mse_reduction,Weighted-MSE reduction,paper_linear_embedding_from_training_10,Linear (training),0.025072771405628757,0.02619111612808132,5
+Fig. 1d,VCC-H1,weighted_mse_reduction,Weighted-MSE reduction,gears,GEARS,-0.029466052802084298,0.005534176092197691,5
+Fig. 1d,VCC-H1,weighted_mse_reduction,Weighted-MSE reduction,scGPT-ft,scGPT-ft,-0.02928566910328838,0.01903009953051977,5
+Fig. 1d,VCC-H1,pds_above_chance,PDS − 0.5,weighted,Weighted,0.4108112572263515,0.012617635723466337,5
+Fig. 1d,VCC-H1,pds_above_chance,PDS − 0.5,presage,PRESAGE,0.11642843529635986,0.04078958931629455,5
+Fig. 1d,VCC-H1,pds_above_chance,PDS − 0.5,linear_embedding_from_otherds_10,Linear (cross-dataset),0.0997522393748808,0.029449263300323773,5
+Fig. 1d,VCC-H1,pds_above_chance,PDS − 0.5,paper_linear_embedding_from_training_10,Linear (training),0.04133536624102661,0.01850028169252876,5
+Fig. 1d,VCC-H1,pds_above_chance,PDS − 0.5,gears,GEARS,-0.019075026999555256,0.027712446567977955,5
+Fig. 1d,VCC-H1,pds_above_chance,PDS − 0.5,scGPT-ft,scGPT-ft,0.012175846515469112,0.024217897227622322,5
+Fig. 1d,VCC-H1,residual_cosine,Residual cosine all outcomes,weighted,Weighted,0.1364747358651819,0.02531383800312931,5
+Fig. 1d,VCC-H1,residual_cosine,Residual cosine all outcomes,presage,PRESAGE,0.1527199435133951,0.047182388628342425,5
+Fig. 1d,VCC-H1,residual_cosine,Residual cosine all outcomes,linear_embedding_from_otherds_10,Linear (cross-dataset),0.1326325446627065,0.02965828962057999,5
+Fig. 1d,VCC-H1,residual_cosine,Residual cosine all outcomes,paper_linear_embedding_from_training_10,Linear (training),0.0455254177767007,0.01839265854240001,5
+Fig. 1d,VCC-H1,residual_cosine,Residual cosine all outcomes,gears,GEARS,-0.00427795832212848,0.005359585478196176,5
+Fig. 1d,VCC-H1,residual_cosine,Residual cosine all outcomes,scGPT-ft,scGPT-ft,0.01471000014135948,0.022669309031353325,5
+Fig. 1d,VCC-H1,residual_top20_cosine,Residual cosine top 20 DE,weighted,Weighted,0.5227276149178586,0.05410596117280423,5
+Fig. 1d,VCC-H1,residual_top20_cosine,Residual cosine top 20 DE,presage,PRESAGE,0.26963780728966075,0.06165049898114083,5
+Fig. 1d,VCC-H1,residual_top20_cosine,Residual cosine top 20 DE,linear_embedding_from_otherds_10,Linear (cross-dataset),0.2517213108030064,0.08312499635663263,5
+Fig. 1d,VCC-H1,residual_top20_cosine,Residual cosine top 20 DE,paper_linear_embedding_from_training_10,Linear (training),0.12911484516305807,0.018952246603673138,5
+Fig. 1d,VCC-H1,residual_top20_cosine,Residual cosine top 20 DE,gears,GEARS,-0.00827710909923616,0.04160574559185294,5
+Fig. 1d,VCC-H1,residual_top20_cosine,Residual cosine top 20 DE,scGPT-ft,scGPT-ft,0.04297087009143824,0.04227229910293437,5
+Fig. 1d,VCC-H1,residual_top100_cosine,Residual cosine top 100 DE,weighted,Weighted,0.4057295532710983,0.043364802794196446,5
+Fig. 1d,VCC-H1,residual_top100_cosine,Residual cosine top 100 DE,presage,PRESAGE,0.2885183546349871,0.049750524911916706,5
+Fig. 1d,VCC-H1,residual_top100_cosine,Residual cosine top 100 DE,linear_embedding_from_otherds_10,Linear (cross-dataset),0.23128842508138536,0.06267570701492514,5
+Fig. 1d,VCC-H1,residual_top100_cosine,Residual cosine top 100 DE,paper_linear_embedding_from_training_10,Linear (training),0.11000530907074357,0.035803654000891756,5
+Fig. 1d,VCC-H1,residual_top100_cosine,Residual cosine top 100 DE,gears,GEARS,-0.00663967248530604,0.012540170718993904,5
+Fig. 1d,VCC-H1,residual_top100_cosine,Residual cosine top 100 DE,scGPT-ft,scGPT-ft,0.03578893141340628,0.0364208679094996,5
+Fig. 1d,Replogle-GW-K562,weighted_mse_reduction,Weighted-MSE reduction,weighted,Weighted,0.27461852539096976,0.033715481342852086,5
+Fig. 1d,Replogle-GW-K562,weighted_mse_reduction,Weighted-MSE reduction,presage,PRESAGE,0.2628940620324977,0.03804627572534497,5
+Fig. 1d,Replogle-GW-K562,weighted_mse_reduction,Weighted-MSE reduction,linear_embedding_from_otherds_10,Linear (cross-dataset),0.1915905464884658,0.014353023288882627,5
+Fig. 1d,Replogle-GW-K562,weighted_mse_reduction,Weighted-MSE reduction,paper_linear_embedding_from_training_10,Linear (training),0.026252375772807545,0.004361785961921715,5
+Fig. 1d,Replogle-GW-K562,weighted_mse_reduction,Weighted-MSE reduction,gears,GEARS,-0.05890463879744971,0.0030327541034369863,5
+Fig. 1d,Replogle-GW-K562,weighted_mse_reduction,Weighted-MSE reduction,scGPT-ft,scGPT-ft,-0.09533684580748898,0.0682835954797145,5
+Fig. 1d,Replogle-GW-K562,pds_above_chance,PDS − 0.5,weighted,Weighted,0.21996554124081458,0.009414395570721398,5
+Fig. 1d,Replogle-GW-K562,pds_above_chance,PDS − 0.5,presage,PRESAGE,0.10335701529416219,0.015466816452175377,5
+Fig. 1d,Replogle-GW-K562,pds_above_chance,PDS − 0.5,linear_embedding_from_otherds_10,Linear (cross-dataset),0.050075264283095874,0.002886354580244678,5
+Fig. 1d,Replogle-GW-K562,pds_above_chance,PDS − 0.5,paper_linear_embedding_from_training_10,Linear (training),0.013830624559092808,0.0012055221856521702,5
+Fig. 1d,Replogle-GW-K562,pds_above_chance,PDS − 0.5,gears,GEARS,-0.005176171680895536,0.006995218279965023,5
+Fig. 1d,Replogle-GW-K562,pds_above_chance,PDS − 0.5,scGPT-ft,scGPT-ft,0.006374001839828192,0.0022158369799500513,5
+Fig. 1d,Replogle-GW-K562,residual_cosine,Residual cosine all outcomes,weighted,Weighted,0.08616839877578883,0.0059446453878544666,5
+Fig. 1d,Replogle-GW-K562,residual_cosine,Residual cosine all outcomes,presage,PRESAGE,0.12087077158297022,0.010978312992732952,5
+Fig. 1d,Replogle-GW-K562,residual_cosine,Residual cosine all outcomes,linear_embedding_from_otherds_10,Linear (cross-dataset),0.0989018549148171,0.007501512074905905,5
+Fig. 1d,Replogle-GW-K562,residual_cosine,Residual cosine all outcomes,paper_linear_embedding_from_training_10,Linear (training),0.03164202796016184,0.006512512845706324,5
+Fig. 1d,Replogle-GW-K562,residual_cosine,Residual cosine all outcomes,gears,GEARS,-3.884749080128001e-05,0.0013275929339161806,5
+Fig. 1d,Replogle-GW-K562,residual_cosine,Residual cosine all outcomes,scGPT-ft,scGPT-ft,0.00852016144070964,0.003470879618888733,5
+Fig. 1d,Replogle-GW-K562,residual_top20_cosine,Residual cosine top 20 DE,weighted,Weighted,0.3165309464561791,0.014748250853189855,5
+Fig. 1d,Replogle-GW-K562,residual_top20_cosine,Residual cosine top 20 DE,presage,PRESAGE,0.23884352589353758,0.02468010473559131,5
+Fig. 1d,Replogle-GW-K562,residual_top20_cosine,Residual cosine top 20 DE,linear_embedding_from_otherds_10,Linear (cross-dataset),0.20702500325041062,0.022684341518949148,5
+Fig. 1d,Replogle-GW-K562,residual_top20_cosine,Residual cosine top 20 DE,paper_linear_embedding_from_training_10,Linear (training),0.07696783879141529,0.014506814893428066,5
+Fig. 1d,Replogle-GW-K562,residual_top20_cosine,Residual cosine top 20 DE,gears,GEARS,0.0023608564464927405,0.011665947037065996,5
+Fig. 1d,Replogle-GW-K562,residual_top20_cosine,Residual cosine top 20 DE,scGPT-ft,scGPT-ft,0.007118001677052779,0.012444862394741315,5
+Fig. 1d,Replogle-GW-K562,residual_top100_cosine,Residual cosine top 100 DE,weighted,Weighted,0.24224703850948232,0.011871114092593303,5
+Fig. 1d,Replogle-GW-K562,residual_top100_cosine,Residual cosine top 100 DE,presage,PRESAGE,0.22282736292838273,0.01804037471715087,5
+Fig. 1d,Replogle-GW-K562,residual_top100_cosine,Residual cosine top 100 DE,linear_embedding_from_otherds_10,Linear (cross-dataset),0.1934098112999704,0.01816445013788644,5
+Fig. 1d,Replogle-GW-K562,residual_top100_cosine,Residual cosine top 100 DE,paper_linear_embedding_from_training_10,Linear (training),0.07128684726738582,0.00857531668153943,5
+Fig. 1d,Replogle-GW-K562,residual_top100_cosine,Residual cosine top 100 DE,gears,GEARS,-0.00019757796341166,0.007337457768178277,5
+Fig. 1d,Replogle-GW-K562,residual_top100_cosine,Residual cosine top 100 DE,scGPT-ft,scGPT-ft,0.01113310227230254,0.008192469876103153,5
+Supplementary Fig. S2,Replogle-E-K562,weighted_mse_reduction,Weighted-MSE reduction,weighted,Weighted,0.3695945953916905,0.04320380578702802,5
+Supplementary Fig. S2,Replogle-E-K562,weighted_mse_reduction,Weighted-MSE reduction,presage,PRESAGE,0.43324931540691125,0.017941769438974887,5
+Supplementary Fig. S2,Replogle-E-K562,weighted_mse_reduction,Weighted-MSE reduction,linear_embedding_from_otherds_10,Linear (cross-dataset),0.3528159943302795,0.020031579335171495,5
+Supplementary Fig. S2,Replogle-E-K562,weighted_mse_reduction,Weighted-MSE reduction,paper_linear_embedding_from_training_10,Linear (training),0.07258001151233995,0.006003000362495486,5
+Supplementary Fig. S2,Replogle-E-K562,weighted_mse_reduction,Weighted-MSE reduction,gears,GEARS,0.014787312201926217,0.04048357268469898,5
+Supplementary Fig. S2,Replogle-E-K562,weighted_mse_reduction,Weighted-MSE reduction,scGPT-ft,scGPT-ft,-0.034060467636292134,0.04844903534911838,5
+Supplementary Fig. S2,Replogle-E-K562,pds_above_chance,PDS − 0.5,weighted,Weighted,0.3335983342521273,0.006681434519518896,5
+Supplementary Fig. S2,Replogle-E-K562,pds_above_chance,PDS − 0.5,presage,PRESAGE,0.26404935712492456,0.023849959114841147,5
+Supplementary Fig. S2,Replogle-E-K562,pds_above_chance,PDS − 0.5,linear_embedding_from_otherds_10,Linear (cross-dataset),0.1550705674192048,0.011956635795561263,5
+Supplementary Fig. S2,Replogle-E-K562,pds_above_chance,PDS − 0.5,paper_linear_embedding_from_training_10,Linear (training),0.045817577813821855,0.007309035508537952,5
+Supplementary Fig. S2,Replogle-E-K562,pds_above_chance,PDS − 0.5,gears,GEARS,0.02589364549665608,0.03153290438253646,5
+Supplementary Fig. S2,Replogle-E-K562,pds_above_chance,PDS − 0.5,scGPT-ft,scGPT-ft,0.05333987673097691,0.009843149377840341,5
+Supplementary Fig. S2,Replogle-E-K562,residual_cosine,Residual cosine all outcomes,weighted,Weighted,0.2371404312837014,0.013925148089043481,5
+Supplementary Fig. S2,Replogle-E-K562,residual_cosine,Residual cosine all outcomes,presage,PRESAGE,0.3352867155134578,0.02506038012376448,5
+Supplementary Fig. S2,Replogle-E-K562,residual_cosine,Residual cosine all outcomes,linear_embedding_from_otherds_10,Linear (cross-dataset),0.2732753805011233,0.017230686514382552,5
+Supplementary Fig. S2,Replogle-E-K562,residual_cosine,Residual cosine all outcomes,paper_linear_embedding_from_training_10,Linear (training),0.07596054404069388,0.011449458321077466,5
+Supplementary Fig. S2,Replogle-E-K562,residual_cosine,Residual cosine all outcomes,gears,GEARS,0.02041956673689202,0.022091517248075822,5
+Supplementary Fig. S2,Replogle-E-K562,residual_cosine,Residual cosine all outcomes,scGPT-ft,scGPT-ft,0.08113658216155446,0.009221451159023822,5
+Supplementary Fig. S2,Replogle-E-K562,residual_top20_cosine,Residual cosine top 20 DE,weighted,Weighted,0.598624454195039,0.018586116828873442,5
+Supplementary Fig. S2,Replogle-E-K562,residual_top20_cosine,Residual cosine top 20 DE,presage,PRESAGE,0.5862124954153326,0.01911425436637729,5
+Supplementary Fig. S2,Replogle-E-K562,residual_top20_cosine,Residual cosine top 20 DE,linear_embedding_from_otherds_10,Linear (cross-dataset),0.49206388713889837,0.027037570515134963,5
+Supplementary Fig. S2,Replogle-E-K562,residual_top20_cosine,Residual cosine top 20 DE,paper_linear_embedding_from_training_10,Linear (training),0.22215328656864086,0.016414131338012342,5
+Supplementary Fig. S2,Replogle-E-K562,residual_top20_cosine,Residual cosine top 20 DE,gears,GEARS,0.0468659335971375,0.04511781873836035,5
+Supplementary Fig. S2,Replogle-E-K562,residual_top20_cosine,Residual cosine top 20 DE,scGPT-ft,scGPT-ft,0.10272153025947599,0.01829834615207841,5
+Supplementary Fig. S2,Replogle-E-K562,residual_top100_cosine,Residual cosine top 100 DE,weighted,Weighted,0.5119756167076182,0.014572739793418806,5
+Supplementary Fig. S2,Replogle-E-K562,residual_top100_cosine,Residual cosine top 100 DE,presage,PRESAGE,0.5552512542513072,0.014721457930459723,5
+Supplementary Fig. S2,Replogle-E-K562,residual_top100_cosine,Residual cosine top 100 DE,linear_embedding_from_otherds_10,Linear (cross-dataset),0.4649070158668662,0.022305398285053887,5
+Supplementary Fig. S2,Replogle-E-K562,residual_top100_cosine,Residual cosine top 100 DE,paper_linear_embedding_from_training_10,Linear (training),0.20951568137229165,0.01720636172121314,5
+Supplementary Fig. S2,Replogle-E-K562,residual_top100_cosine,Residual cosine top 100 DE,gears,GEARS,0.04498972703804604,0.04437999999619253,5
+Supplementary Fig. S2,Replogle-E-K562,residual_top100_cosine,Residual cosine top 100 DE,scGPT-ft,scGPT-ft,0.10804550655368146,0.012581604284340058,5
+Supplementary Fig. S2,Replogle-E-RPE1,weighted_mse_reduction,Weighted-MSE reduction,weighted,Weighted,-0.07214752776171766,0.095695862101127,5
+Supplementary Fig. S2,Replogle-E-RPE1,weighted_mse_reduction,Weighted-MSE reduction,presage,PRESAGE,0.3590311345156203,0.018779627274462696,5
+Supplementary Fig. S2,Replogle-E-RPE1,weighted_mse_reduction,Weighted-MSE reduction,linear_embedding_from_otherds_10,Linear (cross-dataset),0.2984843736231422,0.031082870524374924,5
+Supplementary Fig. S2,Replogle-E-RPE1,weighted_mse_reduction,Weighted-MSE reduction,paper_linear_embedding_from_training_10,Linear (training),0.08200895364167501,0.0071166441673426025,5
+Supplementary Fig. S2,Replogle-E-RPE1,weighted_mse_reduction,Weighted-MSE reduction,gears,GEARS,0.10520981699901885,0.03957933208345507,5
+Supplementary Fig. S2,Replogle-E-RPE1,weighted_mse_reduction,Weighted-MSE reduction,scGPT-ft,scGPT-ft,-0.07288361114193771,0.04925546233383537,5
+Supplementary Fig. S2,Replogle-E-RPE1,pds_above_chance,PDS − 0.5,weighted,Weighted,0.36584632745732926,0.011545526253762772,5
+Supplementary Fig. S2,Replogle-E-RPE1,pds_above_chance,PDS − 0.5,presage,PRESAGE,0.1464017432324218,0.008984692017400714,5
+Supplementary Fig. S2,Replogle-E-RPE1,pds_above_chance,PDS − 0.5,linear_embedding_from_otherds_10,Linear (cross-dataset),0.07268765831493318,0.008700460647514155,5
+Supplementary Fig. S2,Replogle-E-RPE1,pds_above_chance,PDS − 0.5,paper_linear_embedding_from_training_10,Linear (training),0.017543222418838524,0.0029721358080120218,5
+Supplementary Fig. S2,Replogle-E-RPE1,pds_above_chance,PDS − 0.5,gears,GEARS,0.0037977092071003636,0.006204535514044951,5
+Supplementary Fig. S2,Replogle-E-RPE1,pds_above_chance,PDS − 0.5,scGPT-ft,scGPT-ft,0.010822039358493218,0.006056712857050056,5
+Supplementary Fig. S2,Replogle-E-RPE1,residual_cosine,Residual cosine all outcomes,weighted,Weighted,0.23468308499338658,0.008784220984167538,5
+Supplementary Fig. S2,Replogle-E-RPE1,residual_cosine,Residual cosine all outcomes,presage,PRESAGE,0.35045226923810613,0.015376523314915213,5
+Supplementary Fig. S2,Replogle-E-RPE1,residual_cosine,Residual cosine all outcomes,linear_embedding_from_otherds_10,Linear (cross-dataset),0.25072466145670275,0.020093414623525162,5
+Supplementary Fig. S2,Replogle-E-RPE1,residual_cosine,Residual cosine all outcomes,paper_linear_embedding_from_training_10,Linear (training),0.09924320061833079,0.012660359783543015,5
+Supplementary Fig. S2,Replogle-E-RPE1,residual_cosine,Residual cosine all outcomes,gears,GEARS,0.0051081068279077,0.002796771359257624,5
+Supplementary Fig. S2,Replogle-E-RPE1,residual_cosine,Residual cosine all outcomes,scGPT-ft,scGPT-ft,0.0468420261339833,0.019628526273182213,5
+Supplementary Fig. S2,Replogle-E-RPE1,residual_top20_cosine,Residual cosine top 20 DE,weighted,Weighted,0.5942163376000952,0.014701230742121464,5
+Supplementary Fig. S2,Replogle-E-RPE1,residual_top20_cosine,Residual cosine top 20 DE,presage,PRESAGE,0.5376528463087444,0.030232730472432207,5
+Supplementary Fig. S2,Replogle-E-RPE1,residual_top20_cosine,Residual cosine top 20 DE,linear_embedding_from_otherds_10,Linear (cross-dataset),0.3538070620786243,0.04547394412827242,5
+Supplementary Fig. S2,Replogle-E-RPE1,residual_top20_cosine,Residual cosine top 20 DE,paper_linear_embedding_from_training_10,Linear (training),0.11072718133103368,0.026295950889706328,5
+Supplementary Fig. S2,Replogle-E-RPE1,residual_top20_cosine,Residual cosine top 20 DE,gears,GEARS,0.03727708450607548,0.014326252826313326,5
+Supplementary Fig. S2,Replogle-E-RPE1,residual_top20_cosine,Residual cosine top 20 DE,scGPT-ft,scGPT-ft,0.037584249056354525,0.025644168715947456,5
+Supplementary Fig. S2,Replogle-E-RPE1,residual_top100_cosine,Residual cosine top 100 DE,weighted,Weighted,0.5049106007881765,0.011619092501175621,5
+Supplementary Fig. S2,Replogle-E-RPE1,residual_top100_cosine,Residual cosine top 100 DE,presage,PRESAGE,0.5305288378666567,0.0234130496548785,5
+Supplementary Fig. S2,Replogle-E-RPE1,residual_top100_cosine,Residual cosine top 100 DE,linear_embedding_from_otherds_10,Linear (cross-dataset),0.3560577599382734,0.03776840210381921,5
+Supplementary Fig. S2,Replogle-E-RPE1,residual_top100_cosine,Residual cosine top 100 DE,paper_linear_embedding_from_training_10,Linear (training),0.1292332823484624,0.019369583468746884,5
+Supplementary Fig. S2,Replogle-E-RPE1,residual_top100_cosine,Residual cosine top 100 DE,gears,GEARS,0.02287634801993624,0.012201677783099595,5
+Supplementary Fig. S2,Replogle-E-RPE1,residual_top100_cosine,Residual cosine top 100 DE,scGPT-ft,scGPT-ft,0.04750810505915312,0.032128622928895505,5
+Supplementary Fig. S2,Nadig-HepG2,weighted_mse_reduction,Weighted-MSE reduction,weighted,Weighted,0.14349281986781265,0.01592414972750764,5
+Supplementary Fig. S2,Nadig-HepG2,weighted_mse_reduction,Weighted-MSE reduction,presage,PRESAGE,0.43538051217692286,0.030257827141012324,5
+Supplementary Fig. S2,Nadig-HepG2,weighted_mse_reduction,Weighted-MSE reduction,linear_embedding_from_otherds_10,Linear (cross-dataset),0.3837318646039365,0.030335057144693776,5
+Supplementary Fig. S2,Nadig-HepG2,weighted_mse_reduction,Weighted-MSE reduction,paper_linear_embedding_from_training_10,Linear (training),0.10170072475496339,0.01667070920513409,5
+Supplementary Fig. S2,Nadig-HepG2,weighted_mse_reduction,Weighted-MSE reduction,gears,GEARS,0.11437404456634241,0.04636073815613951,5
+Supplementary Fig. S2,Nadig-HepG2,weighted_mse_reduction,Weighted-MSE reduction,scGPT-ft,scGPT-ft,0.046270840801899936,0.014993376234278996,5
+Supplementary Fig. S2,Nadig-HepG2,pds_above_chance,PDS − 0.5,weighted,Weighted,0.3148586289245636,0.015447367201077563,5
+Supplementary Fig. S2,Nadig-HepG2,pds_above_chance,PDS − 0.5,presage,PRESAGE,0.1810647075268776,0.026461459815866256,5
+Supplementary Fig. S2,Nadig-HepG2,pds_above_chance,PDS − 0.5,linear_embedding_from_otherds_10,Linear (cross-dataset),0.08793066803817688,0.008936142911003128,5
+Supplementary Fig. S2,Nadig-HepG2,pds_above_chance,PDS − 0.5,paper_linear_embedding_from_training_10,Linear (training),0.016917208133468198,0.0044513343896195575,5
+Supplementary Fig. S2,Nadig-HepG2,pds_above_chance,PDS − 0.5,gears,GEARS,0.005955192010807431,0.005923804869371314,5
+Supplementary Fig. S2,Nadig-HepG2,pds_above_chance,PDS − 0.5,scGPT-ft,scGPT-ft,0.01645102880116207,0.0033369244018693497,5
+Supplementary Fig. S2,Nadig-HepG2,residual_cosine,Residual cosine all outcomes,weighted,Weighted,0.2131886091709087,0.014293032056583083,5
+Supplementary Fig. S2,Nadig-HepG2,residual_cosine,Residual cosine all outcomes,presage,PRESAGE,0.3327164667482568,0.02351526706794554,5
+Supplementary Fig. S2,Nadig-HepG2,residual_cosine,Residual cosine all outcomes,linear_embedding_from_otherds_10,Linear (cross-dataset),0.2768549410816134,0.01597188961721403,5
+Supplementary Fig. S2,Nadig-HepG2,residual_cosine,Residual cosine all outcomes,paper_linear_embedding_from_training_10,Linear (training),0.11985455598958268,0.012556103928498874,5
+Supplementary Fig. S2,Nadig-HepG2,residual_cosine,Residual cosine all outcomes,gears,GEARS,0.01945541048976756,0.012916858132888578,5
+Supplementary Fig. S2,Nadig-HepG2,residual_cosine,Residual cosine all outcomes,scGPT-ft,scGPT-ft,0.07413286786916232,0.010576462260209755,5
+Supplementary Fig. S2,Nadig-HepG2,residual_top20_cosine,Residual cosine top 20 DE,weighted,Weighted,0.5214677071222055,0.01812158256492036,5
+Supplementary Fig. S2,Nadig-HepG2,residual_top20_cosine,Residual cosine top 20 DE,presage,PRESAGE,0.5441053786041079,0.035331683942602325,5
+Supplementary Fig. S2,Nadig-HepG2,residual_top20_cosine,Residual cosine top 20 DE,linear_embedding_from_otherds_10,Linear (cross-dataset),0.4675265768110178,0.02143675298513591,5
+Supplementary Fig. S2,Nadig-HepG2,residual_top20_cosine,Residual cosine top 20 DE,paper_linear_embedding_from_training_10,Linear (training),0.17098011462858215,0.023495492645864507,5
+Supplementary Fig. S2,Nadig-HepG2,residual_top20_cosine,Residual cosine top 20 DE,gears,GEARS,0.0632013948782753,0.050901297778823455,5
+Supplementary Fig. S2,Nadig-HepG2,residual_top20_cosine,Residual cosine top 20 DE,scGPT-ft,scGPT-ft,0.05625240271954925,0.010394010718489662,5
+Supplementary Fig. S2,Nadig-HepG2,residual_top100_cosine,Residual cosine top 100 DE,weighted,Weighted,0.4405001964675675,0.017645828155844645,5
+Supplementary Fig. S2,Nadig-HepG2,residual_top100_cosine,Residual cosine top 100 DE,presage,PRESAGE,0.5181840255674758,0.031133980864344702,5
+Supplementary Fig. S2,Nadig-HepG2,residual_top100_cosine,Residual cosine top 100 DE,linear_embedding_from_otherds_10,Linear (cross-dataset),0.43660064755546035,0.020462477913889755,5
+Supplementary Fig. S2,Nadig-HepG2,residual_top100_cosine,Residual cosine top 100 DE,paper_linear_embedding_from_training_10,Linear (training),0.1786537065959459,0.014802050228187227,5
+Supplementary Fig. S2,Nadig-HepG2,residual_top100_cosine,Residual cosine top 100 DE,gears,GEARS,0.05614487484317138,0.03547942904534217,5
+Supplementary Fig. S2,Nadig-HepG2,residual_top100_cosine,Residual cosine top 100 DE,scGPT-ft,scGPT-ft,0.06421588957231344,0.01347899541304891,5
+Supplementary Fig. S2,Nadig-Jurkat,weighted_mse_reduction,Weighted-MSE reduction,weighted,Weighted,0.315039034729417,0.052430440534417116,5
+Supplementary Fig. S2,Nadig-Jurkat,weighted_mse_reduction,Weighted-MSE reduction,presage,PRESAGE,0.3918123670394006,0.01451174096918826,5
+Supplementary Fig. S2,Nadig-Jurkat,weighted_mse_reduction,Weighted-MSE reduction,linear_embedding_from_otherds_10,Linear (cross-dataset),0.2845127898125008,0.010468132010515472,5
+Supplementary Fig. S2,Nadig-Jurkat,weighted_mse_reduction,Weighted-MSE reduction,paper_linear_embedding_from_training_10,Linear (training),0.05462476528921907,0.009913917761307262,5
+Supplementary Fig. S2,Nadig-Jurkat,weighted_mse_reduction,Weighted-MSE reduction,gears,GEARS,0.04065344010245118,0.03424947422774413,5
+Supplementary Fig. S2,Nadig-Jurkat,weighted_mse_reduction,Weighted-MSE reduction,scGPT-ft,scGPT-ft,-0.04691212521670431,0.01982480163783915,5
+Supplementary Fig. S2,Nadig-Jurkat,pds_above_chance,PDS − 0.5,weighted,Weighted,0.344312235382115,0.01745953581039739,5
+Supplementary Fig. S2,Nadig-Jurkat,pds_above_chance,PDS − 0.5,presage,PRESAGE,0.21707498140246365,0.009659763100414978,5
+Supplementary Fig. S2,Nadig-Jurkat,pds_above_chance,PDS − 0.5,linear_embedding_from_otherds_10,Linear (cross-dataset),0.1206978783915095,0.004259499362356543,5
+Supplementary Fig. S2,Nadig-Jurkat,pds_above_chance,PDS − 0.5,paper_linear_embedding_from_training_10,Linear (training),0.028009493460179134,0.0035070304970989796,5
+Supplementary Fig. S2,Nadig-Jurkat,pds_above_chance,PDS − 0.5,gears,GEARS,0.0031585589124156653,0.003828271250399894,5
+Supplementary Fig. S2,Nadig-Jurkat,pds_above_chance,PDS − 0.5,scGPT-ft,scGPT-ft,0.03343143395397201,0.0035662914773939027,5
+Supplementary Fig. S2,Nadig-Jurkat,residual_cosine,Residual cosine all outcomes,weighted,Weighted,0.23427890826173076,0.01092274791129748,5
+Supplementary Fig. S2,Nadig-Jurkat,residual_cosine,Residual cosine all outcomes,presage,PRESAGE,0.32027872868141916,0.011805298443867178,5
+Supplementary Fig. S2,Nadig-Jurkat,residual_cosine,Residual cosine all outcomes,linear_embedding_from_otherds_10,Linear (cross-dataset),0.26167469217194217,0.01052431824314323,5
+Supplementary Fig. S2,Nadig-Jurkat,residual_cosine,Residual cosine all outcomes,paper_linear_embedding_from_training_10,Linear (training),0.08482452780955826,0.007407068647971063,5
+Supplementary Fig. S2,Nadig-Jurkat,residual_cosine,Residual cosine all outcomes,gears,GEARS,0.004174575084938461,0.0038430098460188146,5
+Supplementary Fig. S2,Nadig-Jurkat,residual_cosine,Residual cosine all outcomes,scGPT-ft,scGPT-ft,0.06169359767265148,0.0034117200377057643,5
+Supplementary Fig. S2,Nadig-Jurkat,residual_top20_cosine,Residual cosine top 20 DE,weighted,Weighted,0.626976056381873,0.019721599212549998,5
+Supplementary Fig. S2,Nadig-Jurkat,residual_top20_cosine,Residual cosine top 20 DE,presage,PRESAGE,0.5635900278035881,0.01849019000390488,5
+Supplementary Fig. S2,Nadig-Jurkat,residual_top20_cosine,Residual cosine top 20 DE,linear_embedding_from_otherds_10,Linear (cross-dataset),0.470643140072438,0.016384243942973463,5
+Supplementary Fig. S2,Nadig-Jurkat,residual_top20_cosine,Residual cosine top 20 DE,paper_linear_embedding_from_training_10,Linear (training),0.16266836431315407,0.01091202817153388,5
+Supplementary Fig. S2,Nadig-Jurkat,residual_top20_cosine,Residual cosine top 20 DE,gears,GEARS,0.028477148939132002,0.03282492452515148,5
+Supplementary Fig. S2,Nadig-Jurkat,residual_top20_cosine,Residual cosine top 20 DE,scGPT-ft,scGPT-ft,0.07015617358509658,0.02273802569625215,5
+Supplementary Fig. S2,Nadig-Jurkat,residual_top100_cosine,Residual cosine top 100 DE,weighted,Weighted,0.5329587465946167,0.01709858558370155,5
+Supplementary Fig. S2,Nadig-Jurkat,residual_top100_cosine,Residual cosine top 100 DE,presage,PRESAGE,0.5355390993682831,0.020964439757361848,5
+Supplementary Fig. S2,Nadig-Jurkat,residual_top100_cosine,Residual cosine top 100 DE,linear_embedding_from_otherds_10,Linear (cross-dataset),0.44368886519992284,0.012966934290015853,5
+Supplementary Fig. S2,Nadig-Jurkat,residual_top100_cosine,Residual cosine top 100 DE,paper_linear_embedding_from_training_10,Linear (training),0.15608749844336783,0.009679933872542158,5
+Supplementary Fig. S2,Nadig-Jurkat,residual_top100_cosine,Residual cosine top 100 DE,gears,GEARS,0.02105498320931884,0.02364142749090388,5
+Supplementary Fig. S2,Nadig-Jurkat,residual_top100_cosine,Residual cosine top 100 DE,scGPT-ft,scGPT-ft,0.07439107807939406,0.019030810032158972,5
+Supplementary Fig. S2,Huang-HCT116,weighted_mse_reduction,Weighted-MSE reduction,weighted,Weighted,0.20216311961061378,0.01545127904336643,5
+Supplementary Fig. S2,Huang-HCT116,weighted_mse_reduction,Weighted-MSE reduction,presage,PRESAGE,0.17544172599364996,0.014035312204082879,5
+Supplementary Fig. S2,Huang-HCT116,weighted_mse_reduction,Weighted-MSE reduction,linear_embedding_from_otherds_10,Linear (cross-dataset),0.16731667801210573,0.010351398695297661,5
+Supplementary Fig. S2,Huang-HCT116,weighted_mse_reduction,Weighted-MSE reduction,paper_linear_embedding_from_training_10,Linear (training),0.029991526430208682,0.0035939494130442467,5
+Supplementary Fig. S2,Huang-HCT116,weighted_mse_reduction,Weighted-MSE reduction,gears,GEARS,-0.07265318214522072,0.006565746181063186,5
+Supplementary Fig. S2,Huang-HCT116,weighted_mse_reduction,Weighted-MSE reduction,scGPT-ft,scGPT-ft,-0.13343301863753268,0.018416304529810808,5
+Supplementary Fig. S2,Huang-HCT116,pds_above_chance,PDS − 0.5,weighted,Weighted,0.21446389891945222,0.00517346677214972,5
+Supplementary Fig. S2,Huang-HCT116,pds_above_chance,PDS − 0.5,presage,PRESAGE,0.10956507806844311,0.02940733826393319,5
+Supplementary Fig. S2,Huang-HCT116,pds_above_chance,PDS − 0.5,linear_embedding_from_otherds_10,Linear (cross-dataset),0.09971241372587103,0.006116833324626285,5
+Supplementary Fig. S2,Huang-HCT116,pds_above_chance,PDS − 0.5,paper_linear_embedding_from_training_10,Linear (training),0.013269691106950953,0.0020712505954988843,5
+Supplementary Fig. S2,Huang-HCT116,pds_above_chance,PDS − 0.5,gears,GEARS,0.012027785119929945,0.007450955494114976,5
+Supplementary Fig. S2,Huang-HCT116,pds_above_chance,PDS − 0.5,scGPT-ft,scGPT-ft,0.003392474671951273,0.004920213388613572,5
+Supplementary Fig. S2,Huang-HCT116,residual_cosine,Residual cosine all outcomes,weighted,Weighted,0.07354763886240272,0.002648225687445871,5
+Supplementary Fig. S2,Huang-HCT116,residual_cosine,Residual cosine all outcomes,presage,PRESAGE,0.07268947506481756,0.004554650727600713,5
+Supplementary Fig. S2,Huang-HCT116,residual_cosine,Residual cosine all outcomes,linear_embedding_from_otherds_10,Linear (cross-dataset),0.08520096379372426,0.0034195131669592757,5
+Supplementary Fig. S2,Huang-HCT116,residual_cosine,Residual cosine all outcomes,paper_linear_embedding_from_training_10,Linear (training),0.0286961395339482,0.003932291916914928,5
+Supplementary Fig. S2,Huang-HCT116,residual_cosine,Residual cosine all outcomes,gears,GEARS,0.00117111765228856,0.0011210735719846968,5
+Supplementary Fig. S2,Huang-HCT116,residual_cosine,Residual cosine all outcomes,scGPT-ft,scGPT-ft,-0.00030628758474656,0.0011974134767233924,5
+Supplementary Fig. S2,Huang-HCT116,residual_top20_cosine,Residual cosine top 20 DE,weighted,Weighted,0.3219465175344201,0.011533266878062899,5
+Supplementary Fig. S2,Huang-HCT116,residual_top20_cosine,Residual cosine top 20 DE,presage,PRESAGE,0.16861061346152462,0.018990937449569454,5
+Supplementary Fig. S2,Huang-HCT116,residual_top20_cosine,Residual cosine top 20 DE,linear_embedding_from_otherds_10,Linear (cross-dataset),0.18384372050141556,0.004123940275942605,5
+Supplementary Fig. S2,Huang-HCT116,residual_top20_cosine,Residual cosine top 20 DE,paper_linear_embedding_from_training_10,Linear (training),0.07988883586389359,0.006453972937894149,5
+Supplementary Fig. S2,Huang-HCT116,residual_top20_cosine,Residual cosine top 20 DE,gears,GEARS,0.015938943816501242,0.017664862922021296,5
+Supplementary Fig. S2,Huang-HCT116,residual_top20_cosine,Residual cosine top 20 DE,scGPT-ft,scGPT-ft,0.0021973753507901,0.007931652422307225,5
+Supplementary Fig. S2,Huang-HCT116,residual_top100_cosine,Residual cosine top 100 DE,weighted,Weighted,0.23400639542997465,0.006126619055640758,5
+Supplementary Fig. S2,Huang-HCT116,residual_top100_cosine,Residual cosine top 100 DE,presage,PRESAGE,0.15278400176357965,0.010974122191438274,5
+Supplementary Fig. S2,Huang-HCT116,residual_top100_cosine,Residual cosine top 100 DE,linear_embedding_from_otherds_10,Linear (cross-dataset),0.1698350015994661,0.004570157999103698,5
+Supplementary Fig. S2,Huang-HCT116,residual_top100_cosine,Residual cosine top 100 DE,paper_linear_embedding_from_training_10,Linear (training),0.07123094156025303,0.006306918568741084,5
+Supplementary Fig. S2,Huang-HCT116,residual_top100_cosine,Residual cosine top 100 DE,gears,GEARS,0.01035958103834764,0.010006622277450746,5
+Supplementary Fig. S2,Huang-HCT116,residual_top100_cosine,Residual cosine top 100 DE,scGPT-ft,scGPT-ft,0.00161529508779556,0.005431459680463172,5
+Supplementary Fig. S2,Huang-HEK293T,weighted_mse_reduction,Weighted-MSE reduction,weighted,Weighted,0.013108938668205661,0.01427804357977403,5
+Supplementary Fig. S2,Huang-HEK293T,weighted_mse_reduction,Weighted-MSE reduction,presage,PRESAGE,0.0667165500330968,0.010859797964757617,5
+Supplementary Fig. S2,Huang-HEK293T,weighted_mse_reduction,Weighted-MSE reduction,linear_embedding_from_otherds_10,Linear (cross-dataset),0.1095036497610848,0.0072183647378280605,5
+Supplementary Fig. S2,Huang-HEK293T,weighted_mse_reduction,Weighted-MSE reduction,paper_linear_embedding_from_training_10,Linear (training),0.01677940022922606,0.0021621158121832708,5
+Supplementary Fig. S2,Huang-HEK293T,weighted_mse_reduction,Weighted-MSE reduction,gears,GEARS,-0.09457500924596998,0.0021886255658938518,5
+Supplementary Fig. S2,Huang-HEK293T,weighted_mse_reduction,Weighted-MSE reduction,scGPT-ft,scGPT-ft,-0.16639782019595314,0.0501225712257711,5
+Supplementary Fig. S2,Huang-HEK293T,pds_above_chance,PDS − 0.5,weighted,Weighted,0.18962585742432653,0.007193822009738923,5
+Supplementary Fig. S2,Huang-HEK293T,pds_above_chance,PDS − 0.5,presage,PRESAGE,0.06118481813553724,0.004513343904489922,5
+Supplementary Fig. S2,Huang-HEK293T,pds_above_chance,PDS − 0.5,linear_embedding_from_otherds_10,Linear (cross-dataset),0.08937690196432102,0.004883157634597525,5
+Supplementary Fig. S2,Huang-HEK293T,pds_above_chance,PDS − 0.5,paper_linear_embedding_from_training_10,Linear (training),0.02386623529435894,0.005728224127423002,5
+Supplementary Fig. S2,Huang-HEK293T,pds_above_chance,PDS − 0.5,gears,GEARS,-0.0008906271230409435,0.006582848609204032,5
+Supplementary Fig. S2,Huang-HEK293T,pds_above_chance,PDS − 0.5,scGPT-ft,scGPT-ft,0.00026268395375108613,0.0012182924596403654,5
+Supplementary Fig. S2,Huang-HEK293T,residual_cosine,Residual cosine all outcomes,weighted,Weighted,0.04993081052382424,0.0017033533287383264,5
+Supplementary Fig. S2,Huang-HEK293T,residual_cosine,Residual cosine all outcomes,presage,PRESAGE,0.0231344264959955,0.003948876024227335,5
+Supplementary Fig. S2,Huang-HEK293T,residual_cosine,Residual cosine all outcomes,linear_embedding_from_otherds_10,Linear (cross-dataset),0.06641878763134237,0.0032879088375575394,5
+Supplementary Fig. S2,Huang-HEK293T,residual_cosine,Residual cosine all outcomes,paper_linear_embedding_from_training_10,Linear (training),0.02509970503809652,0.001135791318438531,5
+Supplementary Fig. S2,Huang-HEK293T,residual_cosine,Residual cosine all outcomes,gears,GEARS,0.00187541840563464,0.0010726859928362861,5
+Supplementary Fig. S2,Huang-HEK293T,residual_cosine,Residual cosine all outcomes,scGPT-ft,scGPT-ft,0.0004354043900662975,0.00072436290006959,5
+Supplementary Fig. S2,Huang-HEK293T,residual_top20_cosine,Residual cosine top 20 DE,weighted,Weighted,0.2936833476610631,0.014886973019877547,5
+Supplementary Fig. S2,Huang-HEK293T,residual_top20_cosine,Residual cosine top 20 DE,presage,PRESAGE,0.08339258372568462,0.023047505026903302,5
+Supplementary Fig. S2,Huang-HEK293T,residual_top20_cosine,Residual cosine top 20 DE,linear_embedding_from_otherds_10,Linear (cross-dataset),0.17029182052246322,0.010479193864327056,5
+Supplementary Fig. S2,Huang-HEK293T,residual_top20_cosine,Residual cosine top 20 DE,paper_linear_embedding_from_training_10,Linear (training),0.04674359128692726,0.015652387739416337,5
+Supplementary Fig. S2,Huang-HEK293T,residual_top20_cosine,Residual cosine top 20 DE,gears,GEARS,0.016553111432120758,0.008221506134913558,5
+Supplementary Fig. S2,Huang-HEK293T,residual_top20_cosine,Residual cosine top 20 DE,scGPT-ft,scGPT-ft,0.004389734606334254,0.008557118028064498,5
+Supplementary Fig. S2,Huang-HEK293T,residual_top100_cosine,Residual cosine top 100 DE,weighted,Weighted,0.20822526043677042,0.007604816421133381,5
+Supplementary Fig. S2,Huang-HEK293T,residual_top100_cosine,Residual cosine top 100 DE,presage,PRESAGE,0.06790215082729589,0.017642542922144226,5
+Supplementary Fig. S2,Huang-HEK293T,residual_top100_cosine,Residual cosine top 100 DE,linear_embedding_from_otherds_10,Linear (cross-dataset),0.154502708026833,0.007521937777263877,5
+Supplementary Fig. S2,Huang-HEK293T,residual_top100_cosine,Residual cosine top 100 DE,paper_linear_embedding_from_training_10,Linear (training),0.045871051539767296,0.01046030702543372,5
+Supplementary Fig. S2,Huang-HEK293T,residual_top100_cosine,Residual cosine top 100 DE,gears,GEARS,0.010662617763534539,0.004202626847684833,5
+Supplementary Fig. S2,Huang-HEK293T,residual_top100_cosine,Residual cosine top 100 DE,scGPT-ft,scGPT-ft,0.00707166222440844,0.004473574910553376,5
+Supplementary Fig. S2,Pan-GP-H1,weighted_mse_reduction,Weighted-MSE reduction,weighted,Weighted,0.2843573399017577,0.029321974163257967,5
+Supplementary Fig. S2,Pan-GP-H1,weighted_mse_reduction,Weighted-MSE reduction,presage,PRESAGE,0.2646726633908261,0.03626647424110949,5
+Supplementary Fig. S2,Pan-GP-H1,weighted_mse_reduction,Weighted-MSE reduction,linear_embedding_from_otherds_10,Linear (cross-dataset),0.06904800155846871,0.010431931072940095,5
+Supplementary Fig. S2,Pan-GP-H1,weighted_mse_reduction,Weighted-MSE reduction,paper_linear_embedding_from_training_10,Linear (training),0.02748191559569251,0.014467707291408765,5
+Supplementary Fig. S2,Pan-GP-H1,weighted_mse_reduction,Weighted-MSE reduction,gears,GEARS,-0.04379026226867735,0.010403883229370131,5
+Supplementary Fig. S2,Pan-GP-H1,weighted_mse_reduction,Weighted-MSE reduction,scGPT-ft,scGPT-ft,-0.13625899373582628,0.034420104819981576,5
+Supplementary Fig. S2,Pan-GP-H1,pds_above_chance,PDS − 0.5,weighted,Weighted,0.26349831870558893,0.005764613914273294,5
+Supplementary Fig. S2,Pan-GP-H1,pds_above_chance,PDS − 0.5,presage,PRESAGE,0.23353705909484193,0.020895358694766462,5
+Supplementary Fig. S2,Pan-GP-H1,pds_above_chance,PDS − 0.5,linear_embedding_from_otherds_10,Linear (cross-dataset),0.12294651572687776,0.009013861863412517,5
+Supplementary Fig. S2,Pan-GP-H1,pds_above_chance,PDS − 0.5,paper_linear_embedding_from_training_10,Linear (training),0.026934541119904343,0.0059082395723229555,5
+Supplementary Fig. S2,Pan-GP-H1,pds_above_chance,PDS − 0.5,gears,GEARS,0.003957279305807471,0.007821130060654052,5
+Supplementary Fig. S2,Pan-GP-H1,pds_above_chance,PDS − 0.5,scGPT-ft,scGPT-ft,0.003953164924188779,0.0026861470646763353,5
+Supplementary Fig. S2,Pan-GP-H1,residual_cosine,Residual cosine all outcomes,weighted,Weighted,0.14783796067843324,0.005393450749760609,5
+Supplementary Fig. S2,Pan-GP-H1,residual_cosine,Residual cosine all outcomes,presage,PRESAGE,0.1921799651285271,0.02112702000898279,5
+Supplementary Fig. S2,Pan-GP-H1,residual_cosine,Residual cosine all outcomes,linear_embedding_from_otherds_10,Linear (cross-dataset),0.12340503187038054,0.01736848261927115,5
+Supplementary Fig. S2,Pan-GP-H1,residual_cosine,Residual cosine all outcomes,paper_linear_embedding_from_training_10,Linear (training),0.053722932210643816,0.013982511798220175,5
+Supplementary Fig. S2,Pan-GP-H1,residual_cosine,Residual cosine all outcomes,gears,GEARS,0.00091070337794544,0.00448839430725388,5
+Supplementary Fig. S2,Pan-GP-H1,residual_cosine,Residual cosine all outcomes,scGPT-ft,scGPT-ft,0.01046158815154094,0.010309703703831758,5
+Supplementary Fig. S2,Pan-GP-H1,residual_top20_cosine,Residual cosine top 20 DE,weighted,Weighted,0.47965743916072145,0.01553744475972882,5
+Supplementary Fig. S2,Pan-GP-H1,residual_top20_cosine,Residual cosine top 20 DE,presage,PRESAGE,0.4387112286291899,0.03316300767658223,5
+Supplementary Fig. S2,Pan-GP-H1,residual_top20_cosine,Residual cosine top 20 DE,linear_embedding_from_otherds_10,Linear (cross-dataset),0.33070343118866175,0.02346781962061091,5
+Supplementary Fig. S2,Pan-GP-H1,residual_top20_cosine,Residual cosine top 20 DE,paper_linear_embedding_from_training_10,Linear (training),0.12412769618770439,0.02402980883048263,5
+Supplementary Fig. S2,Pan-GP-H1,residual_top20_cosine,Residual cosine top 20 DE,gears,GEARS,0.01957398667208296,0.004957731530660126,5
+Supplementary Fig. S2,Pan-GP-H1,residual_top20_cosine,Residual cosine top 20 DE,scGPT-ft,scGPT-ft,0.03279573512188832,0.025604490499506572,5
+Supplementary Fig. S2,Pan-GP-H1,residual_top100_cosine,Residual cosine top 100 DE,weighted,Weighted,0.39859242712468557,0.011027798438793405,5
+Supplementary Fig. S2,Pan-GP-H1,residual_top100_cosine,Residual cosine top 100 DE,presage,PRESAGE,0.3936951308673205,0.025091556111746217,5
+Supplementary Fig. S2,Pan-GP-H1,residual_top100_cosine,Residual cosine top 100 DE,linear_embedding_from_otherds_10,Linear (cross-dataset),0.2818755146325939,0.016790205945935024,5
+Supplementary Fig. S2,Pan-GP-H1,residual_top100_cosine,Residual cosine top 100 DE,paper_linear_embedding_from_training_10,Linear (training),0.10107466472517342,0.014464728634654483,5
+Supplementary Fig. S2,Pan-GP-H1,residual_top100_cosine,Residual cosine top 100 DE,gears,GEARS,0.008429307005606939,0.005195617951935454,5
+Supplementary Fig. S2,Pan-GP-H1,residual_top100_cosine,Residual cosine top 100 DE,scGPT-ft,scGPT-ft,0.025149660147327158,0.01923941519688302,5
+Supplementary Fig. S2,Feng-TS-iPSC,weighted_mse_reduction,Weighted-MSE reduction,weighted,Weighted,-0.33994250126882586,0.32548998428409714,5
+Supplementary Fig. S2,Feng-TS-iPSC,weighted_mse_reduction,Weighted-MSE reduction,presage,PRESAGE,0.14344588632116845,0.055953442746969104,5
+Supplementary Fig. S2,Feng-TS-iPSC,weighted_mse_reduction,Weighted-MSE reduction,linear_embedding_from_otherds_10,Linear (cross-dataset),0.1177170189009444,0.04344350320870945,5
+Supplementary Fig. S2,Feng-TS-iPSC,weighted_mse_reduction,Weighted-MSE reduction,paper_linear_embedding_from_training_10,Linear (training),-0.008017720967306885,0.009350971575861261,5
+Supplementary Fig. S2,Feng-TS-iPSC,weighted_mse_reduction,Weighted-MSE reduction,gears,GEARS,-0.10765463055872729,0.02195856600583498,5
+Supplementary Fig. S2,Feng-TS-iPSC,weighted_mse_reduction,Weighted-MSE reduction,scGPT-ft,scGPT-ft,-0.22268507704317578,0.07409986109006184,5
+Supplementary Fig. S2,Feng-TS-iPSC,pds_above_chance,PDS − 0.5,weighted,Weighted,0.32773997931892673,0.03475089803553709,5
+Supplementary Fig. S2,Feng-TS-iPSC,pds_above_chance,PDS − 0.5,presage,PRESAGE,0.2000672310145994,0.04558090438950459,5
+Supplementary Fig. S2,Feng-TS-iPSC,pds_above_chance,PDS − 0.5,linear_embedding_from_otherds_10,Linear (cross-dataset),0.22257244509876087,0.04005488104288167,5
+Supplementary Fig. S2,Feng-TS-iPSC,pds_above_chance,PDS − 0.5,paper_linear_embedding_from_training_10,Linear (training),-0.0011916154021417325,0.023341925270759577,5
+Supplementary Fig. S2,Feng-TS-iPSC,pds_above_chance,PDS − 0.5,gears,GEARS,0.010833552412499826,0.02962908087901429,5
+Supplementary Fig. S2,Feng-TS-iPSC,pds_above_chance,PDS − 0.5,scGPT-ft,scGPT-ft,0.0005841176367491818,0.003976356243604899,5
+Supplementary Fig. S2,Feng-TS-iPSC,residual_cosine,Residual cosine all outcomes,weighted,Weighted,0.23151114669448397,0.024543692524973234,5
+Supplementary Fig. S2,Feng-TS-iPSC,residual_cosine,Residual cosine all outcomes,presage,PRESAGE,0.15666746420951233,0.04994686281032358,5
+Supplementary Fig. S2,Feng-TS-iPSC,residual_cosine,Residual cosine all outcomes,linear_embedding_from_otherds_10,Linear (cross-dataset),0.190126972518501,0.031777664698955294,5
+Supplementary Fig. S2,Feng-TS-iPSC,residual_cosine,Residual cosine all outcomes,paper_linear_embedding_from_training_10,Linear (training),0.01102237747506132,0.02761185579284569,5
+Supplementary Fig. S2,Feng-TS-iPSC,residual_cosine,Residual cosine all outcomes,gears,GEARS,0.0009520919736961999,0.003756597997000217,5
+Supplementary Fig. S2,Feng-TS-iPSC,residual_cosine,Residual cosine all outcomes,scGPT-ft,scGPT-ft,0.00352453080007462,0.0029655466718529976,5
+Supplementary Fig. S2,Feng-TS-iPSC,residual_top20_cosine,Residual cosine top 20 DE,weighted,Weighted,0.5524934118836287,0.043694996723462436,5
+Supplementary Fig. S2,Feng-TS-iPSC,residual_top20_cosine,Residual cosine top 20 DE,presage,PRESAGE,0.37765037148285263,0.05827260605309379,5
+Supplementary Fig. S2,Feng-TS-iPSC,residual_top20_cosine,Residual cosine top 20 DE,linear_embedding_from_otherds_10,Linear (cross-dataset),0.35370154084855093,0.0444090607116135,5
+Supplementary Fig. S2,Feng-TS-iPSC,residual_top20_cosine,Residual cosine top 20 DE,paper_linear_embedding_from_training_10,Linear (training),0.021764991634009318,0.04809185982768289,5
+Supplementary Fig. S2,Feng-TS-iPSC,residual_top20_cosine,Residual cosine top 20 DE,gears,GEARS,0.00617408454164028,0.029972369404112582,5
+Supplementary Fig. S2,Feng-TS-iPSC,residual_top20_cosine,Residual cosine top 20 DE,scGPT-ft,scGPT-ft,0.02015857017774706,0.016585651873455138,5
+Supplementary Fig. S2,Feng-TS-iPSC,residual_top100_cosine,Residual cosine top 100 DE,weighted,Weighted,0.49735171663694383,0.04099182793884209,5
+Supplementary Fig. S2,Feng-TS-iPSC,residual_top100_cosine,Residual cosine top 100 DE,presage,PRESAGE,0.34841599280922536,0.0620129632242694,5
+Supplementary Fig. S2,Feng-TS-iPSC,residual_top100_cosine,Residual cosine top 100 DE,linear_embedding_from_otherds_10,Linear (cross-dataset),0.34484840722935,0.042243563341768334,5
+Supplementary Fig. S2,Feng-TS-iPSC,residual_top100_cosine,Residual cosine top 100 DE,paper_linear_embedding_from_training_10,Linear (training),0.025126305596367138,0.04458145527206662,5
+Supplementary Fig. S2,Feng-TS-iPSC,residual_top100_cosine,Residual cosine top 100 DE,gears,GEARS,0.006751114674255999,0.02307640254905976,5
+Supplementary Fig. S2,Feng-TS-iPSC,residual_top100_cosine,Residual cosine top 100 DE,scGPT-ft,scGPT-ft,0.01766354148762738,0.013888496710361355,5
+Supplementary Fig. S2,Feng-GW-iPSC,weighted_mse_reduction,Weighted-MSE reduction,weighted,Weighted,-0.06016267708752374,0.011626156755472086,5
+Supplementary Fig. S2,Feng-GW-iPSC,weighted_mse_reduction,Weighted-MSE reduction,presage,PRESAGE,-0.08150226044159296,0.020095332720646536,5
+Supplementary Fig. S2,Feng-GW-iPSC,weighted_mse_reduction,Weighted-MSE reduction,linear_embedding_from_otherds_10,Linear (cross-dataset),0.01185223624610814,0.0016338106050793144,5
+Supplementary Fig. S2,Feng-GW-iPSC,weighted_mse_reduction,Weighted-MSE reduction,paper_linear_embedding_from_training_10,Linear (training),0.0006686937815789217,0.0003667804654265976,5
+Supplementary Fig. S2,Feng-GW-iPSC,weighted_mse_reduction,Weighted-MSE reduction,gears,GEARS,-0.06084705506371337,0.0012660318055290436,5
+Supplementary Fig. S2,Feng-GW-iPSC,weighted_mse_reduction,Weighted-MSE reduction,scGPT-ft,scGPT-ft,-0.16666622964565486,0.03307840759390184,5
+Supplementary Fig. S2,Feng-GW-iPSC,pds_above_chance,PDS − 0.5,weighted,Weighted,0.1815740765184548,0.013480243216845593,5
+Supplementary Fig. S2,Feng-GW-iPSC,pds_above_chance,PDS − 0.5,presage,PRESAGE,-0.001802886149887628,0.004802891056128903,5
+Supplementary Fig. S2,Feng-GW-iPSC,pds_above_chance,PDS − 0.5,linear_embedding_from_otherds_10,Linear (cross-dataset),0.09358198317861555,0.008100455924988084,5
+Supplementary Fig. S2,Feng-GW-iPSC,pds_above_chance,PDS − 0.5,paper_linear_embedding_from_training_10,Linear (training),0.015158384889058985,0.003958536654376155,5
+Supplementary Fig. S2,Feng-GW-iPSC,pds_above_chance,PDS − 0.5,gears,GEARS,0.0029721932979154264,0.009297089718706415,5
+Supplementary Fig. S2,Feng-GW-iPSC,pds_above_chance,PDS − 0.5,scGPT-ft,scGPT-ft,-0.0026276801453572586,0.004690126595674716,5
+Supplementary Fig. S2,Feng-GW-iPSC,residual_cosine,Residual cosine all outcomes,weighted,Weighted,0.0526934398895544,0.004613533945027542,5
+Supplementary Fig. S2,Feng-GW-iPSC,residual_cosine,Residual cosine all outcomes,presage,PRESAGE,0.01926343094688478,0.01236392464227636,5
+Supplementary Fig. S2,Feng-GW-iPSC,residual_cosine,Residual cosine all outcomes,linear_embedding_from_otherds_10,Linear (cross-dataset),0.04357857495028936,0.0021595294001269345,5
+Supplementary Fig. S2,Feng-GW-iPSC,residual_cosine,Residual cosine all outcomes,paper_linear_embedding_from_training_10,Linear (training),0.011749769219364239,0.0022734433142146547,5
+Supplementary Fig. S2,Feng-GW-iPSC,residual_cosine,Residual cosine all outcomes,gears,GEARS,0.00026902666654644,0.001151098202067095,5
+Supplementary Fig. S2,Feng-GW-iPSC,residual_cosine,Residual cosine all outcomes,scGPT-ft,scGPT-ft,-0.0010248847011617602,0.0025822890245039204,5
+Supplementary Fig. S2,Feng-GW-iPSC,residual_top20_cosine,Residual cosine top 20 DE,weighted,Weighted,0.19470039203711662,0.019583855975041965,5
+Supplementary Fig. S2,Feng-GW-iPSC,residual_top20_cosine,Residual cosine top 20 DE,presage,PRESAGE,0.13283189078489865,0.07744553272613941,5
+Supplementary Fig. S2,Feng-GW-iPSC,residual_top20_cosine,Residual cosine top 20 DE,linear_embedding_from_otherds_10,Linear (cross-dataset),0.10906721665521257,0.008937762089823876,5
+Supplementary Fig. S2,Feng-GW-iPSC,residual_top20_cosine,Residual cosine top 20 DE,paper_linear_embedding_from_training_10,Linear (training),0.04279986782119724,0.008445943718796504,5
+Supplementary Fig. S2,Feng-GW-iPSC,residual_top20_cosine,Residual cosine top 20 DE,gears,GEARS,0.0014094893620794594,0.015271888510227271,5
+Supplementary Fig. S2,Feng-GW-iPSC,residual_top20_cosine,Residual cosine top 20 DE,scGPT-ft,scGPT-ft,0.0009514124691568197,0.009571916724409348,5
+Supplementary Fig. S2,Feng-GW-iPSC,residual_top100_cosine,Residual cosine top 100 DE,weighted,Weighted,0.15305685008667064,0.017058385445287934,5
+Supplementary Fig. S2,Feng-GW-iPSC,residual_top100_cosine,Residual cosine top 100 DE,presage,PRESAGE,0.10132968193251153,0.05076579698381634,5
+Supplementary Fig. S2,Feng-GW-iPSC,residual_top100_cosine,Residual cosine top 100 DE,linear_embedding_from_otherds_10,Linear (cross-dataset),0.104937390072638,0.010779890700018006,5
+Supplementary Fig. S2,Feng-GW-iPSC,residual_top100_cosine,Residual cosine top 100 DE,paper_linear_embedding_from_training_10,Linear (training),0.031547786537012804,0.004688370955970831,5
+Supplementary Fig. S2,Feng-GW-iPSC,residual_top100_cosine,Residual cosine top 100 DE,gears,GEARS,0.0016081436753531604,0.010451804672821707,5
+Supplementary Fig. S2,Feng-GW-iPSC,residual_top100_cosine,Residual cosine top 100 DE,scGPT-ft,scGPT-ft,-0.0029082646277372197,0.007938152304135613,5
+Supplementary Fig. S2,Nourreddine-iPSC,weighted_mse_reduction,Weighted-MSE reduction,weighted,Weighted,0.030875884897883333,0.03301485506213212,5
+Supplementary Fig. S2,Nourreddine-iPSC,weighted_mse_reduction,Weighted-MSE reduction,presage,PRESAGE,-0.08917365433301976,0.023263388332317506,5
+Supplementary Fig. S2,Nourreddine-iPSC,weighted_mse_reduction,Weighted-MSE reduction,linear_embedding_from_otherds_10,Linear (cross-dataset),0.017188062850448715,0.0025317425831369133,5
+Supplementary Fig. S2,Nourreddine-iPSC,weighted_mse_reduction,Weighted-MSE reduction,paper_linear_embedding_from_training_10,Linear (training),0.0024238349670513636,0.00041358229518538656,5
+Supplementary Fig. S2,Nourreddine-iPSC,weighted_mse_reduction,Weighted-MSE reduction,gears,GEARS,-0.21337524181638284,0.05160782404951915,5
+Supplementary Fig. S2,Nourreddine-iPSC,weighted_mse_reduction,Weighted-MSE reduction,scGPT-ft,scGPT-ft,-0.354199574352861,0.06051663907866191,5
+Supplementary Fig. S2,Nourreddine-iPSC,pds_above_chance,PDS − 0.5,weighted,Weighted,0.13027908760078105,0.012605968789371393,5
+Supplementary Fig. S2,Nourreddine-iPSC,pds_above_chance,PDS − 0.5,presage,PRESAGE,-0.0001557352061530959,0.0092951062524452,5
+Supplementary Fig. S2,Nourreddine-iPSC,pds_above_chance,PDS − 0.5,linear_embedding_from_otherds_10,Linear (cross-dataset),0.04620126539025018,0.01054202400070689,5
+Supplementary Fig. S2,Nourreddine-iPSC,pds_above_chance,PDS − 0.5,paper_linear_embedding_from_training_10,Linear (training),0.010871638734375378,0.0013701814290570026,5
+Supplementary Fig. S2,Nourreddine-iPSC,pds_above_chance,PDS − 0.5,gears,GEARS,-0.0006362569460737544,0.008878575003719108,5
+Supplementary Fig. S2,Nourreddine-iPSC,pds_above_chance,PDS − 0.5,scGPT-ft,scGPT-ft,0.004787188492551086,0.0049932284145066015,5
+Supplementary Fig. S2,Nourreddine-iPSC,residual_cosine,Residual cosine all outcomes,weighted,Weighted,0.03267595115049278,0.004029092967411813,5
+Supplementary Fig. S2,Nourreddine-iPSC,residual_cosine,Residual cosine all outcomes,presage,PRESAGE,0.01106473167297168,0.0009840780539048153,5
+Supplementary Fig. S2,Nourreddine-iPSC,residual_cosine,Residual cosine all outcomes,linear_embedding_from_otherds_10,Linear (cross-dataset),0.030164429297890198,0.0016687541113671169,5
+Supplementary Fig. S2,Nourreddine-iPSC,residual_cosine,Residual cosine all outcomes,paper_linear_embedding_from_training_10,Linear (training),0.01089635890070028,0.0020482515701476956,5
+Supplementary Fig. S2,Nourreddine-iPSC,residual_cosine,Residual cosine all outcomes,gears,GEARS,0.00071668435732172,0.0007597470537998507,5
+Supplementary Fig. S2,Nourreddine-iPSC,residual_cosine,Residual cosine all outcomes,scGPT-ft,scGPT-ft,-8.519407613051996e-05,0.000658681581892811,5
+Supplementary Fig. S2,Nourreddine-iPSC,residual_top20_cosine,Residual cosine top 20 DE,weighted,Weighted,0.13355282400177462,0.009120254744405514,5
+Supplementary Fig. S2,Nourreddine-iPSC,residual_top20_cosine,Residual cosine top 20 DE,presage,PRESAGE,0.0463944688617028,0.01675707862489363,5
+Supplementary Fig. S2,Nourreddine-iPSC,residual_top20_cosine,Residual cosine top 20 DE,linear_embedding_from_otherds_10,Linear (cross-dataset),0.070816454741333,0.016825094619860606,5
+Supplementary Fig. S2,Nourreddine-iPSC,residual_top20_cosine,Residual cosine top 20 DE,paper_linear_embedding_from_training_10,Linear (training),0.00995007103281524,0.009874267586529654,5
+Supplementary Fig. S2,Nourreddine-iPSC,residual_top20_cosine,Residual cosine top 20 DE,gears,GEARS,0.010277758966960319,0.010500065147149462,5
+Supplementary Fig. S2,Nourreddine-iPSC,residual_top20_cosine,Residual cosine top 20 DE,scGPT-ft,scGPT-ft,0.0010462212436684604,0.0175137015504746,5
+Supplementary Fig. S2,Nourreddine-iPSC,residual_top100_cosine,Residual cosine top 100 DE,weighted,Weighted,0.10400643476731478,0.006889853862992642,5
+Supplementary Fig. S2,Nourreddine-iPSC,residual_top100_cosine,Residual cosine top 100 DE,presage,PRESAGE,0.0370519959724257,0.013818963570928119,5
+Supplementary Fig. S2,Nourreddine-iPSC,residual_top100_cosine,Residual cosine top 100 DE,linear_embedding_from_otherds_10,Linear (cross-dataset),0.06944710400631404,0.010470884403643793,5
+Supplementary Fig. S2,Nourreddine-iPSC,residual_top100_cosine,Residual cosine top 100 DE,paper_linear_embedding_from_training_10,Linear (training),0.01911426492433734,0.005510437080098335,5
+Supplementary Fig. S2,Nourreddine-iPSC,residual_top100_cosine,Residual cosine top 100 DE,gears,GEARS,0.00666195016487168,0.004949164900284424,5
+Supplementary Fig. S2,Nourreddine-iPSC,residual_top100_cosine,Residual cosine top 100 DE,scGPT-ft,scGPT-ft,0.0055863078309499,0.008913554589643219,5

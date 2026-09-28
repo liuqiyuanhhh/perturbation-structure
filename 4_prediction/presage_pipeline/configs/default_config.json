@@ -1,0 +1,5 @@
+{
+  "model_weight_decay": 1.0e-15,
+  "model_lr": 1.23e-3,
+  "data_batch_size": 16
+}

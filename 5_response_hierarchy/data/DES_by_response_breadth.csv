@@ -1,0 +1,121 @@
+panel,effect,condition,dataset_order,dataset,display_dataset,method,display_method,response_breadth,n_perturbations,mean_des_above_random
+a,Total,original,0,Huang-HEK293T,Huang-HEK293T,rejfreq,DE frequency,Broad (≥20),1085,0.2178753980762139
+a,Total,original,0,Huang-HEK293T,Huang-HEK293T,rejfreq,DE frequency,Low (1–10),2170,0.005767683417453
+a,Total,original,0,Huang-HEK293T,Huang-HEK293T,weighted,Weighted,Broad (≥20),1085,0.1352867748366688
+a,Total,original,0,Huang-HEK293T,Huang-HEK293T,weighted,Weighted,Low (1–10),2170,0.2231290688318338
+a,Total,original,0,Huang-HEK293T,Huang-HEK293T,presage,PRESAGE,Broad (≥20),1085,0.1253610379696152
+a,Total,original,0,Huang-HEK293T,Huang-HEK293T,presage,PRESAGE,Low (1–10),2170,0.0148915587740472
+a,Total,original,1,Replogle-E-k562,Replogle-E-K562,rejfreq,DE frequency,Broad (≥20),1155,0.2453003038014625
+a,Total,original,1,Replogle-E-k562,Replogle-E-K562,rejfreq,DE frequency,Low (1–10),297,0.0272767356100689
+a,Total,original,1,Replogle-E-k562,Replogle-E-K562,weighted,Weighted,Broad (≥20),1155,0.1793027801856218
+a,Total,original,1,Replogle-E-k562,Replogle-E-K562,weighted,Weighted,Low (1–10),297,0.2436267436267436
+a,Total,original,1,Replogle-E-k562,Replogle-E-K562,presage,PRESAGE,Broad (≥20),1155,0.2791722180827333
+a,Total,original,1,Replogle-E-k562,Replogle-E-K562,presage,PRESAGE,Low (1–10),297,0.04226658115547
+a,Total,original,2,Replogle-E-rpe1,Replogle-E-RPE1,rejfreq,DE frequency,Broad (≥20),1490,0.3077879382066989
+a,Total,original,2,Replogle-E-rpe1,Replogle-E-RPE1,rejfreq,DE frequency,Low (1–10),145,0.0055692391899288
+a,Total,original,2,Replogle-E-rpe1,Replogle-E-RPE1,weighted,Weighted,Broad (≥20),1490,0.1768009890749363
+a,Total,original,2,Replogle-E-rpe1,Replogle-E-RPE1,weighted,Weighted,Low (1–10),145,0.152383689107827
+a,Total,original,2,Replogle-E-rpe1,Replogle-E-RPE1,presage,PRESAGE,Broad (≥20),1490,0.3230344329437899
+a,Total,original,2,Replogle-E-rpe1,Replogle-E-RPE1,presage,PRESAGE,Low (1–10),145,0.0304406130268199
+a,Total,original,3,Nadig-JURKAT,Nadig-Jurkat,rejfreq,DE frequency,Broad (≥20),1298,0.2617911300946721
+a,Total,original,3,Nadig-JURKAT,Nadig-Jurkat,rejfreq,DE frequency,Low (1–10),306,0.0121381886087768
+a,Total,original,3,Nadig-JURKAT,Nadig-Jurkat,weighted,Weighted,Broad (≥20),1298,0.1925098029592247
+a,Total,original,3,Nadig-JURKAT,Nadig-Jurkat,weighted,Weighted,Low (1–10),306,0.2143777881522979
+a,Total,original,3,Nadig-JURKAT,Nadig-Jurkat,presage,PRESAGE,Broad (≥20),1298,0.272353596488499
+a,Total,original,3,Nadig-JURKAT,Nadig-Jurkat,presage,PRESAGE,Low (1–10),306,0.0348324514991181
+a,Total,original,4,Nadig-HEPG2,Nadig-HepG2,rejfreq,DE frequency,Broad (≥20),1030,0.2392663293447126
+a,Total,original,4,Nadig-HEPG2,Nadig-HepG2,rejfreq,DE frequency,Low (1–10),356,0.0059022204387372
+a,Total,original,4,Nadig-HEPG2,Nadig-HepG2,weighted,Weighted,Broad (≥20),1030,0.2060598295730075
+a,Total,original,4,Nadig-HEPG2,Nadig-HepG2,weighted,Weighted,Low (1–10),356,0.209879391831639
+a,Total,original,4,Nadig-HEPG2,Nadig-HepG2,presage,PRESAGE,Broad (≥20),1030,0.2833160444556653
+a,Total,original,4,Nadig-HEPG2,Nadig-HepG2,presage,PRESAGE,Low (1–10),356,0.0071495452113429
+a,Total,original,5,Replogle-GW-k562,Replogle-GW-K562,rejfreq,DE frequency,Broad (≥20),1952,0.2550864187196123
+a,Total,original,5,Replogle-GW-k562,Replogle-GW-K562,rejfreq,DE frequency,Low (1–10),2053,0.0198901723378099
+a,Total,original,5,Replogle-GW-k562,Replogle-GW-K562,weighted,Weighted,Broad (≥20),1952,0.1536743605620933
+a,Total,original,5,Replogle-GW-k562,Replogle-GW-K562,weighted,Weighted,Low (1–10),2053,0.1361474497251409
+a,Total,original,5,Replogle-GW-k562,Replogle-GW-K562,presage,PRESAGE,Broad (≥20),1952,0.2277976662182158
+a,Total,original,5,Replogle-GW-k562,Replogle-GW-K562,presage,PRESAGE,Low (1–10),2053,0.0176267405809539
+a,Total,original,6,Huang-HCT116,Huang-HCT116,rejfreq,DE frequency,Broad (≥20),1118,0.1823082690242532
+a,Total,original,6,Huang-HCT116,Huang-HCT116,rejfreq,DE frequency,Low (1–10),2837,0.0066072757384001
+a,Total,original,6,Huang-HCT116,Huang-HCT116,weighted,Weighted,Broad (≥20),1118,0.184422214372213
+a,Total,original,6,Huang-HCT116,Huang-HCT116,weighted,Weighted,Low (1–10),2837,0.1936274345245089
+a,Total,original,6,Huang-HCT116,Huang-HCT116,presage,PRESAGE,Broad (≥20),1118,0.2010238950674769
+a,Total,original,6,Huang-HCT116,Huang-HCT116,presage,PRESAGE,Low (1–10),2837,0.0135821429970178
+a,Total,original,7,Pan-GW-hESC,Pan-GP-H1,rejfreq,DE frequency,Broad (≥20),1146,0.240169623032922
+a,Total,original,7,Pan-GW-hESC,Pan-GP-H1,rejfreq,DE frequency,Low (1–10),314,0.0174539985845718
+a,Total,original,7,Pan-GW-hESC,Pan-GP-H1,weighted,Weighted,Broad (≥20),1146,0.1340462871472746
+a,Total,original,7,Pan-GW-hESC,Pan-GP-H1,weighted,Weighted,Low (1–10),314,0.0791729855424123
+a,Total,original,7,Pan-GW-hESC,Pan-GP-H1,presage,PRESAGE,Broad (≥20),1146,0.2275967769838265
+a,Total,original,7,Pan-GW-hESC,Pan-GP-H1,presage,PRESAGE,Low (1–10),314,0.084115610150642
+a,Total,original,8,VCC,VCC-H1,rejfreq,DE frequency,Broad (≥20),257,0.1493548303365098
+a,Total,original,8,VCC,VCC-H1,rejfreq,DE frequency,Low (1–10),14,0.0252834467120181
+a,Total,original,8,VCC,VCC-H1,weighted,Weighted,Broad (≥20),257,0.0365019353929106
+a,Total,original,8,VCC,VCC-H1,weighted,Weighted,Low (1–10),14,0.041156462585034
+a,Total,original,8,VCC,VCC-H1,presage,PRESAGE,Broad (≥20),257,0.0902368220159146
+a,Total,original,8,VCC,VCC-H1,presage,PRESAGE,Low (1–10),14,0.0079365079365079
+a,Total,original,9,Feng-ts,Feng-TS-iPSC,rejfreq,DE frequency,Broad (≥20),244,0.173784395404358
+a,Total,original,9,Feng-ts,Feng-TS-iPSC,rejfreq,DE frequency,Low (1–10),106,0.3958445642407907
+a,Total,original,9,Feng-ts,Feng-TS-iPSC,weighted,Weighted,Broad (≥20),244,0.163290217716818
+a,Total,original,9,Feng-ts,Feng-TS-iPSC,weighted,Weighted,Low (1–10),106,0.0610287511230907
+a,Total,original,9,Feng-ts,Feng-TS-iPSC,presage,PRESAGE,Broad (≥20),244,0.1200413741153531
+a,Total,original,9,Feng-ts,Feng-TS-iPSC,presage,PRESAGE,Low (1–10),106,0.2583183587900569
+b,Residual,conjunction,0,Huang-HEK293T,Huang-HEK293T,rejfreq,DE frequency,Broad (≥20),1085,0.1067650973941632
+b,Residual,conjunction,0,Huang-HEK293T,Huang-HEK293T,rejfreq,DE frequency,Low (1–10),2170,0.0187422280740253
+b,Residual,conjunction,0,Huang-HEK293T,Huang-HEK293T,weighted,Weighted,Broad (≥20),1085,0.1446051407132557
+b,Residual,conjunction,0,Huang-HEK293T,Huang-HEK293T,weighted,Weighted,Low (1–10),2170,0.2339539901982298
+b,Residual,conjunction,0,Huang-HEK293T,Huang-HEK293T,presage,PRESAGE,Broad (≥20),1085,0.028156336239454
+b,Residual,conjunction,0,Huang-HEK293T,Huang-HEK293T,presage,PRESAGE,Low (1–10),2170,0.0133737473484017
+b,Residual,conjunction,1,Replogle-E-k562,Replogle-E-K562,rejfreq,DE frequency,Broad (≥20),1155,0.2340599942833494
+b,Residual,conjunction,1,Replogle-E-k562,Replogle-E-K562,rejfreq,DE frequency,Low (1–10),297,0.0208059430281652
+b,Residual,conjunction,1,Replogle-E-k562,Replogle-E-K562,weighted,Weighted,Broad (≥20),1155,0.1829134850623257
+b,Residual,conjunction,1,Replogle-E-k562,Replogle-E-K562,weighted,Weighted,Low (1–10),297,0.2713991769547325
+b,Residual,conjunction,1,Replogle-E-k562,Replogle-E-K562,presage,PRESAGE,Broad (≥20),1155,0.2510950088840129
+b,Residual,conjunction,1,Replogle-E-k562,Replogle-E-K562,presage,PRESAGE,Low (1–10),297,0.037783923895035
+b,Residual,conjunction,2,Replogle-E-rpe1,Replogle-E-RPE1,rejfreq,DE frequency,Broad (≥20),1490,0.2037087352581368
+b,Residual,conjunction,2,Replogle-E-rpe1,Replogle-E-RPE1,rejfreq,DE frequency,Low (1–10),145,0.0651970443349753
+b,Residual,conjunction,2,Replogle-E-rpe1,Replogle-E-RPE1,weighted,Weighted,Broad (≥20),1490,0.1458659478088011
+b,Residual,conjunction,2,Replogle-E-rpe1,Replogle-E-RPE1,weighted,Weighted,Low (1–10),145,0.1655227148330596
+b,Residual,conjunction,2,Replogle-E-rpe1,Replogle-E-RPE1,presage,PRESAGE,Broad (≥20),1490,0.1934010923522567
+b,Residual,conjunction,2,Replogle-E-rpe1,Replogle-E-RPE1,presage,PRESAGE,Low (1–10),145,0.0631663929939791
+b,Residual,conjunction,3,Nadig-JURKAT,Nadig-Jurkat,rejfreq,DE frequency,Broad (≥20),1298,0.2333025391470051
+b,Residual,conjunction,3,Nadig-JURKAT,Nadig-Jurkat,rejfreq,DE frequency,Low (1–10),306,0.0051820728291316
+b,Residual,conjunction,3,Nadig-JURKAT,Nadig-Jurkat,weighted,Weighted,Broad (≥20),1298,0.1836908079153231
+b,Residual,conjunction,3,Nadig-JURKAT,Nadig-Jurkat,weighted,Weighted,Low (1–10),306,0.2305451810353771
+b,Residual,conjunction,3,Nadig-JURKAT,Nadig-Jurkat,presage,PRESAGE,Broad (≥20),1298,0.2440282140965393
+b,Residual,conjunction,3,Nadig-JURKAT,Nadig-Jurkat,presage,PRESAGE,Low (1–10),306,0.0366000103745201
+b,Residual,conjunction,4,Nadig-HEPG2,Nadig-HepG2,rejfreq,DE frequency,Broad (≥20),1030,0.192551469838521
+b,Residual,conjunction,4,Nadig-HEPG2,Nadig-HepG2,rejfreq,DE frequency,Low (1–10),356,0.0138242375601926
+b,Residual,conjunction,4,Nadig-HEPG2,Nadig-HepG2,weighted,Weighted,Broad (≥20),1030,0.1681678317128544
+b,Residual,conjunction,4,Nadig-HEPG2,Nadig-HepG2,weighted,Weighted,Low (1–10),356,0.2274779293739968
+b,Residual,conjunction,4,Nadig-HEPG2,Nadig-HepG2,presage,PRESAGE,Broad (≥20),1030,0.2200242330507283
+b,Residual,conjunction,4,Nadig-HEPG2,Nadig-HepG2,presage,PRESAGE,Low (1–10),356,0.021890048154093
+b,Residual,conjunction,5,Replogle-GW-k562,Replogle-GW-K562,rejfreq,DE frequency,Broad (≥20),1952,0.2388087396162354
+b,Residual,conjunction,5,Replogle-GW-k562,Replogle-GW-K562,rejfreq,DE frequency,Low (1–10),2053,0.0177572116685609
+b,Residual,conjunction,5,Replogle-GW-k562,Replogle-GW-K562,weighted,Weighted,Broad (≥20),1952,0.1488356863182274
+b,Residual,conjunction,5,Replogle-GW-k562,Replogle-GW-K562,weighted,Weighted,Low (1–10),2053,0.1394743658138689
+b,Residual,conjunction,5,Replogle-GW-k562,Replogle-GW-K562,presage,PRESAGE,Broad (≥20),1952,0.2108012024875413
+b,Residual,conjunction,5,Replogle-GW-k562,Replogle-GW-K562,presage,PRESAGE,Low (1–10),2053,0.020523198725829
+b,Residual,conjunction,6,Huang-HCT116,Huang-HCT116,rejfreq,DE frequency,Broad (≥20),1118,0.1347201151240904
+b,Residual,conjunction,6,Huang-HCT116,Huang-HCT116,rejfreq,DE frequency,Low (1–10),2837,0.013725654754911
+b,Residual,conjunction,6,Huang-HCT116,Huang-HCT116,weighted,Weighted,Broad (≥20),1118,0.1522376931519625
+b,Residual,conjunction,6,Huang-HCT116,Huang-HCT116,weighted,Weighted,Low (1–10),2837,0.200291219766017
+b,Residual,conjunction,6,Huang-HCT116,Huang-HCT116,presage,PRESAGE,Broad (≥20),1118,0.138353805443808
+b,Residual,conjunction,6,Huang-HCT116,Huang-HCT116,presage,PRESAGE,Low (1–10),2837,0.0171145464413
+b,Residual,conjunction,7,Pan-GW-hESC,Pan-GP-H1,rejfreq,DE frequency,Broad (≥20),1146,0.1784076576451484
+b,Residual,conjunction,7,Pan-GW-hESC,Pan-GP-H1,rejfreq,DE frequency,Low (1–10),314,0.0459306440198159
+b,Residual,conjunction,7,Pan-GW-hESC,Pan-GP-H1,weighted,Weighted,Broad (≥20),1146,0.1466806399880355
+b,Residual,conjunction,7,Pan-GW-hESC,Pan-GP-H1,weighted,Weighted,Low (1–10),314,0.0801334546557476
+b,Residual,conjunction,7,Pan-GW-hESC,Pan-GP-H1,presage,PRESAGE,Broad (≥20),1146,0.1928470039800112
+b,Residual,conjunction,7,Pan-GW-hESC,Pan-GP-H1,presage,PRESAGE,Low (1–10),314,0.0770106662622586
+b,Residual,conjunction,8,VCC,VCC-H1,rejfreq,DE frequency,Broad (≥20),257,0.15424653058428
+b,Residual,conjunction,8,VCC,VCC-H1,rejfreq,DE frequency,Low (1–10),14,0.0260770975056689
+b,Residual,conjunction,8,VCC,VCC-H1,weighted,Weighted,Broad (≥20),257,0.0381010953453321
+b,Residual,conjunction,8,VCC,VCC-H1,weighted,Weighted,Low (1–10),14,0.0419501133786848
+b,Residual,conjunction,8,VCC,VCC-H1,presage,PRESAGE,Broad (≥20),257,0.0742207029207907
+b,Residual,conjunction,8,VCC,VCC-H1,presage,PRESAGE,Low (1–10),14,0.0079365079365079
+b,Residual,conjunction,9,Feng-ts,Feng-TS-iPSC,rejfreq,DE frequency,Broad (≥20),244,0.1654284865379861
+b,Residual,conjunction,9,Feng-ts,Feng-TS-iPSC,rejfreq,DE frequency,Low (1–10),106,0.3748053309374064
+b,Residual,conjunction,9,Feng-ts,Feng-TS-iPSC,weighted,Weighted,Broad (≥20),244,0.1728895995003122
+b,Residual,conjunction,9,Feng-ts,Feng-TS-iPSC,weighted,Weighted,Low (1–10),106,0.0626796945193171
+b,Residual,conjunction,9,Feng-ts,Feng-TS-iPSC,presage,PRESAGE,Broad (≥20),244,0.1253175753057792
+b,Residual,conjunction,9,Feng-ts,Feng-TS-iPSC,presage,PRESAGE,Low (1–10),106,0.02051138065289

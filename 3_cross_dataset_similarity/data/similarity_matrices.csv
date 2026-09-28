@@ -1,0 +1,793 @@
+panel,selection,effect,dataset_1,dataset_2,noise_corrected_cosine
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Replogle-E-K562,Replogle-GW-K562,0.691994663576
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Replogle-E-K562,Replogle-E-RPE1,0.317839584686
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Replogle-E-K562,Nadig-HepG2,0.360599426349
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Replogle-E-K562,Nadig-Jurkat,0.402291985546
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Replogle-E-K562,Huang-HCT116,0.354814403986
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Replogle-E-K562,Huang-HEK293T,0.329138283781
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Replogle-E-K562,Pan-GP-H1,0.301643547114
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Replogle-E-K562,VCC-H1,0.261772097013
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Replogle-E-K562,Feng-TS-iPSC,0.262233469179
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Replogle-E-K562,Feng-GW-iPSC,0.223324772216
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Replogle-E-K562,Nourreddine-iPSC,0.188195454303
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Replogle-GW-K562,Replogle-E-K562,0.691994663576
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Replogle-GW-K562,Replogle-E-RPE1,0.34445903829
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Replogle-GW-K562,Nadig-HepG2,0.373616871323
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Replogle-GW-K562,Nadig-Jurkat,0.430072076618
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Replogle-GW-K562,Huang-HCT116,0.294030542197
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Replogle-GW-K562,Huang-HEK293T,0.287322335968
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Replogle-GW-K562,Pan-GP-H1,0.324313311284
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Replogle-GW-K562,VCC-H1,0.234203613528
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Replogle-GW-K562,Feng-TS-iPSC,0.216477123259
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Replogle-GW-K562,Feng-GW-iPSC,0.198349629279
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Replogle-GW-K562,Nourreddine-iPSC,0.203375661636
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Replogle-E-RPE1,Replogle-E-K562,0.317839584686
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Replogle-E-RPE1,Replogle-GW-K562,0.34445903829
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Replogle-E-RPE1,Nadig-HepG2,0.41923257221
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Replogle-E-RPE1,Nadig-Jurkat,0.324206772203
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Replogle-E-RPE1,Huang-HCT116,0.383611804268
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Replogle-E-RPE1,Huang-HEK293T,0.232917547402
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Replogle-E-RPE1,Pan-GP-H1,0.287956514825
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Replogle-E-RPE1,VCC-H1,0.220690471486
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Replogle-E-RPE1,Feng-TS-iPSC,0.202749532965
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Replogle-E-RPE1,Feng-GW-iPSC,0.185125939126
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Replogle-E-RPE1,Nourreddine-iPSC,0.190398379005
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Nadig-HepG2,Replogle-E-K562,0.360599426349
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Nadig-HepG2,Replogle-GW-K562,0.373616871323
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Nadig-HepG2,Replogle-E-RPE1,0.41923257221
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Nadig-HepG2,Nadig-Jurkat,0.329847548537
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Nadig-HepG2,Huang-HCT116,0.373321101719
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Nadig-HepG2,Huang-HEK293T,0.257451118504
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Nadig-HepG2,Pan-GP-H1,0.285137357846
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Nadig-HepG2,VCC-H1,0.220130104551
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Nadig-HepG2,Feng-TS-iPSC,0.207584747207
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Nadig-HepG2,Feng-GW-iPSC,0.197253985309
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Nadig-HepG2,Nourreddine-iPSC,0.17691991914
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Nadig-Jurkat,Replogle-E-K562,0.402291985546
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Nadig-Jurkat,Replogle-GW-K562,0.430072076618
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Nadig-Jurkat,Replogle-E-RPE1,0.324206772203
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Nadig-Jurkat,Nadig-HepG2,0.329847548537
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Nadig-Jurkat,Huang-HCT116,0.32308268474
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Nadig-Jurkat,Huang-HEK293T,0.322408179015
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Nadig-Jurkat,Pan-GP-H1,0.281969999344
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Nadig-Jurkat,VCC-H1,0.218422641125
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Nadig-Jurkat,Feng-TS-iPSC,0.179964837294
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Nadig-Jurkat,Feng-GW-iPSC,0.182003788498
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Nadig-Jurkat,Nourreddine-iPSC,0.182911431364
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Huang-HCT116,Replogle-E-K562,0.354814403986
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Huang-HCT116,Replogle-GW-K562,0.294030542197
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Huang-HCT116,Replogle-E-RPE1,0.383611804268
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Huang-HCT116,Nadig-HepG2,0.373321101719
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Huang-HCT116,Nadig-Jurkat,0.32308268474
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Huang-HCT116,Huang-HEK293T,0.33712146964
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Huang-HCT116,Pan-GP-H1,0.266192062903
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Huang-HCT116,VCC-H1,0.2218947493
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Huang-HCT116,Feng-TS-iPSC,0.315949078083
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Huang-HCT116,Feng-GW-iPSC,0.199306558684
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Huang-HCT116,Nourreddine-iPSC,0.162023293583
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Huang-HEK293T,Replogle-E-K562,0.329138283781
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Huang-HEK293T,Replogle-GW-K562,0.287322335968
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Huang-HEK293T,Replogle-E-RPE1,0.232917547402
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Huang-HEK293T,Nadig-HepG2,0.257451118504
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Huang-HEK293T,Nadig-Jurkat,0.322408179015
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Huang-HEK293T,Huang-HCT116,0.33712146964
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Huang-HEK293T,Pan-GP-H1,0.238585367963
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Huang-HEK293T,VCC-H1,0.164120423289
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Huang-HEK293T,Feng-TS-iPSC,0.226633967925
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Huang-HEK293T,Feng-GW-iPSC,0.16600261125
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Huang-HEK293T,Nourreddine-iPSC,0.147709641139
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Pan-GP-H1,Replogle-E-K562,0.301643547114
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Pan-GP-H1,Replogle-GW-K562,0.324313311284
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Pan-GP-H1,Replogle-E-RPE1,0.287956514825
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Pan-GP-H1,Nadig-HepG2,0.285137357846
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Pan-GP-H1,Nadig-Jurkat,0.281969999344
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Pan-GP-H1,Huang-HCT116,0.266192062903
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Pan-GP-H1,Huang-HEK293T,0.238585367963
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Pan-GP-H1,VCC-H1,0.588369762993
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Pan-GP-H1,Feng-TS-iPSC,0.359055550645
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Pan-GP-H1,Feng-GW-iPSC,0.308461612037
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Pan-GP-H1,Nourreddine-iPSC,0.406870749736
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,VCC-H1,Replogle-E-K562,0.261772097013
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,VCC-H1,Replogle-GW-K562,0.234203613528
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,VCC-H1,Replogle-E-RPE1,0.220690471486
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,VCC-H1,Nadig-HepG2,0.220130104551
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,VCC-H1,Nadig-Jurkat,0.218422641125
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,VCC-H1,Huang-HCT116,0.2218947493
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,VCC-H1,Huang-HEK293T,0.164120423289
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,VCC-H1,Pan-GP-H1,0.588369762993
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,VCC-H1,Feng-TS-iPSC,0.364737582447
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,VCC-H1,Feng-GW-iPSC,0.32528764706
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,VCC-H1,Nourreddine-iPSC,0.430232763571
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Feng-TS-iPSC,Replogle-E-K562,0.262233469179
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Feng-TS-iPSC,Replogle-GW-K562,0.216477123259
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Feng-TS-iPSC,Replogle-E-RPE1,0.202749532965
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Feng-TS-iPSC,Nadig-HepG2,0.207584747207
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Feng-TS-iPSC,Nadig-Jurkat,0.179964837294
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Feng-TS-iPSC,Huang-HCT116,0.315949078083
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Feng-TS-iPSC,Huang-HEK293T,0.226633967925
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Feng-TS-iPSC,Pan-GP-H1,0.359055550645
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Feng-TS-iPSC,VCC-H1,0.364737582447
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Feng-TS-iPSC,Feng-GW-iPSC,0.498323796113
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Feng-TS-iPSC,Nourreddine-iPSC,0.284895507032
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Feng-GW-iPSC,Replogle-E-K562,0.223324772216
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Feng-GW-iPSC,Replogle-GW-K562,0.198349629279
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Feng-GW-iPSC,Replogle-E-RPE1,0.185125939126
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Feng-GW-iPSC,Nadig-HepG2,0.197253985309
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Feng-GW-iPSC,Nadig-Jurkat,0.182003788498
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Feng-GW-iPSC,Huang-HCT116,0.199306558684
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Feng-GW-iPSC,Huang-HEK293T,0.16600261125
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Feng-GW-iPSC,Pan-GP-H1,0.308461612037
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Feng-GW-iPSC,VCC-H1,0.32528764706
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Feng-GW-iPSC,Feng-TS-iPSC,0.498323796113
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Feng-GW-iPSC,Nourreddine-iPSC,0.220224811076
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Nourreddine-iPSC,Replogle-E-K562,0.188195454303
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Nourreddine-iPSC,Replogle-GW-K562,0.203375661636
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Nourreddine-iPSC,Replogle-E-RPE1,0.190398379005
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Nourreddine-iPSC,Nadig-HepG2,0.17691991914
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Nourreddine-iPSC,Nadig-Jurkat,0.182911431364
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Nourreddine-iPSC,Huang-HCT116,0.162023293583
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Nourreddine-iPSC,Huang-HEK293T,0.147709641139
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Nourreddine-iPSC,Pan-GP-H1,0.406870749736
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Nourreddine-iPSC,VCC-H1,0.430232763571
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Nourreddine-iPSC,Feng-TS-iPSC,0.284895507032
+Fig. 1a,"L1-strength-selected perturbations, primary outcomes",total,Nourreddine-iPSC,Feng-GW-iPSC,0.220224811076
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Replogle-E-K562,Replogle-GW-K562,0.646352510737
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Replogle-E-K562,Replogle-E-RPE1,0.276941905917
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Replogle-E-K562,Nadig-HepG2,0.297533097223
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Replogle-E-K562,Nadig-Jurkat,0.347704571212
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Replogle-E-K562,Huang-HCT116,0.31355086716
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Replogle-E-K562,Huang-HEK293T,0.288729788081
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Replogle-E-K562,Pan-GP-H1,0.266878152606
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Replogle-E-K562,VCC-H1,0.247757956865
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Replogle-E-K562,Feng-TS-iPSC,0.298683529498
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Replogle-E-K562,Feng-GW-iPSC,0.220379343841
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Replogle-E-K562,Nourreddine-iPSC,0.166409478755
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Replogle-GW-K562,Replogle-E-K562,0.646352510737
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Replogle-GW-K562,Replogle-E-RPE1,0.288229625878
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Replogle-GW-K562,Nadig-HepG2,0.299966665373
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Replogle-GW-K562,Nadig-Jurkat,0.36737591317
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Replogle-GW-K562,Huang-HCT116,0.256294161516
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Replogle-GW-K562,Huang-HEK293T,0.253563679288
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Replogle-GW-K562,Pan-GP-H1,0.277498715688
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Replogle-GW-K562,VCC-H1,0.220742379722
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Replogle-GW-K562,Feng-TS-iPSC,0.269576646085
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Replogle-GW-K562,Feng-GW-iPSC,0.193357089087
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Replogle-GW-K562,Nourreddine-iPSC,0.182012799422
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Replogle-E-RPE1,Replogle-E-K562,0.276941905917
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Replogle-E-RPE1,Replogle-GW-K562,0.288229625878
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Replogle-E-RPE1,Nadig-HepG2,0.29889615098
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Replogle-E-RPE1,Nadig-Jurkat,0.274979895376
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Replogle-E-RPE1,Huang-HCT116,0.289899521545
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Replogle-E-RPE1,Huang-HEK293T,0.220930209554
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Replogle-E-RPE1,Pan-GP-H1,0.280420820111
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Replogle-E-RPE1,VCC-H1,0.204267134722
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Replogle-E-RPE1,Feng-TS-iPSC,0.255533063707
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Replogle-E-RPE1,Feng-GW-iPSC,0.192651068953
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Replogle-E-RPE1,Nourreddine-iPSC,0.177594071322
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Nadig-HepG2,Replogle-E-K562,0.297533097223
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Nadig-HepG2,Replogle-GW-K562,0.299966665373
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Nadig-HepG2,Replogle-E-RPE1,0.29889615098
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Nadig-HepG2,Nadig-Jurkat,0.257833935288
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Nadig-HepG2,Huang-HCT116,0.273054960878
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Nadig-HepG2,Huang-HEK293T,0.218041907995
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Nadig-HepG2,Pan-GP-H1,0.241966121071
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Nadig-HepG2,VCC-H1,0.203138283291
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Nadig-HepG2,Feng-TS-iPSC,0.237261204022
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Nadig-HepG2,Feng-GW-iPSC,0.194801339789
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Nadig-HepG2,Nourreddine-iPSC,0.166873137709
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Nadig-Jurkat,Replogle-E-K562,0.347704571212
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Nadig-Jurkat,Replogle-GW-K562,0.36737591317
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Nadig-Jurkat,Replogle-E-RPE1,0.274979895376
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Nadig-Jurkat,Nadig-HepG2,0.257833935288
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Nadig-Jurkat,Huang-HCT116,0.269501333653
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Nadig-Jurkat,Huang-HEK293T,0.259021422526
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Nadig-Jurkat,Pan-GP-H1,0.254827806874
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Nadig-Jurkat,VCC-H1,0.197815655694
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Nadig-Jurkat,Feng-TS-iPSC,0.238030333672
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Nadig-Jurkat,Feng-GW-iPSC,0.183949499482
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Nadig-Jurkat,Nourreddine-iPSC,0.170017998365
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Huang-HCT116,Replogle-E-K562,0.31355086716
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Huang-HCT116,Replogle-GW-K562,0.256294161516
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Huang-HCT116,Replogle-E-RPE1,0.289899521545
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Huang-HCT116,Nadig-HepG2,0.273054960878
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Huang-HCT116,Nadig-Jurkat,0.269501333653
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Huang-HCT116,Huang-HEK293T,0.281715118576
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Huang-HCT116,Pan-GP-H1,0.277272948974
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Huang-HCT116,VCC-H1,0.209026647109
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Huang-HCT116,Feng-TS-iPSC,0.314374881195
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Huang-HCT116,Feng-GW-iPSC,0.19804926154
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Huang-HCT116,Nourreddine-iPSC,0.153669720401
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Huang-HEK293T,Replogle-E-K562,0.288729788081
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Huang-HEK293T,Replogle-GW-K562,0.253563679288
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Huang-HEK293T,Replogle-E-RPE1,0.220930209554
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Huang-HEK293T,Nadig-HepG2,0.218041907995
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Huang-HEK293T,Nadig-Jurkat,0.259021422526
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Huang-HEK293T,Huang-HCT116,0.281715118576
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Huang-HEK293T,Pan-GP-H1,0.253355164855
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Huang-HEK293T,VCC-H1,0.163948480598
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Huang-HEK293T,Feng-TS-iPSC,0.251009790636
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Huang-HEK293T,Feng-GW-iPSC,0.189741707904
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Huang-HEK293T,Nourreddine-iPSC,0.151507213292
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Pan-GP-H1,Replogle-E-K562,0.266878152606
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Pan-GP-H1,Replogle-GW-K562,0.277498715688
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Pan-GP-H1,Replogle-E-RPE1,0.280420820111
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Pan-GP-H1,Nadig-HepG2,0.241966121071
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Pan-GP-H1,Nadig-Jurkat,0.254827806874
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Pan-GP-H1,Huang-HCT116,0.277272948974
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Pan-GP-H1,Huang-HEK293T,0.253355164855
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Pan-GP-H1,VCC-H1,0.544406260067
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Pan-GP-H1,Feng-TS-iPSC,0.405991463429
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Pan-GP-H1,Feng-GW-iPSC,0.295087673895
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Pan-GP-H1,Nourreddine-iPSC,0.364828053952
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,VCC-H1,Replogle-E-K562,0.247757956865
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,VCC-H1,Replogle-GW-K562,0.220742379722
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,VCC-H1,Replogle-E-RPE1,0.204267134722
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,VCC-H1,Nadig-HepG2,0.203138283291
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,VCC-H1,Nadig-Jurkat,0.197815655694
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,VCC-H1,Huang-HCT116,0.209026647109
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,VCC-H1,Huang-HEK293T,0.163948480598
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,VCC-H1,Pan-GP-H1,0.544406260067
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,VCC-H1,Feng-TS-iPSC,0.396796827601
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,VCC-H1,Feng-GW-iPSC,0.314434209729
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,VCC-H1,Nourreddine-iPSC,0.41017571766
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Feng-TS-iPSC,Replogle-E-K562,0.298683529498
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Feng-TS-iPSC,Replogle-GW-K562,0.269576646085
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Feng-TS-iPSC,Replogle-E-RPE1,0.255533063707
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Feng-TS-iPSC,Nadig-HepG2,0.237261204022
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Feng-TS-iPSC,Nadig-Jurkat,0.238030333672
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Feng-TS-iPSC,Huang-HCT116,0.314374881195
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Feng-TS-iPSC,Huang-HEK293T,0.251009790636
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Feng-TS-iPSC,Pan-GP-H1,0.405991463429
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Feng-TS-iPSC,VCC-H1,0.396796827601
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Feng-TS-iPSC,Feng-GW-iPSC,0.47013415133
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Feng-TS-iPSC,Nourreddine-iPSC,0.272746233486
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Feng-GW-iPSC,Replogle-E-K562,0.220379343841
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Feng-GW-iPSC,Replogle-GW-K562,0.193357089087
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Feng-GW-iPSC,Replogle-E-RPE1,0.192651068953
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Feng-GW-iPSC,Nadig-HepG2,0.194801339789
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Feng-GW-iPSC,Nadig-Jurkat,0.183949499482
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Feng-GW-iPSC,Huang-HCT116,0.19804926154
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Feng-GW-iPSC,Huang-HEK293T,0.189741707904
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Feng-GW-iPSC,Pan-GP-H1,0.295087673895
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Feng-GW-iPSC,VCC-H1,0.314434209729
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Feng-GW-iPSC,Feng-TS-iPSC,0.47013415133
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Feng-GW-iPSC,Nourreddine-iPSC,0.224258679092
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Nourreddine-iPSC,Replogle-E-K562,0.166409478755
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Nourreddine-iPSC,Replogle-GW-K562,0.182012799422
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Nourreddine-iPSC,Replogle-E-RPE1,0.177594071322
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Nourreddine-iPSC,Nadig-HepG2,0.166873137709
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Nourreddine-iPSC,Nadig-Jurkat,0.170017998365
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Nourreddine-iPSC,Huang-HCT116,0.153669720401
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Nourreddine-iPSC,Huang-HEK293T,0.151507213292
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Nourreddine-iPSC,Pan-GP-H1,0.364828053952
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Nourreddine-iPSC,VCC-H1,0.41017571766
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Nourreddine-iPSC,Feng-TS-iPSC,0.272746233486
+Fig. 1c,"L1-strength-selected perturbations, primary outcomes",residual,Nourreddine-iPSC,Feng-GW-iPSC,0.224258679092
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Replogle-E-K562,Replogle-GW-K562,0.543708908878
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Replogle-E-K562,Replogle-E-RPE1,0.284331071676
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Replogle-E-K562,Nadig-HepG2,0.299268506717
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Replogle-E-K562,Nadig-Jurkat,0.346015817916
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Replogle-E-K562,Huang-HCT116,0.244251445928
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Replogle-E-K562,Huang-HEK293T,0.213249222294
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Replogle-E-K562,Pan-GP-H1,0.221610156724
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Replogle-E-K562,VCC-H1,0.248616971372
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Replogle-E-K562,Feng-TS-iPSC,0.249504046802
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Replogle-E-K562,Feng-GW-iPSC,0.132140882482
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Replogle-E-K562,Nourreddine-iPSC,0.105998332554
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Replogle-GW-K562,Replogle-E-K562,0.543708908878
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Replogle-GW-K562,Replogle-E-RPE1,0.289659271547
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Replogle-GW-K562,Nadig-HepG2,0.296196553598
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Replogle-GW-K562,Nadig-Jurkat,0.344418331253
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Replogle-GW-K562,Huang-HCT116,0.0973280460394
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Replogle-GW-K562,Huang-HEK293T,0.0794799817331
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Replogle-GW-K562,Pan-GP-H1,0.210791448593
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Replogle-GW-K562,VCC-H1,0.144266546933
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Replogle-GW-K562,Feng-TS-iPSC,0.167157175423
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Replogle-GW-K562,Feng-GW-iPSC,0.0594220745011
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Replogle-GW-K562,Nourreddine-iPSC,0.0514306150562
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Replogle-E-RPE1,Replogle-E-K562,0.284331071676
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Replogle-E-RPE1,Replogle-GW-K562,0.289659271547
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Replogle-E-RPE1,Nadig-HepG2,0.365310725407
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Replogle-E-RPE1,Nadig-Jurkat,0.298015136252
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Replogle-E-RPE1,Huang-HCT116,0.266347566084
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Replogle-E-RPE1,Huang-HEK293T,0.157423027646
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Replogle-E-RPE1,Pan-GP-H1,0.232921959793
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Replogle-E-RPE1,VCC-H1,0.205859724343
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Replogle-E-RPE1,Feng-TS-iPSC,0.198740233155
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Replogle-E-RPE1,Feng-GW-iPSC,0.118870334518
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Replogle-E-RPE1,Nourreddine-iPSC,0.117952820406
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Nadig-HepG2,Replogle-E-K562,0.299268506717
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Nadig-HepG2,Replogle-GW-K562,0.296196553598
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Nadig-HepG2,Replogle-E-RPE1,0.365310725407
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Nadig-HepG2,Nadig-Jurkat,0.278401029063
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Nadig-HepG2,Huang-HCT116,0.251681476164
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Nadig-HepG2,Huang-HEK293T,0.165091709245
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Nadig-HepG2,Pan-GP-H1,0.199823810315
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Nadig-HepG2,VCC-H1,0.19725851296
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Nadig-HepG2,Feng-TS-iPSC,0.190577953445
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Nadig-HepG2,Feng-GW-iPSC,0.120249321036
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Nadig-HepG2,Nourreddine-iPSC,0.0986547899917
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Nadig-Jurkat,Replogle-E-K562,0.346015817916
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Nadig-Jurkat,Replogle-GW-K562,0.344418331253
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Nadig-Jurkat,Replogle-E-RPE1,0.298015136252
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Nadig-Jurkat,Nadig-HepG2,0.278401029063
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Nadig-Jurkat,Huang-HCT116,0.223629510743
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Nadig-Jurkat,Huang-HEK293T,0.209530816442
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Nadig-Jurkat,Pan-GP-H1,0.202615051053
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Nadig-Jurkat,VCC-H1,0.197844309114
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Nadig-Jurkat,Feng-TS-iPSC,0.173473585987
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Nadig-Jurkat,Feng-GW-iPSC,0.108783049918
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Nadig-Jurkat,Nourreddine-iPSC,0.107537426811
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Huang-HCT116,Replogle-E-K562,0.244251445928
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Huang-HCT116,Replogle-GW-K562,0.0973280460394
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Huang-HCT116,Replogle-E-RPE1,0.266347566084
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Huang-HCT116,Nadig-HepG2,0.251681476164
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Huang-HCT116,Nadig-Jurkat,0.223629510743
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Huang-HCT116,Huang-HEK293T,0.11933161048
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Huang-HCT116,Pan-GP-H1,0.15505233512
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Huang-HCT116,VCC-H1,0.102224726362
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Huang-HCT116,Feng-TS-iPSC,0.219912531921
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Huang-HCT116,Feng-GW-iPSC,0.0520397683633
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Huang-HCT116,Nourreddine-iPSC,0.036846847191
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Huang-HEK293T,Replogle-E-K562,0.213249222294
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Huang-HEK293T,Replogle-GW-K562,0.0794799817331
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Huang-HEK293T,Replogle-E-RPE1,0.157423027646
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Huang-HEK293T,Nadig-HepG2,0.165091709245
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Huang-HEK293T,Nadig-Jurkat,0.209530816442
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Huang-HEK293T,Huang-HCT116,0.11933161048
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Huang-HEK293T,Pan-GP-H1,0.131802973581
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Huang-HEK293T,VCC-H1,0.0732305646346
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Huang-HEK293T,Feng-TS-iPSC,0.15404226957
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Huang-HEK293T,Feng-GW-iPSC,0.040570028387
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Huang-HEK293T,Nourreddine-iPSC,0.0307117489121
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Pan-GP-H1,Replogle-E-K562,0.221610156724
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Pan-GP-H1,Replogle-GW-K562,0.210791448593
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Pan-GP-H1,Replogle-E-RPE1,0.232921959793
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Pan-GP-H1,Nadig-HepG2,0.199823810315
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Pan-GP-H1,Nadig-Jurkat,0.202615051053
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Pan-GP-H1,Huang-HCT116,0.15505233512
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Pan-GP-H1,Huang-HEK293T,0.131802973581
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Pan-GP-H1,VCC-H1,0.571512058896
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Pan-GP-H1,Feng-TS-iPSC,0.333557888329
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Pan-GP-H1,Feng-GW-iPSC,0.199984040583
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Pan-GP-H1,Nourreddine-iPSC,0.245748287438
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,VCC-H1,Replogle-E-K562,0.248616971372
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,VCC-H1,Replogle-GW-K562,0.144266546933
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,VCC-H1,Replogle-E-RPE1,0.205859724343
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,VCC-H1,Nadig-HepG2,0.19725851296
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,VCC-H1,Nadig-Jurkat,0.197844309114
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,VCC-H1,Huang-HCT116,0.102224726362
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,VCC-H1,Huang-HEK293T,0.0732305646346
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,VCC-H1,Pan-GP-H1,0.571512058896
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,VCC-H1,Feng-TS-iPSC,0.314409104743
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,VCC-H1,Feng-GW-iPSC,0.143174532478
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,VCC-H1,Nourreddine-iPSC,0.227788034189
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Feng-TS-iPSC,Replogle-E-K562,0.249504046802
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Feng-TS-iPSC,Replogle-GW-K562,0.167157175423
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Feng-TS-iPSC,Replogle-E-RPE1,0.198740233155
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Feng-TS-iPSC,Nadig-HepG2,0.190577953445
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Feng-TS-iPSC,Nadig-Jurkat,0.173473585987
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Feng-TS-iPSC,Huang-HCT116,0.219912531921
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Feng-TS-iPSC,Huang-HEK293T,0.15404226957
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Feng-TS-iPSC,Pan-GP-H1,0.333557888329
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Feng-TS-iPSC,VCC-H1,0.314409104743
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Feng-TS-iPSC,Feng-GW-iPSC,0.369257159855
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Feng-TS-iPSC,Nourreddine-iPSC,0.18069256161
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Feng-GW-iPSC,Replogle-E-K562,0.132140882482
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Feng-GW-iPSC,Replogle-GW-K562,0.0594220745011
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Feng-GW-iPSC,Replogle-E-RPE1,0.118870334518
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Feng-GW-iPSC,Nadig-HepG2,0.120249321036
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Feng-GW-iPSC,Nadig-Jurkat,0.108783049918
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Feng-GW-iPSC,Huang-HCT116,0.0520397683633
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Feng-GW-iPSC,Huang-HEK293T,0.040570028387
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Feng-GW-iPSC,Pan-GP-H1,0.199984040583
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Feng-GW-iPSC,VCC-H1,0.143174532478
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Feng-GW-iPSC,Feng-TS-iPSC,0.369257159855
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Feng-GW-iPSC,Nourreddine-iPSC,0.0608235277387
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Nourreddine-iPSC,Replogle-E-K562,0.105998332554
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Nourreddine-iPSC,Replogle-GW-K562,0.0514306150562
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Nourreddine-iPSC,Replogle-E-RPE1,0.117952820406
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Nourreddine-iPSC,Nadig-HepG2,0.0986547899917
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Nourreddine-iPSC,Nadig-Jurkat,0.107537426811
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Nourreddine-iPSC,Huang-HCT116,0.036846847191
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Nourreddine-iPSC,Huang-HEK293T,0.0307117489121
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Nourreddine-iPSC,Pan-GP-H1,0.245748287438
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Nourreddine-iPSC,VCC-H1,0.227788034189
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Nourreddine-iPSC,Feng-TS-iPSC,0.18069256161
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",total,Nourreddine-iPSC,Feng-GW-iPSC,0.0608235277387
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Replogle-E-K562,Replogle-GW-K562,0.767319551952
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Replogle-E-K562,Replogle-E-RPE1,0.393660447945
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Replogle-E-K562,Nadig-HepG2,0.450036877576
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Replogle-E-K562,Nadig-Jurkat,0.492015544472
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Replogle-E-K562,Huang-HCT116,0.454876644524
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Replogle-E-K562,Huang-HEK293T,0.43912788688
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Replogle-E-K562,Pan-GP-H1,0.36437763285
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Replogle-E-K562,VCC-H1,0.360764658844
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Replogle-E-K562,Feng-TS-iPSC,0.31016401296
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Replogle-E-K562,Feng-GW-iPSC,0.294342216214
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Replogle-E-K562,Nourreddine-iPSC,0.266903693543
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Replogle-GW-K562,Replogle-E-K562,0.767319551952
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Replogle-GW-K562,Replogle-E-RPE1,0.422455454498
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Replogle-GW-K562,Nadig-HepG2,0.471542301128
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Replogle-GW-K562,Nadig-Jurkat,0.522323841351
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Replogle-GW-K562,Huang-HCT116,0.383375388404
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Replogle-GW-K562,Huang-HEK293T,0.384874759197
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Replogle-GW-K562,Pan-GP-H1,0.384908284279
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Replogle-GW-K562,VCC-H1,0.314767723674
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Replogle-GW-K562,Feng-TS-iPSC,0.253328515816
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Replogle-GW-K562,Feng-GW-iPSC,0.259161437623
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Replogle-GW-K562,Nourreddine-iPSC,0.277233649867
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Replogle-E-RPE1,Replogle-E-K562,0.393660447945
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Replogle-E-RPE1,Replogle-GW-K562,0.422455454498
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Replogle-E-RPE1,Nadig-HepG2,0.496570275014
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Replogle-E-RPE1,Nadig-Jurkat,0.39745237658
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Replogle-E-RPE1,Huang-HCT116,0.480310412668
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Replogle-E-RPE1,Huang-HEK293T,0.319128275918
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Replogle-E-RPE1,Pan-GP-H1,0.335460898603
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Replogle-E-RPE1,VCC-H1,0.271874784465
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Replogle-E-RPE1,Feng-TS-iPSC,0.235647092278
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Replogle-E-RPE1,Feng-GW-iPSC,0.23959162574
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Replogle-E-RPE1,Nourreddine-iPSC,0.276395273992
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Nadig-HepG2,Replogle-E-K562,0.450036877576
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Nadig-HepG2,Replogle-GW-K562,0.471542301128
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Nadig-HepG2,Replogle-E-RPE1,0.496570275014
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Nadig-HepG2,Nadig-Jurkat,0.429411453658
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Nadig-HepG2,Huang-HCT116,0.478014409897
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Nadig-HepG2,Huang-HEK293T,0.364905714713
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Nadig-HepG2,Pan-GP-H1,0.337959570317
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Nadig-HepG2,VCC-H1,0.272053672213
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Nadig-HepG2,Feng-TS-iPSC,0.237075291571
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Nadig-HepG2,Feng-GW-iPSC,0.261076115316
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Nadig-HepG2,Nourreddine-iPSC,0.256077617445
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Nadig-Jurkat,Replogle-E-K562,0.492015544472
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Nadig-Jurkat,Replogle-GW-K562,0.522323841351
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Nadig-Jurkat,Replogle-E-RPE1,0.39745237658
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Nadig-Jurkat,Nadig-HepG2,0.429411453658
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Nadig-Jurkat,Huang-HCT116,0.417047645528
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Nadig-Jurkat,Huang-HEK293T,0.436398030037
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Nadig-Jurkat,Pan-GP-H1,0.33723742542
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Nadig-Jurkat,VCC-H1,0.287007099594
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Nadig-Jurkat,Feng-TS-iPSC,0.216759225194
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Nadig-Jurkat,Feng-GW-iPSC,0.244537934994
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Nadig-Jurkat,Nourreddine-iPSC,0.250458032742
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Huang-HCT116,Replogle-E-K562,0.454876644524
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Huang-HCT116,Replogle-GW-K562,0.383375388404
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Huang-HCT116,Replogle-E-RPE1,0.480310412668
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Huang-HCT116,Nadig-HepG2,0.478014409897
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Huang-HCT116,Nadig-Jurkat,0.417047645528
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Huang-HCT116,Huang-HEK293T,0.448127890612
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Huang-HCT116,Pan-GP-H1,0.326052752724
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Huang-HCT116,VCC-H1,0.300837197436
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Huang-HCT116,Feng-TS-iPSC,0.399013624152
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Huang-HCT116,Feng-GW-iPSC,0.283719298901
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Huang-HCT116,Nourreddine-iPSC,0.232750936047
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Huang-HEK293T,Replogle-E-K562,0.43912788688
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Huang-HEK293T,Replogle-GW-K562,0.384874759197
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Huang-HEK293T,Replogle-E-RPE1,0.319128275918
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Huang-HEK293T,Nadig-HepG2,0.364905714713
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Huang-HEK293T,Nadig-Jurkat,0.436398030037
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Huang-HEK293T,Huang-HCT116,0.448127890612
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Huang-HEK293T,Pan-GP-H1,0.287267125949
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Huang-HEK293T,VCC-H1,0.228560888973
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Huang-HEK293T,Feng-TS-iPSC,0.296576155865
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Huang-HEK293T,Feng-GW-iPSC,0.257010008157
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Huang-HEK293T,Nourreddine-iPSC,0.198114436973
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Pan-GP-H1,Replogle-E-K562,0.36437763285
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Pan-GP-H1,Replogle-GW-K562,0.384908284279
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Pan-GP-H1,Replogle-E-RPE1,0.335460898603
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Pan-GP-H1,Nadig-HepG2,0.337959570317
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Pan-GP-H1,Nadig-Jurkat,0.33723742542
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Pan-GP-H1,Huang-HCT116,0.326052752724
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Pan-GP-H1,Huang-HEK293T,0.287267125949
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Pan-GP-H1,VCC-H1,0.664720407845
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Pan-GP-H1,Feng-TS-iPSC,0.405049542014
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Pan-GP-H1,Feng-GW-iPSC,0.386580003343
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Pan-GP-H1,Nourreddine-iPSC,0.490641543483
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,VCC-H1,Replogle-E-K562,0.360764658844
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,VCC-H1,Replogle-GW-K562,0.314767723674
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,VCC-H1,Replogle-E-RPE1,0.271874784465
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,VCC-H1,Nadig-HepG2,0.272053672213
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,VCC-H1,Nadig-Jurkat,0.287007099594
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,VCC-H1,Huang-HCT116,0.300837197436
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,VCC-H1,Huang-HEK293T,0.228560888973
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,VCC-H1,Pan-GP-H1,0.664720407845
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,VCC-H1,Feng-TS-iPSC,0.399603945728
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,VCC-H1,Feng-GW-iPSC,0.442404948083
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,VCC-H1,Nourreddine-iPSC,0.569243949792
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Feng-TS-iPSC,Replogle-E-K562,0.31016401296
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Feng-TS-iPSC,Replogle-GW-K562,0.253328515816
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Feng-TS-iPSC,Replogle-E-RPE1,0.235647092278
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Feng-TS-iPSC,Nadig-HepG2,0.237075291571
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Feng-TS-iPSC,Nadig-Jurkat,0.216759225194
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Feng-TS-iPSC,Huang-HCT116,0.399013624152
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Feng-TS-iPSC,Huang-HEK293T,0.296576155865
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Feng-TS-iPSC,Pan-GP-H1,0.405049542014
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Feng-TS-iPSC,VCC-H1,0.399603945728
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Feng-TS-iPSC,Feng-GW-iPSC,0.602582249131
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Feng-TS-iPSC,Nourreddine-iPSC,0.386358577302
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Feng-GW-iPSC,Replogle-E-K562,0.294342216214
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Feng-GW-iPSC,Replogle-GW-K562,0.259161437623
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Feng-GW-iPSC,Replogle-E-RPE1,0.23959162574
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Feng-GW-iPSC,Nadig-HepG2,0.261076115316
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Feng-GW-iPSC,Nadig-Jurkat,0.244537934994
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Feng-GW-iPSC,Huang-HCT116,0.283719298901
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Feng-GW-iPSC,Huang-HEK293T,0.257010008157
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Feng-GW-iPSC,Pan-GP-H1,0.386580003343
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Feng-GW-iPSC,VCC-H1,0.442404948083
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Feng-GW-iPSC,Feng-TS-iPSC,0.602582249131
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Feng-GW-iPSC,Nourreddine-iPSC,0.333711901548
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Nourreddine-iPSC,Replogle-E-K562,0.266903693543
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Nourreddine-iPSC,Replogle-GW-K562,0.277233649867
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Nourreddine-iPSC,Replogle-E-RPE1,0.276395273992
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Nourreddine-iPSC,Nadig-HepG2,0.256077617445
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Nourreddine-iPSC,Nadig-Jurkat,0.250458032742
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Nourreddine-iPSC,Huang-HCT116,0.232750936047
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Nourreddine-iPSC,Huang-HEK293T,0.198114436973
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Nourreddine-iPSC,Pan-GP-H1,0.490641543483
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Nourreddine-iPSC,VCC-H1,0.569243949792
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Nourreddine-iPSC,Feng-TS-iPSC,0.386358577302
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",total,Nourreddine-iPSC,Feng-GW-iPSC,0.333711901548
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Replogle-E-K562,Replogle-GW-K562,0.501712473849
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Replogle-E-K562,Replogle-E-RPE1,0.24663846631
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Replogle-E-K562,Nadig-HepG2,0.246786058648
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Replogle-E-K562,Nadig-Jurkat,0.295976430727
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Replogle-E-K562,Huang-HCT116,0.21725448936
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Replogle-E-K562,Huang-HEK293T,0.187942577636
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Replogle-E-K562,Pan-GP-H1,0.21368258637
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Replogle-E-K562,VCC-H1,0.235218120028
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Replogle-E-K562,Feng-TS-iPSC,0.284238060293
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Replogle-E-K562,Feng-GW-iPSC,0.132562380851
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Replogle-E-K562,Nourreddine-iPSC,0.0886006973427
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Replogle-GW-K562,Replogle-E-K562,0.501712473849
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Replogle-GW-K562,Replogle-E-RPE1,0.235620270739
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Replogle-GW-K562,Nadig-HepG2,0.232782337861
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Replogle-GW-K562,Nadig-Jurkat,0.288751931355
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Replogle-GW-K562,Huang-HCT116,0.0868170434015
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Replogle-GW-K562,Huang-HEK293T,0.0731689143254
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Replogle-GW-K562,Pan-GP-H1,0.191557989874
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Replogle-GW-K562,VCC-H1,0.139437433833
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Replogle-GW-K562,Feng-TS-iPSC,0.209700289977
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Replogle-GW-K562,Feng-GW-iPSC,0.0584974855006
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Replogle-GW-K562,Nourreddine-iPSC,0.0443488328808
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Replogle-E-RPE1,Replogle-E-K562,0.24663846631
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Replogle-E-RPE1,Replogle-GW-K562,0.235620270739
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Replogle-E-RPE1,Nadig-HepG2,0.258156748543
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Replogle-E-RPE1,Nadig-Jurkat,0.248959762677
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Replogle-E-RPE1,Huang-HCT116,0.206466822951
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Replogle-E-RPE1,Huang-HEK293T,0.148463211744
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Replogle-E-RPE1,Pan-GP-H1,0.241267391717
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Replogle-E-RPE1,VCC-H1,0.19024725227
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Replogle-E-RPE1,Feng-TS-iPSC,0.25060939725
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Replogle-E-RPE1,Feng-GW-iPSC,0.123482776461
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Replogle-E-RPE1,Nourreddine-iPSC,0.1023834332
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Nadig-HepG2,Replogle-E-K562,0.246786058648
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Nadig-HepG2,Replogle-GW-K562,0.232782337861
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Nadig-HepG2,Replogle-E-RPE1,0.258156748543
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Nadig-HepG2,Nadig-Jurkat,0.215530485103
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Nadig-HepG2,Huang-HCT116,0.186202771934
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Nadig-HepG2,Huang-HEK293T,0.141132877948
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Nadig-HepG2,Pan-GP-H1,0.184230415664
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Nadig-HepG2,VCC-H1,0.178187881844
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Nadig-HepG2,Feng-TS-iPSC,0.219970161011
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Nadig-HepG2,Feng-GW-iPSC,0.117417363125
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Nadig-HepG2,Nourreddine-iPSC,0.0900661427574
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Nadig-Jurkat,Replogle-E-K562,0.295976430727
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Nadig-Jurkat,Replogle-GW-K562,0.288751931355
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Nadig-Jurkat,Replogle-E-RPE1,0.248959762677
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Nadig-Jurkat,Nadig-HepG2,0.215530485103
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Nadig-Jurkat,Huang-HCT116,0.188344185118
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Nadig-Jurkat,Huang-HEK293T,0.169759222622
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Nadig-Jurkat,Pan-GP-H1,0.204117103756
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Nadig-Jurkat,VCC-H1,0.178475388293
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Nadig-Jurkat,Feng-TS-iPSC,0.228155817401
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Nadig-Jurkat,Feng-GW-iPSC,0.112104082206
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Nadig-Jurkat,Nourreddine-iPSC,0.0945034202893
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Huang-HCT116,Replogle-E-K562,0.21725448936
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Huang-HCT116,Replogle-GW-K562,0.0868170434015
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Huang-HCT116,Replogle-E-RPE1,0.206466822951
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Huang-HCT116,Nadig-HepG2,0.186202771934
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Huang-HCT116,Nadig-Jurkat,0.188344185118
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Huang-HCT116,Huang-HEK293T,0.0795416858994
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Huang-HCT116,Pan-GP-H1,0.178165304241
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Huang-HCT116,VCC-H1,0.0984071836692
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Huang-HCT116,Feng-TS-iPSC,0.221612280374
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Huang-HCT116,Feng-GW-iPSC,0.0516341640555
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Huang-HCT116,Nourreddine-iPSC,0.0332857999865
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Huang-HEK293T,Replogle-E-K562,0.187942577636
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Huang-HEK293T,Replogle-GW-K562,0.0731689143254
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Huang-HEK293T,Replogle-E-RPE1,0.148463211744
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Huang-HEK293T,Nadig-HepG2,0.141132877948
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Huang-HEK293T,Nadig-Jurkat,0.169759222622
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Huang-HEK293T,Huang-HCT116,0.0795416858994
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Huang-HEK293T,Pan-GP-H1,0.14544155945
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Huang-HEK293T,VCC-H1,0.0805526678433
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Huang-HEK293T,Feng-TS-iPSC,0.171956839067
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Huang-HEK293T,Feng-GW-iPSC,0.0462761914557
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Huang-HEK293T,Nourreddine-iPSC,0.0323041887442
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Pan-GP-H1,Replogle-E-K562,0.21368258637
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Pan-GP-H1,Replogle-GW-K562,0.191557989874
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Pan-GP-H1,Replogle-E-RPE1,0.241267391717
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Pan-GP-H1,Nadig-HepG2,0.184230415664
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Pan-GP-H1,Nadig-Jurkat,0.204117103756
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Pan-GP-H1,Huang-HCT116,0.178165304241
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Pan-GP-H1,Huang-HEK293T,0.14544155945
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Pan-GP-H1,VCC-H1,0.53655753101
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Pan-GP-H1,Feng-TS-iPSC,0.371843608584
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Pan-GP-H1,Feng-GW-iPSC,0.193588901908
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Pan-GP-H1,Nourreddine-iPSC,0.221173573264
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,VCC-H1,Replogle-E-K562,0.235218120028
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,VCC-H1,Replogle-GW-K562,0.139437433833
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,VCC-H1,Replogle-E-RPE1,0.19024725227
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,VCC-H1,Nadig-HepG2,0.178187881844
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,VCC-H1,Nadig-Jurkat,0.178475388293
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,VCC-H1,Huang-HCT116,0.0984071836692
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,VCC-H1,Huang-HEK293T,0.0805526678433
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,VCC-H1,Pan-GP-H1,0.53655753101
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,VCC-H1,Feng-TS-iPSC,0.340541858155
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,VCC-H1,Feng-GW-iPSC,0.141418476287
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,VCC-H1,Nourreddine-iPSC,0.218524344302
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Feng-TS-iPSC,Replogle-E-K562,0.284238060293
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Feng-TS-iPSC,Replogle-GW-K562,0.209700289977
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Feng-TS-iPSC,Replogle-E-RPE1,0.25060939725
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Feng-TS-iPSC,Nadig-HepG2,0.219970161011
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Feng-TS-iPSC,Nadig-Jurkat,0.228155817401
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Feng-TS-iPSC,Huang-HCT116,0.221612280374
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Feng-TS-iPSC,Huang-HEK293T,0.171956839067
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Feng-TS-iPSC,Pan-GP-H1,0.371843608584
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Feng-TS-iPSC,VCC-H1,0.340541858155
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Feng-TS-iPSC,Feng-GW-iPSC,0.348411968241
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Feng-TS-iPSC,Nourreddine-iPSC,0.174732496594
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Feng-GW-iPSC,Replogle-E-K562,0.132562380851
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Feng-GW-iPSC,Replogle-GW-K562,0.0584974855006
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Feng-GW-iPSC,Replogle-E-RPE1,0.123482776461
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Feng-GW-iPSC,Nadig-HepG2,0.117417363125
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Feng-GW-iPSC,Nadig-Jurkat,0.112104082206
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Feng-GW-iPSC,Huang-HCT116,0.0516341640555
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Feng-GW-iPSC,Huang-HEK293T,0.0462761914557
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Feng-GW-iPSC,Pan-GP-H1,0.193588901908
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Feng-GW-iPSC,VCC-H1,0.141418476287
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Feng-GW-iPSC,Feng-TS-iPSC,0.348411968241
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Feng-GW-iPSC,Nourreddine-iPSC,0.0626772685475
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Nourreddine-iPSC,Replogle-E-K562,0.0886006973427
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Nourreddine-iPSC,Replogle-GW-K562,0.0443488328808
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Nourreddine-iPSC,Replogle-E-RPE1,0.1023834332
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Nourreddine-iPSC,Nadig-HepG2,0.0900661427574
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Nourreddine-iPSC,Nadig-Jurkat,0.0945034202893
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Nourreddine-iPSC,Huang-HCT116,0.0332857999865
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Nourreddine-iPSC,Huang-HEK293T,0.0323041887442
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Nourreddine-iPSC,Pan-GP-H1,0.221173573264
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Nourreddine-iPSC,VCC-H1,0.218524344302
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Nourreddine-iPSC,Feng-TS-iPSC,0.174732496594
+Supplementary Fig. S1a,"All QC-passing perturbations, primary outcomes",residual,Nourreddine-iPSC,Feng-GW-iPSC,0.0626772685475
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Replogle-E-K562,Replogle-GW-K562,0.731036624184
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Replogle-E-K562,Replogle-E-RPE1,0.351081547866
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Replogle-E-K562,Nadig-HepG2,0.38188302055
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Replogle-E-K562,Nadig-Jurkat,0.430945135223
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Replogle-E-K562,Huang-HCT116,0.412697136135
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Replogle-E-K562,Huang-HEK293T,0.400395622698
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Replogle-E-K562,Pan-GP-H1,0.333042079306
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Replogle-E-K562,VCC-H1,0.344346952958
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Replogle-E-K562,Feng-TS-iPSC,0.360810686072
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Replogle-E-K562,Feng-GW-iPSC,0.292638065889
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Replogle-E-K562,Nourreddine-iPSC,0.239357489777
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Replogle-GW-K562,Replogle-E-K562,0.731036624184
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Replogle-GW-K562,Replogle-E-RPE1,0.367612099149
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Replogle-GW-K562,Nadig-HepG2,0.393387846534
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Replogle-GW-K562,Nadig-Jurkat,0.454560358921
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Replogle-GW-K562,Huang-HCT116,0.347303275443
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Replogle-GW-K562,Huang-HEK293T,0.356759005287
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Replogle-GW-K562,Pan-GP-H1,0.340465670487
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Replogle-GW-K562,VCC-H1,0.301907865299
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Replogle-GW-K562,Feng-TS-iPSC,0.329089857631
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Replogle-GW-K562,Feng-GW-iPSC,0.256521475846
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Replogle-GW-K562,Nourreddine-iPSC,0.250491089211
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Replogle-E-RPE1,Replogle-E-K562,0.351081547866
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Replogle-E-RPE1,Replogle-GW-K562,0.367612099149
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Replogle-E-RPE1,Nadig-HepG2,0.373613202086
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Replogle-E-RPE1,Nadig-Jurkat,0.35681908194
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Replogle-E-RPE1,Huang-HCT116,0.378893513636
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Replogle-E-RPE1,Huang-HEK293T,0.314321054273
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Replogle-E-RPE1,Pan-GP-H1,0.342679215766
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Replogle-E-RPE1,VCC-H1,0.247812159659
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Replogle-E-RPE1,Feng-TS-iPSC,0.315403745335
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Replogle-E-RPE1,Feng-GW-iPSC,0.255867907744
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Replogle-E-RPE1,Nourreddine-iPSC,0.256295228688
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Nadig-HepG2,Replogle-E-K562,0.38188302055
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Nadig-HepG2,Replogle-GW-K562,0.393387846534
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Nadig-HepG2,Replogle-E-RPE1,0.373613202086
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Nadig-HepG2,Nadig-Jurkat,0.350854686952
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Nadig-HepG2,Huang-HCT116,0.362621220317
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Nadig-HepG2,Huang-HEK293T,0.31849091624
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Nadig-HepG2,Pan-GP-H1,0.303802111799
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Nadig-HepG2,VCC-H1,0.259663967234
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Nadig-HepG2,Feng-TS-iPSC,0.284444970547
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Nadig-HepG2,Feng-GW-iPSC,0.264736877351
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Nadig-HepG2,Nourreddine-iPSC,0.248012214154
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Nadig-Jurkat,Replogle-E-K562,0.430945135223
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Nadig-Jurkat,Replogle-GW-K562,0.454560358921
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Nadig-Jurkat,Replogle-E-RPE1,0.35681908194
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Nadig-Jurkat,Nadig-HepG2,0.350854686952
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Nadig-Jurkat,Huang-HCT116,0.354568838747
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Nadig-Jurkat,Huang-HEK293T,0.357993048674
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Nadig-Jurkat,Pan-GP-H1,0.31902404851
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Nadig-Jurkat,VCC-H1,0.261897331768
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Nadig-Jurkat,Feng-TS-iPSC,0.302653073277
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Nadig-Jurkat,Feng-GW-iPSC,0.252376019038
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Nadig-Jurkat,Nourreddine-iPSC,0.232080267629
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Huang-HCT116,Replogle-E-K562,0.412697136135
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Huang-HCT116,Replogle-GW-K562,0.347303275443
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Huang-HCT116,Replogle-E-RPE1,0.378893513636
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Huang-HCT116,Nadig-HepG2,0.362621220317
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Huang-HCT116,Nadig-Jurkat,0.354568838747
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Huang-HCT116,Huang-HEK293T,0.382516968682
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Huang-HCT116,Pan-GP-H1,0.352251575733
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Huang-HCT116,VCC-H1,0.292891363059
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Huang-HCT116,Feng-TS-iPSC,0.397456009465
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Huang-HCT116,Feng-GW-iPSC,0.281697518784
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Huang-HCT116,Nourreddine-iPSC,0.220294887943
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Huang-HEK293T,Replogle-E-K562,0.400395622698
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Huang-HEK293T,Replogle-GW-K562,0.356759005287
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Huang-HEK293T,Replogle-E-RPE1,0.314321054273
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Huang-HEK293T,Nadig-HepG2,0.31849091624
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Huang-HEK293T,Nadig-Jurkat,0.357993048674
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Huang-HEK293T,Huang-HCT116,0.382516968682
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Huang-HEK293T,Pan-GP-H1,0.322946140512
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Huang-HEK293T,VCC-H1,0.226532445602
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Huang-HEK293T,Feng-TS-iPSC,0.339357149741
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Huang-HEK293T,Feng-GW-iPSC,0.296995633291
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Huang-HEK293T,Nourreddine-iPSC,0.214971229609
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Pan-GP-H1,Replogle-E-K562,0.333042079306
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Pan-GP-H1,Replogle-GW-K562,0.340465670487
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Pan-GP-H1,Replogle-E-RPE1,0.342679215766
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Pan-GP-H1,Nadig-HepG2,0.303802111799
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Pan-GP-H1,Nadig-Jurkat,0.31902404851
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Pan-GP-H1,Huang-HCT116,0.352251575733
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Pan-GP-H1,Huang-HEK293T,0.322946140512
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Pan-GP-H1,VCC-H1,0.616230017656
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Pan-GP-H1,Feng-TS-iPSC,0.458144203437
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Pan-GP-H1,Feng-GW-iPSC,0.375560319584
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Pan-GP-H1,Nourreddine-iPSC,0.447101099131
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,VCC-H1,Replogle-E-K562,0.344346952958
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,VCC-H1,Replogle-GW-K562,0.301907865299
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,VCC-H1,Replogle-E-RPE1,0.247812159659
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,VCC-H1,Nadig-HepG2,0.259663967234
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,VCC-H1,Nadig-Jurkat,0.261897331768
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,VCC-H1,Huang-HCT116,0.292891363059
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,VCC-H1,Huang-HEK293T,0.226532445602
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,VCC-H1,Pan-GP-H1,0.616230017656
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,VCC-H1,Feng-TS-iPSC,0.446270725987
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,VCC-H1,Feng-GW-iPSC,0.433063928709
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,VCC-H1,Nourreddine-iPSC,0.54609002377
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Feng-TS-iPSC,Replogle-E-K562,0.360810686072
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Feng-TS-iPSC,Replogle-GW-K562,0.329089857631
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Feng-TS-iPSC,Replogle-E-RPE1,0.315403745335
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Feng-TS-iPSC,Nadig-HepG2,0.284444970547
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Feng-TS-iPSC,Nadig-Jurkat,0.302653073277
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Feng-TS-iPSC,Huang-HCT116,0.397456009465
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Feng-TS-iPSC,Huang-HEK293T,0.339357149741
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Feng-TS-iPSC,Pan-GP-H1,0.458144203437
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Feng-TS-iPSC,VCC-H1,0.446270725987
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Feng-TS-iPSC,Feng-GW-iPSC,0.575452744929
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Feng-TS-iPSC,Nourreddine-iPSC,0.370892776336
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Feng-GW-iPSC,Replogle-E-K562,0.292638065889
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Feng-GW-iPSC,Replogle-GW-K562,0.256521475846
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Feng-GW-iPSC,Replogle-E-RPE1,0.255867907744
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Feng-GW-iPSC,Nadig-HepG2,0.264736877351
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Feng-GW-iPSC,Nadig-Jurkat,0.252376019038
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Feng-GW-iPSC,Huang-HCT116,0.281697518784
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Feng-GW-iPSC,Huang-HEK293T,0.296995633291
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Feng-GW-iPSC,Pan-GP-H1,0.375560319584
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Feng-GW-iPSC,VCC-H1,0.433063928709
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Feng-GW-iPSC,Feng-TS-iPSC,0.575452744929
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Feng-GW-iPSC,Nourreddine-iPSC,0.343290884584
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Nourreddine-iPSC,Replogle-E-K562,0.239357489777
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Nourreddine-iPSC,Replogle-GW-K562,0.250491089211
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Nourreddine-iPSC,Replogle-E-RPE1,0.256295228688
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Nourreddine-iPSC,Nadig-HepG2,0.248012214154
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Nourreddine-iPSC,Nadig-Jurkat,0.232080267629
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Nourreddine-iPSC,Huang-HCT116,0.220294887943
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Nourreddine-iPSC,Huang-HEK293T,0.214971229609
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Nourreddine-iPSC,Pan-GP-H1,0.447101099131
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Nourreddine-iPSC,VCC-H1,0.54609002377
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Nourreddine-iPSC,Feng-TS-iPSC,0.370892776336
+Supplementary Fig. S1a,"L1-strength-selected perturbations, top 2,000 feature outcomes",residual,Nourreddine-iPSC,Feng-GW-iPSC,0.343290884584

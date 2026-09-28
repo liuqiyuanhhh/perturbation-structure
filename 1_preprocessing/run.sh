@@ -6,7 +6,7 @@
 #
 # Not included (PLACEHOLDER folders; their outputs are inputs in data/):
 #   crispyx_pseudobulk_de    moments and Wilcoxon DE (data/pseudobulk, data/de, data/sc)
-#   vcc_subsampling          VCC-subsampled moments and DE
+#   vcc_subsampling          VCC-subsampled moments, for S1b only (data/pseudobulk)
 #   split_halves             split-half moments (data/split)
 # The DepMap pan-essentiality score is computed in 2_global_trend.
 # No figure notebook.
@@ -25,7 +25,7 @@ py "$HERE/compute_perturbation_strength.py" --adjusted-p-cutoff 0.05 \
 section "prediction QC tables"
 M="$DATA/pseudobulk"
 PREDICTION_QC="$RESULTS/1_preprocessing/filter_result_bulk"
-# the 12 screens; VCC-subsampled uses the QC of VCC
+# the 12 screens
 QC_DATASETS=(--dataset Feng-GW "$M/Feng-gwsf_moments.h5ad" "$M/Feng-gwsnf_moments.h5ad")
 for name in Feng-ts Huang-HCT116 Huang-HEK293T Nadig-HEPG2 Nadig-JURKAT \
   Nourreddine-GW-ipsc Pan-GW-hESC Replogle-E-k562 Replogle-E-rpe1 \

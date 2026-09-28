@@ -1,0 +1,13 @@
+dataset,context,signal_energy_percent
+Replogle-E-K562,Non-pluripotent,26.4324592063
+Replogle-GW-K562,Non-pluripotent,24.5650102158
+Replogle-E-RPE1,Non-pluripotent,57.1417218777
+Nadig-HepG2,Non-pluripotent,40.6244850279
+Nadig-Jurkat,Non-pluripotent,29.8733481637
+Huang-HCT116,Non-pluripotent,29.3518607919
+Huang-HEK293T,Non-pluripotent,45.1099408818
+Pan-GP-H1,Pluripotent,20.810043548
+VCC-H1,Pluripotent,14.8079456697
+Feng-TS-iPSC,Pluripotent,10.6533211442
+Feng-GW-iPSC,Pluripotent,3.7013475801
+Nourreddine-iPSC,Pluripotent,6.64408632517

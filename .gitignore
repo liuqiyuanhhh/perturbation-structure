@@ -1,0 +1,17 @@
+# inputs, results and the frozen paper results (utils/paths.py)
+/data/
+/results/
+/results_reference/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+
+# figure PDFs written by the stage notebooks (the plotted values in */data/ are tracked)
+/*/figures/
+
+.DS_Store
+.ipynb_checkpoints/

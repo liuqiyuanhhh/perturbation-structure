@@ -4,9 +4,10 @@
 #
 # Usage: bash 1_preprocessing/run.sh
 #
-# Not included (PLACEHOLDER folders; their outputs are inputs in data/):
-#   crispyx_pseudobulk_de    moments and Wilcoxon DE (data/pseudobulk, data/de, data/sc)
-#   vcc_subsampling          VCC-subsampled moments, for S1b only (data/pseudobulk)
+# Reads the processed data in data/ (from the data deposit, or rebuilt by the
+# folders below; each has a README):
+#   crispyx_pseudobulk_de    single cells, moments and Wilcoxon DE (data/sc, data/pseudobulk, data/de)
+#   vcc_subsampling          VCC-subsampled, for S1b only
 #   split_halves             split-half moments (data/split)
 # The DepMap pan-essentiality score is computed in 2_global_trend.
 # No figure notebook.
@@ -26,11 +27,11 @@ section "prediction QC tables"
 M="$DATA/pseudobulk"
 PREDICTION_QC="$RESULTS/1_preprocessing/filter_result_bulk"
 # the 12 screens
-QC_DATASETS=(--dataset Feng-GW "$M/Feng-gwsf_moments.h5ad" "$M/Feng-gwsnf_moments.h5ad")
+QC_DATASETS=(--dataset Feng-GW "$M/effect_Feng-gwsf_moments.h5ad" "$M/effect_Feng-gwsnf_moments.h5ad")
 for name in Feng-ts Huang-HCT116 Huang-HEK293T Nadig-HEPG2 Nadig-JURKAT \
   Nourreddine-GW-ipsc Pan-GW-hESC Replogle-E-k562 Replogle-E-rpe1 \
   Replogle-GW-k562 VCC; do
-  QC_DATASETS+=(--dataset "$name" "$M/${name}_moments.h5ad")
+  QC_DATASETS+=(--dataset "$name" "$M/effect_${name}_moments.h5ad")
 done
 run "$PYTHON" -m utils.qc "${QC_DATASETS[@]}" \
   --primary-expression-cutoff 0.08 --target-control-cutoff 0.08 \

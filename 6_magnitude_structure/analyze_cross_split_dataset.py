@@ -13,7 +13,7 @@ import pandas as pd
 from scipy.sparse.linalg import svds
 
 from utils.effects import load_effects, load_moments, load_quality_audit
-from utils.paths import CROSS_SPLIT, DATASET_COMPONENTS, QC_GENE_PANELS, SPLIT_DIR, paper_name
+from utils.paths import CROSS_SPLIT, DATASET_COMPONENTS, QC_GENE_PANELS, SPLIT_DIR, paper_name, split_file
 from utils.qc import load_primary_outcome_lists
 
 N_SEEDS = 5
@@ -42,7 +42,7 @@ def start(matrix):
 
 
 def half_paths(split_dir, dataset, seed, half):
-    return [split_dir / f"{component}_seed{seed}_half{half}_moments.h5ad"
+    return [split_dir / split_file(component, seed, half)
             for component in DATASET_COMPONENTS[dataset]]
 
 

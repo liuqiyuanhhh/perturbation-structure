@@ -23,6 +23,8 @@ from utils.paths import (
     RESIDUAL_DISCOVERIES,
     RESIDUAL_DISCOVERIES_CANONICAL,
     TOTAL_DISCOVERIES,
+    de_file,
+    moments_file,
     paper_name,
     slug,
 )
@@ -39,7 +41,7 @@ MISSING = "missing_entry_matrix.npz"
 def wilcoxon_pvalues(dataset, passing, primary):
     """Rows, genes and Wilcoxon p (direct target NaN) on the primary genes found in every DE file."""
     components = DATASET_COMPONENTS[dataset]
-    paths = [DE_DIR / f"{component}_wilcoxon_batch_corrected.h5ad" for component in components]
+    paths = [DE_DIR / de_file(component) for component in components]
     columns = []
     for path in paths:
         with h5py.File(path, "r") as handle:
@@ -66,7 +68,7 @@ def wilcoxon_pvalues(dataset, passing, primary):
 
 def moment_matrices(dataset, perturbations, genes, layers=("X", "layers/effect_se")):
     """Moments layers (E = X, SE = layers/effect_se), float64, on the given rows and genes."""
-    paths = [MOMENTS_DIR / f"{component}_moments.h5ad" for component in DATASET_COMPONENTS[dataset]]
+    paths = [MOMENTS_DIR / moments_file(component) for component in DATASET_COMPONENTS[dataset]]
     moments = load_moments(paths, layers, set(perturbations), set(genes))
     return [pd.DataFrame(moments[layer], moments["perturbations"], moments["genes"]).loc[perturbations, genes]
             .to_numpy(np.float64) for layer in layers]

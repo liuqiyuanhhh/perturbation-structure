@@ -7,7 +7,7 @@ Code for the analyses and figures of the paper.
 | Folder | Contents | Figures |
 |---|---|---|
 | `utils/` | Shared helpers: file locations and dataset registry, effect matrices and leading-factor fit, QC rules, BH, figure style of the notebooks, shell helpers of the stage `run.sh` | |
-| `1_preprocessing/` | Perturbation and gene QC, L1 perturbation strength, strong perturbations, prediction QC tables and effect dict | |
+| `1_preprocessing/` | Preprocessing of the public screens (crispyx: single cells, pseudobulk moments, Wilcoxon DE, split halves, VCC downsampling); perturbation and gene QC, L1 perturbation strength, strong perturbations, prediction QC tables and effect dict | |
 | `2_global_trend/` | Leading global trend: first-factor fits, noise-corrected signal energy, pan-essentiality | 1b, S1d |
 | `3_cross_dataset_similarity/` | Noise-corrected cross-dataset similarity of total and residual effects | 1a, 1c, S1a–c |
 | `4_prediction_benchmark/` | Prediction benchmark: GEARS, scGPT-ft, PRESAGE, Weighted, linear models, training mean | 1d, S2 |
@@ -21,9 +21,11 @@ notebooks, the plotted values in `data/`, and a README.
 
 ## Data
 
-The processed data (pseudobulk moments `.h5ad`, differential-expression test results
-and intermediate results) will be deposited on a public server; the link will be
-added here. The scripts read them from `data/` (`utils/paths.py`).
+The processed data (QC'd single cells `sc_*`, pseudobulk moments `effect_*`,
+differential-expression results `DE_*` and split-half moments `split_*`, as
+`.h5ad`) will be deposited on a public server; the link will be added here. The
+scripts read them from `data/` (`utils/paths.py`); `1_preprocessing` has the code
+that builds them from the public screens.
 
 ## Third-party code
 

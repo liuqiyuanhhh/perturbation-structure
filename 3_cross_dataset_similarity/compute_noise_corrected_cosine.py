@@ -19,6 +19,7 @@ from utils.paths import (
     REGISTRY,
     SIMILARITY_RESIDUAL_AUDIT,
     SIMILARITY_TOTAL_AUDIT,
+    moments_file,
 )
 
 # analysis panel: (perturbations, outcome genes)
@@ -50,7 +51,7 @@ def parse_args():
 
 def load_dataset(label, chosen, args):
     """Effects and SEs on the primary genes, direct targets set to NaN."""
-    paths = [args.pseudobulk_dir / f"{c}_moments.h5ad" for c in REGISTRY[label].components]
+    paths = [args.pseudobulk_dir / moments_file(c) for c in REGISTRY[label].components]
     perturbations, genes, effects, se = load_effects(paths, chosen["qc"], chosen["primary"], se=True)
     if args.effect_mode == "first_svd_residual":
         fit_and_remove_first_svd_factor(effects)  # in place

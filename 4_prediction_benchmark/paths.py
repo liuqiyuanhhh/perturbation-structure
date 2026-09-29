@@ -7,12 +7,20 @@ The inputs are in data/, everything the pipelines write in results/prediction
 from utils import paths as repo
 
 # Inputs (read only)
-# batch-corrected single-cell matrices {screen}.h5ad, log1p(CPTT)
+# batch-corrected single-cell matrices sc_{screen}.h5ad, log1p(CPTT)
 SC_DIR = repo.SC_DIR
-# pseudobulk moments {screen}_moments.h5ad; only uns/control_profile is read
+# pseudobulk moments effect_{screen}_moments.h5ad; only uns/control_profile is read
 MOMENTS_DIR = repo.MOMENTS_DIR
-# Wilcoxon DE {screen}_wilcoxon_batch_corrected.pkl, a 'scores' frame
+moments_file = repo.moments_file
+# batch-stratified Wilcoxon DE DE_{component}_wilcoxon_batch_corrected.h5ad; only layers/z_score is read
 DE_DIR = repo.DE_DIR
+de_file = repo.de_file
+
+
+def components(screen):
+    """Moments and DE components of a screen (Feng-gw: Feng-gwsf, Feng-gwsnf)."""
+    return repo.REGISTRY[repo.KEYS[screen]].components
+
 # gene panel and perturbation filter of the benchmark
 QC_DIR = repo.PAPER_PREDICTION_QC_DIR
 OUTCOME_QC = QC_DIR / "outcome_expression_qc.csv.gz"

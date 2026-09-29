@@ -17,6 +17,7 @@ from utils.paths import (
     L1_SELECTION,
     MOMENTS_DIR,
     QC_GENE_PANELS,
+    moments_file,
     paper_name,
 )
 
@@ -58,7 +59,7 @@ def main():
     tables = {"first_svd": ([], []), "first_svd_L1_selected": ([], [])}
     summaries = []
     for label, components in DATASET_COMPONENTS.items():
-        paths = [args.pseudobulk_dir / f"{c}_moments.h5ad" for c in components]
+        paths = [args.pseudobulk_dir / moments_file(c) for c in components]
         chosen = selections[label]
         for prefix, pool in (("first_svd", "qc"), ("first_svd_L1_selected", "L1")):
             u, v, summary = fit(label, paths, chosen[pool], chosen["primary"])

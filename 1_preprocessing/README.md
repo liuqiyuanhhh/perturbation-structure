@@ -3,7 +3,8 @@
 Perturbation QC, primary outcome genes, top-2,000 feature genes, L1
 perturbation strength and the strong perturbations, plus the QC tables and
 effect dict of the prediction benchmark, from the crispyx pseudobulk moments
-and Wilcoxon DE files. No figure notebook: the tables feed every panel.
+and Wilcoxon DE files. No figure notebook: the tables feed every panel. The
+three subfolders build those processed files from the public screens.
 
 | # | Script | What it does | Reads | Writes (`utils/paths.py`) |
 |---|---|---|---|---|
@@ -21,10 +22,14 @@ two constants at `PREDICTION_QC_DIR` and `EFFECT_DICT`.
 bash 1_preprocessing/run.sh
 ```
 
-## Inputs not included
+## Processed data
 
-| Placeholder (README inside) | Produces | Panels |
+The processed files are those of the data deposit, under the same names. Put
+them in the folders below, or rebuild them with the subfolders (README inside;
+crispyx 0.1.4, own conda environment):
+
+| Subfolder | Produces | Panels |
 |---|---|---|
-| `crispyx_pseudobulk_de/` | moments (`data/pseudobulk`), Wilcoxon DE (`data/de`), single cells for GEARS and scGPT (`data/sc`) | all |
-| `vcc_subsampling/` | VCC-subsampled moments (`data/pseudobulk`) | S1b |
-| `split_halves/` | split-half moments (`data/split`) | Fig 2c, S5a |
+| `crispyx_pseudobulk_de/` | single cells `data/sc/sc_<ds>.h5ad` (for GEARS and scGPT), moments `data/pseudobulk/effect_<ds>_moments.h5ad`, Wilcoxon DE `data/de/DE_<ds>_wilcoxon[_batch_corrected].h5ad` | all |
+| `vcc_subsampling/` | the same files for VCC-subsampled | S1b |
+| `split_halves/` | split-half moments `data/split/split_<ds>_seed<s>_half<h>_moments.h5ad` | Fig 2c, S5a |

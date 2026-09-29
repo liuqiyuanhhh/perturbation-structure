@@ -51,10 +51,10 @@ External resources:
   `essential_all_data_pert_genes.pkl`, `go_essential_all/`): GEARS downloads
   them on first use; without network access put them in `data/gears`.
 
-Other inputs: single cells in `data/sc` (log1p(CPTT); placeholder
+Other inputs: single cells `data/sc/sc_{screen}.h5ad` (log1p(CPTT);
 `1_preprocessing/crispyx_pseudobulk_de`), `uns/control_profile` of the
-moments in `data/pseudobulk`, Wilcoxon DE scores
-`data/de/{screen}_wilcoxon_batch_corrected.pkl`, and the paper QC tables
+moments in `data/pseudobulk`, the Wilcoxon DE z-scores (`layers/z_score`) of
+`data/de/DE_{screen}_wilcoxon_batch_corrected.h5ad`, and the paper QC tables
 (`data/filter_result_bulk`) and effect dict
 (`data/effect_dict/bc_bulk_qc_effect.pkl`) of `1_preprocessing`. Everything
 is written to `results/prediction`.

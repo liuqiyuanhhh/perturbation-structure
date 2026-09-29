@@ -16,7 +16,7 @@ scored.  Genes are the target's full panel.  Every metric first sets the
 perturbed gene's own entry to 0 in truth and prediction.  In residual space,
 truth and each prediction have their own leading SVD factor removed.
 
-Reads (paths.py): EFFECT_DICT (ground truth), DE_DIR (Wilcoxon DE scores: the
+Reads (paths.py): EFFECT_DICT (ground truth), DE_DIR (Wilcoxon DE z-scores: the
 top-N genes and the weighted-MSE weights), GEARS_PRED_DIR (GEARS / scGPT-ft
 absolute expression, minus a control profile: the pooled control mean of the
 targets.py control_build in GEARS_DATA_DIR, or the one in MOMENTS_DIR), PRESAGE_PRED_DIR (PRESAGE effects) and the cv5 splits in
@@ -90,7 +90,7 @@ def control_mean(target, control_build):
     """
     if control_build:
         return pooled_control(control_build)
-    path = os.path.join(paths.MOMENTS_DIR, f"{target}_moments.h5ad")
+    path = os.path.join(paths.MOMENTS_DIR, paths.moments_file(target))
     # h5py rather than anndata: only this one array of the large file is needed
     with h5py.File(path, "r") as handle:
         genes = np.asarray(handle["var/_index"].asstr()[:])
@@ -99,10 +99,21 @@ def control_mean(target, control_build):
 
 
 def load_de_scores(target):
-    """Wilcoxon DE statistics on the batch-corrected data, perturbations x genes."""
-    path = os.path.join(paths.DE_DIR, f"{target}_wilcoxon_batch_corrected.pkl")
-    with open(path, "rb") as handle:
-        return pickle.load(handle)["scores"]
+    """Batch-stratified Wilcoxon z-scores, perturbations x genes.
+
+    A screen of several components (Feng-gw) stacks their disjoint perturbations
+    on the shared genes.
+    """
+    frames = []
+    for component in paths.components(target):
+        path = os.path.join(paths.DE_DIR, paths.de_file(component))
+        # h5py rather than anndata: only this one layer of the large file is needed
+        with h5py.File(path, "r") as handle:
+            obs, var = handle["obs"], handle["var"]
+            frames.append(pd.DataFrame(handle["layers/z_score"][:],
+                                       index=obs[obs.attrs["_index"]].asstr()[:],
+                                       columns=var[var.attrs["_index"]].asstr()[:]))
+    return pd.concat(frames, join="inner") if len(frames) > 1 else frames[0]
 
 
 def pval_ranking(de_scores, genes):

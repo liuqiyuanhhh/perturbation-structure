@@ -22,6 +22,7 @@ from utils.paths import (
     RESIDUAL_DISCOVERIES,
     SCENICPLUS_LOOM,
     TF_RESULTS_DIR,
+    moments_file,
     paper_name,
     slug,
 )
@@ -86,7 +87,7 @@ def tf_records(dataset, line, network, u, v, args):
         for name in ["rejection_matrix_global_trend_adjusted_max_p_primary_BH.npz", "missing_entry_matrix.npz"]
     )
 
-    paths = [args.pseudobulk_dir / f"{c}_moments.h5ad" for c in DATASET_COMPONENTS[dataset]]
+    paths = [args.pseudobulk_dir / moments_file(c) for c in DATASET_COMPONENTS[dataset]]
     moments = load_moments(paths, perturbations=set(tfs), genes=set(genes))
     x = pd.DataFrame(moments["X"], moments["perturbations"], moments["genes"]).reindex(index=tfs, columns=genes)
     sigma_u1 = u[u.dataset.eq(dataset)].set_index("perturbation").perturbation_factor_score_sigma_u1

@@ -41,8 +41,8 @@ bash 6_magnitude_structure/run.sh
 
 ## Notes
 
-- **Split halves not included.** The split-half moments in `data/split`
-  (10 datasets x 5 seeds x 2 halves) come from the placeholder
+- **Split halves.** The split-half moments in `data/split`
+  (10 datasets x 5 seeds x 2 halves) come from
   `1_preprocessing/split_halves`.
 - **Folder names.** The per-dataset folders are the dataset keys with `_` for
   `-` (`Replogle_GW_k562`, `Pan_GW_hESC`), not the `5_response_hierarchy` folder names. The

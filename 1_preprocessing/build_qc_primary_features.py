@@ -9,7 +9,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from utils.paths import DATASET_COMPONENTS, MOMENTS_DIR, QC_GENE_PANELS
+from utils.paths import DATASET_COMPONENTS, MOMENTS_DIR, QC_GENE_PANELS, moments_file
 from utils.qc import load_qc_dataset, perturbation_qc, primary_outcomes
 
 
@@ -30,7 +30,7 @@ def main():
     args = parse_args()
     quality_tables, gene_tables = [], []
     for label, components in DATASET_COMPONENTS.items():
-        data = load_qc_dataset([args.input_dir / f"{c}_moments.h5ad" for c in components])
+        data = load_qc_dataset([args.input_dir / moments_file(c) for c in components])
         genes, perturbations = data["genes"], data["perturbations"]
         audit = perturbation_qc(label, data, args.target_control_cutoff,
                                 args.minimum_inactivation_efficiency)

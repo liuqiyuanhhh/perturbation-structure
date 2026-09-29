@@ -19,6 +19,8 @@ from utils.paths import (
     MOMENTS_DIR,
     QC_GENE_PANELS,
     STRENGTH_SCORES,
+    de_file,
+    moments_file,
 )
 from utils.qc import load_primary_outcome_lists
 from utils.stats import bh_rejection_rows
@@ -78,8 +80,8 @@ def main():
     tables = []
     for dataset, components in DATASET_COMPONENTS.items():
         for c in components:
-            names, strength = strength_l1(args.pseudobulk_dir / f"{c}_moments.h5ad",
-                                          args.de_dir / f"{c}_wilcoxon_batch_corrected.h5ad",
+            names, strength = strength_l1(args.pseudobulk_dir / moments_file(c),
+                                          args.de_dir / de_file(c),
                                           set(primary[dataset]), passing[dataset],
                                           args.adjusted_p_cutoff)
             tables.append(pd.DataFrame({"dataset": dataset, "perturbation": names,

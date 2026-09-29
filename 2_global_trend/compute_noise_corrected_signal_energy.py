@@ -16,6 +16,7 @@ from utils.paths import (
     L1_SELECTION,
     MOMENTS_DIR,
     QC_GENE_PANELS,
+    moments_file,
     paper_name,
 )
 
@@ -49,7 +50,7 @@ def main():
                                  args.l1_membership_file)
     records = []
     for dataset, components in DATASET_COMPONENTS.items():
-        paths = [args.pseudobulk_dir / f"{c}_moments.h5ad" for c in components]
+        paths = [args.pseudobulk_dir / moments_file(c) for c in components]
         chosen = selections[dataset]
         _, _, y, s = load_effects(paths, chosen["L1"], chosen["primary"], se=True)
         percent, n = signal_energy(y, s)

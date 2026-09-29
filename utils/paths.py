@@ -11,11 +11,12 @@ DATA = REPO_ROOT / "data"
 RESULTS = REPO_ROOT / "results"
 REFERENCE_RESULTS = REPO_ROOT / "results_reference"
 
-# inputs
-MOMENTS_DIR = DATA / "pseudobulk"  # <component>_moments.h5ad
-DE_DIR = DATA / "de"  # <component>_wilcoxon_batch_corrected.h5ad
-SPLIT_DIR = DATA / "split"  # {base}_seed{0-4}_half{0,1}_moments.h5ad
-SC_DIR = DATA / "sc"  # <screen>.h5ad, single cells for GEARS and scGPT
+# inputs: the processed data (1_preprocessing/crispyx_pseudobulk_de, split_halves and
+# vcc_subsampling), with the file names of the data deposit (*_file below)
+MOMENTS_DIR = DATA / "pseudobulk"  # effect_<component>_moments.h5ad
+DE_DIR = DATA / "de"  # DE_<component>_wilcoxon[_batch_corrected].h5ad
+SPLIT_DIR = DATA / "split"  # split_<component>_seed{0-4}_half{0,1}_moments.h5ad, split_<component>_assignments.csv.gz
+SC_DIR = DATA / "sc"  # sc_<component>.h5ad, single cells for GEARS and scGPT
 DEPMAP_GENE_EFFECT = DATA / "essential" / "CRISPRGeneEffect.csv"
 CORUM_GMT = DATA / "gene_set_list" / "corum_human.gmt"
 SCENICPLUS_LOOM = DATA / "scenicplus" / "SCENIC+_DPCL_grnboost_gene_based_autoreg.loom"
@@ -64,6 +65,26 @@ COMPLEX_ENRICHMENT = RESULTS / "10_modular_enrichment" / "02_margin_rank1_specif
 
 # 8_TF_targets
 TF_RESULTS_DIR = RESULTS / "tf_analysis" / "08_scenicplus_active_magnitude"
+
+
+def sc_file(component):
+    return f"sc_{component}.h5ad"
+
+
+def moments_file(component):
+    return f"effect_{component}_moments.h5ad"
+
+
+def de_file(component, batch_corrected=True):
+    return f"DE_{component}_wilcoxon{'_batch_corrected' if batch_corrected else ''}.h5ad"
+
+
+def split_file(component, seed, half):
+    return f"split_{component}_seed{seed}_half{half}_moments.h5ad"
+
+
+def split_assignments_file(component):
+    return f"split_{component}_assignments.csv.gz"
 
 
 def reference(path):

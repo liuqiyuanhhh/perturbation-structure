@@ -1,0 +1,16 @@
+name: perturbation-structure-preprocessing
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy=1.26.4
+  - pandas=2.3.3
+  - scipy=1.16.3
+  - h5py=3.8.0
+  - anndata=0.12.6
+  - numba=0.62.1
+  - curl
+  - unzip
+  - pip
+  - pip:
+      - crispyx==0.1.4

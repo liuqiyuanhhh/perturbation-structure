@@ -78,60 +78,60 @@ HUANG_OBS = {'gene_target': 'perturbation', 'sample': 'batch', 'guide_target': '
 
 DATASETS = {
     'VCC': {
-        'h5ad': 'VCC.h5ad', 'qc_dataset': 'VCC', 'cell_type': 'hESC',
+        'h5ad': 'sc_VCC.h5ad', 'qc_dataset': 'VCC', 'cell_type': 'hESC',
     },
     'Replogle-E-k562': {
-        'h5ad': 'Replogle-E-k562.h5ad', 'qc_dataset': 'Replogle-E-k562',
+        'h5ad': 'sc_Replogle-E-k562.h5ad', 'qc_dataset': 'Replogle-E-k562',
         'cell_type': 'K562',
     },
     'Replogle-E-rpe1': {
-        'h5ad': 'Replogle-E-rpe1.h5ad', 'qc_dataset': 'Replogle-E-rpe1',
+        'h5ad': 'sc_Replogle-E-rpe1.h5ad', 'qc_dataset': 'Replogle-E-rpe1',
         'cell_type': 'RPE1',
     },
     'Replogle-GW-k562': {
-        'h5ad': 'Replogle-GW-k562.h5ad', 'qc_dataset': 'Replogle-GW-k562',
+        'h5ad': 'sc_Replogle-GW-k562.h5ad', 'qc_dataset': 'Replogle-GW-k562',
         'cell_type': 'K562',
     },
     'Nadig-HEPG2': {
-        'h5ad': 'Nadig-HEPG2.h5ad', 'qc_dataset': 'Nadig-HEPG2',
+        'h5ad': 'sc_Nadig-HEPG2.h5ad', 'qc_dataset': 'Nadig-HEPG2',
         'cell_type': 'HEPG2', 'obs_columns': NADIG_OBS,
     },
     'Nadig-JURKAT': {
-        'h5ad': 'Nadig-JURKAT.h5ad', 'qc_dataset': 'Nadig-JURKAT',
+        'h5ad': 'sc_Nadig-JURKAT.h5ad', 'qc_dataset': 'Nadig-JURKAT',
         'cell_type': 'JURKAT', 'obs_columns': NADIG_OBS,
     },
     'Feng-ts': {
-        'h5ad': 'Feng-ts.h5ad', 'qc_dataset': 'Feng-ts',
+        'h5ad': 'sc_Feng-ts.h5ad', 'qc_dataset': 'Feng-ts',
         'cell_type': 'Feng-ts', 'obs_columns': FENG_OBS,
     },
     # Feng-gwsf (fitness-gene pool) and Feng-gwsnf (non-fitness pool) are two
     # halves of one genome-wide screen: disjoint cells and perturbations, shared
     # 'control' label.  The QC tables were computed on their gene intersection.
     'Feng-gw': {
-        'h5ad': ['Feng-gwsf.h5ad', 'Feng-gwsnf.h5ad'], 'qc_dataset': 'Feng-GW',
+        'h5ad': ['sc_Feng-gwsf.h5ad', 'sc_Feng-gwsnf.h5ad'], 'qc_dataset': 'Feng-GW',
         'cell_type': 'iPSC', 'obs_columns': FENG_OBS,
     },
     # Feng-gw with 50000 of its ~500000 control cells kept.  Every QC-passing
     # perturbation keeps all of its cells, so the fold files are identical to
     # Feng-gw's; GEARS and scGPT-ft train on this build.
     'Feng-gw-control-cap': {
-        'h5ad': ['Feng-gwsf.h5ad', 'Feng-gwsnf.h5ad'], 'qc_dataset': 'Feng-GW',
+        'h5ad': ['sc_Feng-gwsf.h5ad', 'sc_Feng-gwsnf.h5ad'], 'qc_dataset': 'Feng-GW',
         'cell_type': 'iPSC', 'obs_columns': FENG_OBS, 'control_cap': 50_000,
     },
     'Pan-GW-hESC': {
-        'h5ad': 'Pan-GW-hESC.h5ad', 'qc_dataset': 'Pan-GW-hESC',
+        'h5ad': 'sc_Pan-GW-hESC.h5ad', 'qc_dataset': 'Pan-GW-hESC',
         'cell_type': 'hESC',
     },
     'Nourreddine-GW-ipsc': {
-        'h5ad': 'Nourreddine-GW-ipsc.h5ad', 'qc_dataset': 'Nourreddine-GW-ipsc',
+        'h5ad': 'sc_Nourreddine-GW-ipsc.h5ad', 'qc_dataset': 'Nourreddine-GW-ipsc',
         'cell_type': 'iPSC',
     },
     'Huang-HCT116': {
-        'h5ad': 'Huang-HCT116.h5ad', 'qc_dataset': 'Huang-HCT116',
+        'h5ad': 'sc_Huang-HCT116.h5ad', 'qc_dataset': 'Huang-HCT116',
         'cell_type': 'HCT116', 'obs_columns': HUANG_OBS,
     },
     'Huang-HEK293T': {
-        'h5ad': 'Huang-HEK293T.h5ad', 'qc_dataset': 'Huang-HEK293T',
+        'h5ad': 'sc_Huang-HEK293T.h5ad', 'qc_dataset': 'Huang-HEK293T',
         'cell_type': 'HEK293T', 'obs_columns': HUANG_OBS,
     },
 }

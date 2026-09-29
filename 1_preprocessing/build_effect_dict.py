@@ -18,6 +18,7 @@ from utils.paths import (
     MOMENTS_DIR,
     PAPER_PREDICTION_QC_DIR,
     effect_key,
+    moments_file,
 )
 from utils.qc import load_primary_outcome_lists
 
@@ -67,7 +68,7 @@ def main():
     effect = {}
     for dataset, components in DATASET_COMPONENTS.items():
         qc = qc_names[dataset.lower()]
-        frames = [read_effects(args.moments_dir / f"{component}_moments.h5ad", primary[qc], passing[qc])
+        frames = [read_effects(args.moments_dir / moments_file(component), primary[qc], passing[qc])
                   for component in components]
         effect[effect_key(dataset)] = frames[0] if len(frames) == 1 else merge_parts(frames)
 

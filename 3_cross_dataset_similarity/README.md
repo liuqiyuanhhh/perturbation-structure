@@ -34,7 +34,7 @@ bash 3_cross_dataset_similarity/run.sh
 
 ## Notes
 
-- The VCC-subsampled moments (steps 1, 2) come from the placeholder
+- The VCC-subsampled moments (steps 1, 2) come from
   `1_preprocessing/vcc_subsampling`.
 - Step 2 uses the same first-factor routine as `2_global_trend` but refits
   it.

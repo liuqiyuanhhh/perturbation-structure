@@ -13,7 +13,7 @@ source "$(dirname "${BASH_SOURCE[0]}")/../utils/run.sh" "$@"
 
 threads 4
 
-section "leading factor, all-QC and L1-selected (Fig 1b right, S1d)"
+section "leading factor (Fig 1b right, S1d)"
 py "$HERE/fit_first_factor.py"
 
 section "noise-corrected signal energy (Fig 1b left)"

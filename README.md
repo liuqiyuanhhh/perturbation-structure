@@ -23,7 +23,7 @@ notebooks, the plotted values in `data/`, and a README.
 
 The processed data (QC'd single cells `sc_*`, pseudobulk moments `effect_*`,
 differential-expression results `DE_*` and split-half moments `split_*`, as
-`.h5ad`) will be deposited on a public server; the link will be added here. The
+`.h5ad`) are available on HKU DataHub (https://doi.org/10.25442/hku.34002315). The
 scripts read them from `data/` (`utils/paths.py`); `1_preprocessing` has the code
 that builds them from the public screens.
 

@@ -119,8 +119,6 @@ Outputs in `results/prediction/evaluation/<target>/`:
 | File | Content |
 |---|---|
 | `summary_metrics.csv` | one row per fold (`seed`) and method, the five metrics |
-| `evaluation_window.csv` | per fold: test and scored perturbations, genes |
-| `rank1_trend_removed_on_window.csv` | per fold and method: share of the Frobenius norm in the removed factor |
 | `models_and_seeds.csv` | model predictions found, and the folds where all exist |
 | `predictions_by_seed.pkl`, `splits_by_seed.pkl` | `{fold: {method: test perturbation x gene}}` predicted effects; `{fold: {train, test}}` |
 

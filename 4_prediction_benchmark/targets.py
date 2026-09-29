@@ -1,8 +1,8 @@
 """The 12 prediction targets and the other screens each one may learn from.
 
 PRESAGE (presage_pipeline/) takes its Perturb-seq priors from the source pool
-and the evaluation (evaluation/) its baselines and scoring window, so both see
-the same screens:
+and the evaluation (evaluation/) the screens of Weighted and the linear models and
+the perturbations it scores, so both see the same screens:
 
     source pool(target) = the 12 screens - the target - its sisters
 

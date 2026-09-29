@@ -21,8 +21,7 @@ top-N genes and the weighted-MSE weights), GEARS_PRED_DIR (GEARS / scGPT-ft
 absolute expression, minus a control profile: the pooled control mean of the
 targets.py control_build in GEARS_DATA_DIR, or the one in MOMENTS_DIR), PRESAGE_PRED_DIR (PRESAGE effects) and the cv5 splits in
 GEARS_DATA_DIR.  Writes EVAL_DIR/<target>/: summary_metrics.csv,
-evaluation_window.csv, rank1_trend_removed_on_window.csv, models_and_seeds.csv,
-predictions_by_seed.pkl, splits_by_seed.pkl.  Fig 1d and S2
+models_and_seeds.csv, predictions_by_seed.pkl, splits_by_seed.pkl.  Fig 1d and S2
 (prediction_figures.ipynb) plot summary_metrics.csv.
 
     python evaluation/evaluate.py --target VCC
@@ -280,8 +279,7 @@ def mean_score(scores):
 
 
 def remove_first_factor(df, random_state=0, zero_tol=None):
-    """(residual frame, info) after subtracting the leading SVD factor of the
-    perturbation x gene matrix.
+    """The perturbation x gene matrix minus its leading SVD factor.
 
     A matrix that is exactly rank 1, such as the train-mean prediction, leaves
     only float32 rounding residue, and that residue is nearly the same vector
@@ -294,23 +292,9 @@ def remove_first_factor(df, random_state=0, zero_tol=None):
     R = V - (U * S) @ Vt
 
     total = float(np.linalg.norm(V))
-    resid_norm = float(np.linalg.norm(R))
-    zeroed = zero_tol is not None and total > 0 and resid_norm / total < zero_tol
-    if zeroed:
+    if zero_tol is not None and total > 0 and float(np.linalg.norm(R)) / total < zero_tol:
         R = np.zeros_like(R)
-
-    info = {
-        "resid_frob": resid_norm,
-        "resid_frac": resid_norm / total if total > 0 else np.nan,
-        "zeroed": zeroed,
-        "n_perts": int(V.shape[0]),
-        "n_genes": int(V.shape[1]),
-        "sigma1": float(S[0]),
-        "frob_total": total,
-        "frob_removed_frac": float(S[0] / total) if total > 0 else np.nan,
-        "frob_removed_var_frac": float((S[0] / total) ** 2) if total > 0 else np.nan,
-    }
-    return pd.DataFrame(R, index=df.index, columns=df.columns), info
+    return pd.DataFrame(R, index=df.index, columns=df.columns)
 
 
 # Evaluation
@@ -354,28 +338,17 @@ def fold_predictions(effects, target, train_pert, test_pert, pert_emb):
 
 
 def evaluate(truth, predictions_by_seed, splits_by_seed, weight_df, pval_df, panel_genes, covered):
-    """Summary metrics, rank-1 factor diagnostics and evaluation window per fold."""
-    rows, resid_info, window_rows = [], [], []
+    """The five metrics per fold and method, on the test perturbations some source screen measured."""
+    rows = []
     for seed, predictions in predictions_by_seed.items():
-        test_pert = splits_by_seed[seed]["test"]
-        eval_pert = [p for p in test_pert if p in covered]
-        window_rows.append({
-            "seed": seed, "test_perts": len(test_pert),
-            "scored_perts": len(eval_pert),
-            "dropped_perts": len(test_pert) - len(eval_pert),
-            "frac_scored": len(eval_pert) / len(test_pert),
-            "genes": len(panel_genes),
-        })
-
+        eval_pert = [p for p in splits_by_seed[seed]["test"] if p in covered]
         truth_eff = truth.loc[eval_pert, panel_genes]
-        truth_res, info = remove_first_factor(truth_eff, random_state=0, zero_tol=ZERO_TOL)
-        resid_info.append({"seed": seed, "method": "__truth__", **info})
+        truth_res = remove_first_factor(truth_eff, random_state=0, zero_tol=ZERO_TOL)
         weight_test = weight_df.reindex(index=truth_eff.index, columns=truth_eff.columns)
 
         for method, pred in predictions.items():
             pred_eff = pred.reindex(index=eval_pert, columns=panel_genes).fillna(0.0)
-            pred_res, info = remove_first_factor(pred_eff, random_state=0, zero_tol=ZERO_TOL)
-            resid_info.append({"seed": seed, "method": method, **info})
+            pred_res = remove_first_factor(pred_eff, random_state=0, zero_tol=ZERO_TOL)
 
             row = {"seed": seed, "method": method,
                    "mean_weighted_mse": mean_score(compute_mse(truth_eff, pred_eff, weight_test)),
@@ -386,10 +359,7 @@ def evaluate(truth, predictions_by_seed, splits_by_seed, weight_df, pval_df, pan
                     compute_cosine_similarity(truth_res, pred_res, topN=topN, pval_df=pval_df))
             rows.append(row)
 
-    summary = pd.DataFrame(rows).set_index(["seed", "method"]).sort_index()
-    resid = pd.DataFrame(resid_info).set_index(["seed", "method"]).sort_index()
-    window = pd.DataFrame(window_rows).set_index("seed")
-    return summary, resid, window
+    return pd.DataFrame(rows).set_index(["seed", "method"]).sort_index()
 
 
 def run(target):
@@ -424,11 +394,9 @@ def run(target):
     joblib.dump(predictions_by_seed, os.path.join(output_dir, "predictions_by_seed.pkl"))
     joblib.dump(splits_by_seed, os.path.join(output_dir, "splits_by_seed.pkl"))
 
-    summary, resid, window = evaluate(truth, predictions_by_seed, splits_by_seed,
-                                      weight_df, pval_df, panel_genes, covered)
+    summary = evaluate(truth, predictions_by_seed, splits_by_seed,
+                       weight_df, pval_df, panel_genes, covered)
     summary.to_csv(os.path.join(output_dir, "summary_metrics.csv"))
-    resid.to_csv(os.path.join(output_dir, "rank1_trend_removed_on_window.csv"))
-    window.to_csv(os.path.join(output_dir, "evaluation_window.csv"))
 
 
 def main():

@@ -6,7 +6,7 @@ Code for the analyses and figures of the paper.
 
 | Folder | Contents | Figures |
 |---|---|---|
-| `utils/` | Shared helpers: file locations and dataset registry, effect matrices and leading-factor fit, QC rules, BH, shell helpers of the stage `run.sh` | |
+| `utils/` | Shared helpers: file locations and dataset registry, effect matrices and leading-factor fit, QC rules, BH, figure style of the notebooks, shell helpers of the stage `run.sh` | |
 | `1_preprocessing/` | Perturbation and gene QC, L1 perturbation strength, strong perturbations, prediction QC tables and effect dict | |
 | `2_global_trend/` | Leading global trend: first-factor fits, noise-corrected signal energy, pan-essentiality | 1b, S1d |
 | `3_cross_dataset_similarity/` | Noise-corrected cross-dataset similarity of total and residual effects | 1a, 1c, S1a–c |

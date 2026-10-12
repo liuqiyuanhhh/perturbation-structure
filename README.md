@@ -1,6 +1,7 @@
 # Transcriptional perturbation effects remain structured beyond the leading global trend
 
-Code for the analyses and figures of the paper.
+Code for the analyses and figures of the paper (Liu et al., *bioRxiv* 2026,
+https://doi.org/10.64898/2026.10.05.756839).
 
 ## Contents
 
@@ -37,4 +38,16 @@ that builds them from the public screens.
 
 ## Citation
 
-Citation details will be added on publication.
+Liu, Q., Zhang, Q., Chen, Y., Du, J.-H., Zhao, S. & Wang, J. Transcriptional
+perturbation effects remain structured beyond the leading global trend.
+*bioRxiv* (2026). https://doi.org/10.64898/2026.10.05.756839
+
+```bibtex
+@article{liu2026transcriptional,
+  title   = {Transcriptional perturbation effects remain structured beyond the leading global trend},
+  author  = {Liu, Qiyuan and Zhang, Qirui and Chen, Yilong and Du, Jin-Hong and Zhao, Siming and Wang, Jingshu},
+  journal = {bioRxiv},
+  year    = {2026},
+  doi     = {10.64898/2026.10.05.756839}
+}
+```
